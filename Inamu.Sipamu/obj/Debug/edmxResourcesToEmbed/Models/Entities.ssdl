@@ -1,0 +1,1231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SIPAMUModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="SIPAMUModelStoreContainer">
+    <EntitySet Name="CAT_APLICACIONESTUDIOTECNICO" EntityType="SIPAMUModel.Store.CAT_APLICACIONESTUDIOTECNICO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_BENEFICIO" EntityType="SIPAMUModel.Store.CAT_BENEFICIO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_CANTON" EntityType="SIPAMUModel.Store.CAT_CANTON" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_COMUNIDAD" EntityType="SIPAMUModel.Store.CAT_COMUNIDAD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_CONDICIONESPECIAL" EntityType="SIPAMUModel.Store.CAT_CONDICIONESPECIAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_CONDICIONLABORAL" EntityType="SIPAMUModel.Store.CAT_CONDICIONLABORAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_CONDICIONLUGAR" EntityType="SIPAMUModel.Store.CAT_CONDICIONLUGAR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_DIA" EntityType="SIPAMUModel.Store.CAT_DIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_DISCAPACIDAD" EntityType="SIPAMUModel.Store.CAT_DISCAPACIDAD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_DISTRITO" EntityType="SIPAMUModel.Store.CAT_DISTRITO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_ENFERMEDAD" EntityType="SIPAMUModel.Store.CAT_ENFERMEDAD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_ESPECIALIDADEDUCATIVA" EntityType="SIPAMUModel.Store.CAT_ESPECIALIDADEDUCATIVA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_ESTADO" EntityType="SIPAMUModel.Store.CAT_ESTADO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_ESTADOCIVIL" EntityType="SIPAMUModel.Store.CAT_ESTADOCIVIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_ETNIA" EntityType="SIPAMUModel.Store.CAT_ETNIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_GRADOSEDUCACIONBASICA" EntityType="SIPAMUModel.Store.CAT_GRADOSEDUCACIONBASICA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_GRADOSEDUCACIONSUPERIOR" EntityType="SIPAMUModel.Store.CAT_GRADOSEDUCACIONSUPERIOR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_INSTITUCIONCUMPLIRINTERES" EntityType="SIPAMUModel.Store.CAT_INSTITUCIONCUMPLIRINTERES" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_INSTITUCIONEDUCATIVAACTUAL" EntityType="SIPAMUModel.Store.CAT_INSTITUCIONEDUCATIVAACTUAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_JORNADALABORAL" EntityType="SIPAMUModel.Store.CAT_JORNADALABORAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_LENGUA" EntityType="SIPAMUModel.Store.CAT_LENGUA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_LUGARTRABAJO" EntityType="SIPAMUModel.Store.CAT_LUGARTRABAJO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_MEDIOINFORMACION" EntityType="SIPAMUModel.Store.CAT_MEDIOINFORMACION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_META" EntityType="SIPAMUModel.Store.CAT_META" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_MOTIVONOESTUDIA" EntityType="SIPAMUModel.Store.CAT_MOTIVONOESTUDIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_NECESIDADEDUCACIONFORMAL" EntityType="SIPAMUModel.Store.CAT_NECESIDADEDUCACIONFORMAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_NIVELAVANCE" EntityType="SIPAMUModel.Store.CAT_NIVELAVANCE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_NIVELLECTOESCRITURA" EntityType="SIPAMUModel.Store.CAT_NIVELLECTOESCRITURA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_OCUPACION" EntityType="SIPAMUModel.Store.CAT_OCUPACION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_PAIS" EntityType="SIPAMUModel.Store.CAT_PAIS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_PARENTESCO" EntityType="SIPAMUModel.Store.CAT_PARENTESCO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_PARTICIPACIONCOMUNAL" EntityType="SIPAMUModel.Store.CAT_PARTICIPACIONCOMUNAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_PENSIONAPOYO" EntityType="SIPAMUModel.Store.CAT_PENSIONAPOYO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_PERSONA" EntityType="SIPAMUModel.Store.CAT_PERSONA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_PROGRAMA" EntityType="SIPAMUModel.Store.CAT_PROGRAMA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_PROVINCIA" EntityType="SIPAMUModel.Store.CAT_PROVINCIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_PUEBLOINDIGENA" EntityType="SIPAMUModel.Store.CAT_PUEBLOINDIGENA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_PUESTODIRECCIONLIDERAZGO" EntityType="SIPAMUModel.Store.CAT_PUESTODIRECCIONLIDERAZGO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_RAMALABORAL" EntityType="SIPAMUModel.Store.CAT_RAMALABORAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_RECURSOSCUMPLIRINTERES" EntityType="SIPAMUModel.Store.CAT_RECURSOSCUMPLIRINTERES" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_REFERENCIA" EntityType="SIPAMUModel.Store.CAT_REFERENCIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_REGION" EntityType="SIPAMUModel.Store.CAT_REGION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_RESPONSABLE" EntityType="SIPAMUModel.Store.CAT_RESPONSABLE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_RESPUESTACORTA" EntityType="SIPAMUModel.Store.CAT_RESPUESTACORTA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_RIESGOVIVIENDA" EntityType="SIPAMUModel.Store.CAT_RIESGOVIVIENDA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_SECTORLABORAL" EntityType="SIPAMUModel.Store.CAT_SECTORLABORAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_SERVICIOSVIVIENDA" EntityType="SIPAMUModel.Store.CAT_SERVICIOSVIVIENDA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_SEXO" EntityType="SIPAMUModel.Store.CAT_SEXO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_SITUACION" EntityType="SIPAMUModel.Store.CAT_SITUACION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TEMADESTREZA" EntityType="SIPAMUModel.Store.CAT_TEMADESTREZA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOASISTENCIA" EntityType="SIPAMUModel.Store.CAT_TIPOASISTENCIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOBONO" EntityType="SIPAMUModel.Store.CAT_TIPOBONO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOCIELORASO" EntityType="SIPAMUModel.Store.CAT_TIPOCIELORASO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOCURSO" EntityType="SIPAMUModel.Store.CAT_TIPOCURSO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPODISCAPACIDAD" EntityType="SIPAMUModel.Store.CAT_TIPODISCAPACIDAD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOEDUCACIONBASICA" EntityType="SIPAMUModel.Store.CAT_TIPOEDUCACIONBASICA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOEDUCACIONSUPERIOR" EntityType="SIPAMUModel.Store.CAT_TIPOEDUCACIONSUPERIOR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOEDUCACIONTECNICA" EntityType="SIPAMUModel.Store.CAT_TIPOEDUCACIONTECNICA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOHORARIO" EntityType="SIPAMUModel.Store.CAT_TIPOHORARIO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOIDENTIFICACION" EntityType="SIPAMUModel.Store.CAT_TIPOIDENTIFICACION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOINGRESOMONETARIO" EntityType="SIPAMUModel.Store.CAT_TIPOINGRESOMONETARIO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOLUGARREUNION" EntityType="SIPAMUModel.Store.CAT_TIPOLUGARREUNION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOPARED" EntityType="SIPAMUModel.Store.CAT_TIPOPARED" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOPISOVIVIENDA" EntityType="SIPAMUModel.Store.CAT_TIPOPISOVIVIENDA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOPLANVIDA" EntityType="SIPAMUModel.Store.CAT_TIPOPLANVIDA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOPOBLACION" EntityType="SIPAMUModel.Store.CAT_TIPOPOBLACION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOSEGURO" EntityType="SIPAMUModel.Store.CAT_TIPOSEGURO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOSPROPIEDAD" EntityType="SIPAMUModel.Store.CAT_TIPOSPROPIEDAD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOTECHOVIVIENDA" EntityType="SIPAMUModel.Store.CAT_TIPOTECHOVIVIENDA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOTENENCIA" EntityType="SIPAMUModel.Store.CAT_TIPOTENENCIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOVIOLENCIA" EntityType="SIPAMUModel.Store.CAT_TIPOVIOLENCIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TIPOVIVIENDA" EntityType="SIPAMUModel.Store.CAT_TIPOVIVIENDA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_TITULOEDUCATIVO" EntityType="SIPAMUModel.Store.CAT_TITULOEDUCATIVO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_UTILIDADESTUDIO" EntityType="SIPAMUModel.Store.CAT_UTILIDADESTUDIO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAT_VALORACIONAPOYO" EntityType="SIPAMUModel.Store.CAT_VALORACIONAPOYO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SEG_OPCIONPERFIL" EntityType="SIPAMUModel.Store.SEG_OPCIONPERFIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SEG_OPCIONSISTEMA" EntityType="SIPAMUModel.Store.SEG_OPCIONSISTEMA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SEG_PERFIL" EntityType="SIPAMUModel.Store.SEG_PERFIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SEG_USUARIO" EntityType="SIPAMUModel.Store.SEG_USUARIO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA" EntityType="SIPAMUModel.Store.T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_ARCHIVOGRUPO" EntityType="SIPAMUModel.Store.T_ARCHIVOGRUPO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_ASEGURAMIENTOINTEGRANTE" EntityType="SIPAMUModel.Store.T_ASEGURAMIENTOINTEGRANTE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_ASISTENCIA" EntityType="SIPAMUModel.Store.T_ASISTENCIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_BITACORA" EntityType="SIPAMUModel.Store.T_BITACORA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_DESTREZASEDUCACIONTECNICA" EntityType="SIPAMUModel.Store.T_DESTREZASEDUCACIONTECNICA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_DIASEDUCACIONTECNICA" EntityType="SIPAMUModel.Store.T_DIASEDUCACIONTECNICA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_ERROR" EntityType="SIPAMUModel.Store.T_ERROR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_EVENTOBITACORA" EntityType="SIPAMUModel.Store.T_EVENTOBITACORA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_GRUPO" EntityType="SIPAMUModel.Store.T_GRUPO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_HORARIOGRUPO" EntityType="SIPAMUModel.Store.T_HORARIOGRUPO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_INTEGRANTEBENEFICIO" EntityType="SIPAMUModel.Store.T_INTEGRANTEBENEFICIO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_INTEGRANTECONDICIONESPECIAL" EntityType="SIPAMUModel.Store.T_INTEGRANTECONDICIONESPECIAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_INTEGRANTEDISCAPACIDAD" EntityType="SIPAMUModel.Store.T_INTEGRANTEDISCAPACIDAD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_INTEGRANTEENFERMEDAD" EntityType="SIPAMUModel.Store.T_INTEGRANTEENFERMEDAD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_INTEGRANTEGRUPOFAMILIAR" EntityType="SIPAMUModel.Store.T_INTEGRANTEGRUPOFAMILIAR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_INTEGRANTEPENSIONAPOYO" EntityType="SIPAMUModel.Store.T_INTEGRANTEPENSIONAPOYO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_LOCALIZACIONPARTICIPANTE" EntityType="SIPAMUModel.Store.T_LOCALIZACIONPARTICIPANTE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PARTICIPANTE" EntityType="SIPAMUModel.Store.T_PARTICIPANTE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PARTICIPANTECONDICIONESVIDA" EntityType="SIPAMUModel.Store.T_PARTICIPANTECONDICIONESVIDA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PARTICIPANTEEDUCACIONFORMAL" EntityType="SIPAMUModel.Store.T_PARTICIPANTEEDUCACIONFORMAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PARTICIPANTEFORMACIONTECNICA" EntityType="SIPAMUModel.Store.T_PARTICIPANTEFORMACIONTECNICA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PARTICIPANTEHISTORIAVIDA" EntityType="SIPAMUModel.Store.T_PARTICIPANTEHISTORIAVIDA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PARTICIPANTELENGUA" EntityType="SIPAMUModel.Store.T_PARTICIPANTELENGUA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PARTICIPANTEPARTICIPACIONCOMUNAL" EntityType="SIPAMUModel.Store.T_PARTICIPANTEPARTICIPACIONCOMUNAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PARTICIPANTEPUESTODIRECCIONLIDERAZGO" EntityType="SIPAMUModel.Store.T_PARTICIPANTEPUESTODIRECCIONLIDERAZGO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PARTICIPANTEVIOLENCIAFAMILIA" EntityType="SIPAMUModel.Store.T_PARTICIPANTEVIOLENCIAFAMILIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PARTICIPANTEVIOLENCIAPAREJA" EntityType="SIPAMUModel.Store.T_PARTICIPANTEVIOLENCIAPAREJA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PARTICIPANTEVIVIENDA" EntityType="SIPAMUModel.Store.T_PARTICIPANTEVIVIENDA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PLANEDUCACIONFORMAL" EntityType="SIPAMUModel.Store.T_PLANEDUCACIONFORMAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PLANEDUCACIONTECNICA" EntityType="SIPAMUModel.Store.T_PLANEDUCACIONTECNICA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PLANEMPLEABILIDAD" EntityType="SIPAMUModel.Store.T_PLANEMPLEABILIDAD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PLANOTROS" EntityType="SIPAMUModel.Store.T_PLANOTROS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PLANPROYECTOPRODUCTIVO" EntityType="SIPAMUModel.Store.T_PLANPROYECTOPRODUCTIVO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PLANSALUD" EntityType="SIPAMUModel.Store.T_PLANSALUD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PLANVIDAOTRO" EntityType="SIPAMUModel.Store.T_PLANVIDAOTRO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PLANVIDAVIVIENDAACTUAL" EntityType="SIPAMUModel.Store.T_PLANVIDAVIVIENDAACTUAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PROGRAMAPERSONA" EntityType="SIPAMUModel.Store.T_PROGRAMAPERSONA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_PROPIEDADPORINTEGRANTEFAMILIAR" EntityType="SIPAMUModel.Store.T_PROPIEDADPORINTEGRANTEFAMILIAR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_RIESGOVIVIENDAPARTICIPANTE" EntityType="SIPAMUModel.Store.T_RIESGOVIVIENDAPARTICIPANTE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_SEGUIMIENTOPLANVIDA" EntityType="SIPAMUModel.Store.T_SEGUIMIENTOPLANVIDA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_SEGUIMIENTOPLANVIDAINSTITUCIONESAPOYO" EntityType="SIPAMUModel.Store.T_SEGUIMIENTOPLANVIDAINSTITUCIONESAPOYO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_SERVICIOSHOGAR" EntityType="SIPAMUModel.Store.T_SERVICIOSHOGAR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="T_TIPOERROR" EntityType="SIPAMUModel.Store.T_TIPOERROR" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="CAT_APLICACIONESTUDIOTECNICO">
+    <Key>
+      <PropertyRef Name="I_IDAPLICACIONESTUDIOTECNICO" />
+    </Key>
+    <Property Name="I_IDAPLICACIONESTUDIOTECNICO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_BENEFICIO">
+    <Key>
+      <PropertyRef Name="I_IDBENEFICIO" />
+    </Key>
+    <Property Name="I_IDBENEFICIO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_CANTON">
+    <Key>
+      <PropertyRef Name="I_IDCANTON" />
+    </Key>
+    <Property Name="I_IDCANTON" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPROVINCIA" Type="int" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_COMUNIDAD">
+    <Key>
+      <PropertyRef Name="I_IDCOMUNIDAD" />
+    </Key>
+    <Property Name="I_IDCOMUNIDAD" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_CONDICIONESPECIAL">
+    <Key>
+      <PropertyRef Name="I_IDCONDICIONESPECIAL" />
+    </Key>
+    <Property Name="I_IDCONDICIONESPECIAL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_CONDICIONLABORAL">
+    <Key>
+      <PropertyRef Name="I_IDCONDICIONLABORAL" />
+    </Key>
+    <Property Name="I_IDCONDICIONLABORAL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_CONDICIONLUGAR">
+    <Key>
+      <PropertyRef Name="I_IDCONDICIONLUGAR" />
+    </Key>
+    <Property Name="I_IDCONDICIONLUGAR" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_DIA">
+    <Key>
+      <PropertyRef Name="I_IDDIA" />
+    </Key>
+    <Property Name="I_IDDIA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_DISCAPACIDAD">
+    <Key>
+      <PropertyRef Name="I_IDDISCAPACIDAD" />
+    </Key>
+    <Property Name="I_IDDISCAPACIDAD" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+    <Property Name="I_IDTIPODISCAPACIDAD" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_DISTRITO">
+    <Key>
+      <PropertyRef Name="I_IDDISTRITO" />
+    </Key>
+    <Property Name="I_IDDISTRITO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_ENFERMEDAD">
+    <Key>
+      <PropertyRef Name="I_IDENFERMEDAD" />
+    </Key>
+    <Property Name="I_IDENFERMEDAD" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_ESPECIALIDADEDUCATIVA">
+    <Key>
+      <PropertyRef Name="I_IDESPECIALIDADEDUCATIVA" />
+    </Key>
+    <Property Name="I_IDESPECIALIDADEDUCATIVA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_ESTADO">
+    <Key>
+      <PropertyRef Name="I_IDESTADO" />
+    </Key>
+    <Property Name="I_IDESTADO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_ESTADOCIVIL">
+    <Key>
+      <PropertyRef Name="I_IDESTADOCIVIL" />
+    </Key>
+    <Property Name="I_IDESTADOCIVIL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_ETNIA">
+    <Key>
+      <PropertyRef Name="I_IDETNIA" />
+    </Key>
+    <Property Name="I_IDETNIA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_GRADOSEDUCACIONBASICA">
+    <Key>
+      <PropertyRef Name="I_IDGRADOSEDUCACIONBASICA" />
+    </Key>
+    <Property Name="I_IDGRADOSEDUCACIONBASICA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="CAT_GRADOSEDUCACIONSUPERIOR">
+    <Key>
+      <PropertyRef Name="I_IDGRADOSEDUCACIONSUPER" />
+    </Key>
+    <Property Name="I_IDGRADOSEDUCACIONSUPER" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="CAT_INSTITUCIONCUMPLIRINTERES">
+    <Key>
+      <PropertyRef Name="I_IDINSTITUCIONCUMPLIRINTERES" />
+    </Key>
+    <Property Name="I_IDINSTITUCIONCUMPLIRINTERES" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_INSTITUCIONEDUCATIVAACTUAL">
+    <Key>
+      <PropertyRef Name="I_IDINSTITUCIONEDUCATIVAACTUAL" />
+    </Key>
+    <Property Name="I_IDINSTITUCIONEDUCATIVAACTUAL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="CAT_JORNADALABORAL">
+    <Key>
+      <PropertyRef Name="I_IDJORNADALABORAL" />
+    </Key>
+    <Property Name="I_IDJORNADALABORAL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_LENGUA">
+    <Key>
+      <PropertyRef Name="I_IDLENGUA" />
+    </Key>
+    <Property Name="I_IDLENGUA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CV_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_LUGARTRABAJO">
+    <Key>
+      <PropertyRef Name="I_IDLUGARTRABAJO" />
+    </Key>
+    <Property Name="I_IDLUGARTRABAJO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_MEDIOINFORMACION">
+    <Key>
+      <PropertyRef Name="I_IDMEDIOINFORMACION" />
+    </Key>
+    <Property Name="I_IDMEDIOINFORMACION" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_META">
+    <Key>
+      <PropertyRef Name="I_IDMETA" />
+    </Key>
+    <Property Name="I_IDMETA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar" Nullable="false" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="CAT_MOTIVONOESTUDIA">
+    <Key>
+      <PropertyRef Name="I_IDMOTIVONOESTUDIA" />
+    </Key>
+    <Property Name="I_IDMOTIVONOESTUDIA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_NECESIDADEDUCACIONFORMAL">
+    <Key>
+      <PropertyRef Name="I_IDNECESIDADEDUCACIONFORMAL" />
+    </Key>
+    <Property Name="I_IDNECESIDADEDUCACIONFORMAL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_NIVELAVANCE">
+    <Key>
+      <PropertyRef Name="I_IDNIVELAVANCE" />
+    </Key>
+    <Property Name="I_IDNIVELAVANCE" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_NIVELLECTOESCRITURA">
+    <Key>
+      <PropertyRef Name="I_IDNIVELLECTOESCRITURA" />
+    </Key>
+    <Property Name="I_IDNIVELLECTOESCRITURA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_OCUPACION">
+    <Key>
+      <PropertyRef Name="I_IDOCUPACION" />
+    </Key>
+    <Property Name="I_IDOCUPACION" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_PAIS">
+    <Key>
+      <PropertyRef Name="I_IDPAIS" />
+    </Key>
+    <Property Name="I_IDPAIS" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_PARENTESCO">
+    <Key>
+      <PropertyRef Name="I_IDPARENTESCO" />
+    </Key>
+    <Property Name="I_IDPARENTESCO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_PARTICIPACIONCOMUNAL">
+    <Key>
+      <PropertyRef Name="I_IDPARTICIPACIONCOMUNAL" />
+    </Key>
+    <Property Name="I_IDPARTICIPACIONCOMUNAL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_PENSIONAPOYO">
+    <Key>
+      <PropertyRef Name="I_IDPENSIONAPOYO" />
+    </Key>
+    <Property Name="I_IDPENSIONAPOYO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_PERSONA">
+    <Key>
+      <PropertyRef Name="I_IDPERSONA" />
+    </Key>
+    <Property Name="I_IDPERSONA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDTIPOIDENTIFICACION" Type="int" Nullable="false" />
+    <Property Name="I_IDSEXO" Type="int" />
+    <Property Name="I_IDESTADOCIVIL" Type="int" />
+    <Property Name="I_IDREGION" Type="int" />
+    <Property Name="I_IDPROVINCIA" Type="int" />
+    <Property Name="I_IDCANTON" Type="int" />
+    <Property Name="I_IDDISTRITO" Type="int" />
+    <Property Name="I_IDCOMUNIDAD" Type="int" />
+    <Property Name="I_IDETNIA" Type="int" />
+    <Property Name="I_IDNACIONALIDAD" Type="int" />
+    <Property Name="VC_IDENTIFICACION" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="DT_IDENTIFICACIONVENCIMIENTO" Type="datetime" />
+    <Property Name="VC_NOMBRE" Type="varchar" MaxLength="100" />
+    <Property Name="VC_PRIMERAPELLIDO" Type="varchar" MaxLength="100" />
+    <Property Name="VC_SEGUNDOAPELLIDO" Type="varchar" MaxLength="100" />
+    <Property Name="DT_FECHANACIMIENTO" Type="datetime" />
+    <Property Name="VC_CONOCIDOCOMO" Type="varchar" MaxLength="100" />
+    <Property Name="VC_OBSERVACIONESESTADOCIVIL" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="CAT_PROGRAMA">
+    <Key>
+      <PropertyRef Name="I_IDPROGRAMA" />
+    </Key>
+    <Property Name="I_IDPROGRAMA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_PROVINCIA">
+    <Key>
+      <PropertyRef Name="I_IDPROVINCIA" />
+    </Key>
+    <Property Name="I_IDPROVINCIA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_PUEBLOINDIGENA">
+    <Key>
+      <PropertyRef Name="I_IDPUEBLOINDIGENA" />
+    </Key>
+    <Property Name="I_IDPUEBLOINDIGENA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_PUESTODIRECCIONLIDERAZGO">
+    <Key>
+      <PropertyRef Name="I_IDPUESTODIRECCIONLIDERAZGO" />
+    </Key>
+    <Property Name="I_IDPUESTODIRECCIONLIDERAZGO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_RAMALABORAL">
+    <Key>
+      <PropertyRef Name="I_IDRAMALABORAL" />
+    </Key>
+    <Property Name="I_IDRAMALABORAL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_RECURSOSCUMPLIRINTERES">
+    <Key>
+      <PropertyRef Name="I_IDRECURSOCUMPLIRINTERES" />
+    </Key>
+    <Property Name="I_IDRECURSOCUMPLIRINTERES" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_REFERENCIA">
+    <Key>
+      <PropertyRef Name="I_IDREFERENCIA" />
+    </Key>
+    <Property Name="I_IDREFERENCIA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_REGION">
+    <Key>
+      <PropertyRef Name="I_IDREGION" />
+    </Key>
+    <Property Name="I_IDREGION" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_RESPONSABLE">
+    <Key>
+      <PropertyRef Name="I_IDRESPONSABLE" />
+    </Key>
+    <Property Name="I_IDRESPONSABLE" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_RESPUESTACORTA">
+    <Key>
+      <PropertyRef Name="I_IDRESPUESTACORTA" />
+    </Key>
+    <Property Name="I_IDRESPUESTACORTA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_RIESGOVIVIENDA">
+    <Key>
+      <PropertyRef Name="I_IDRIESGO" />
+    </Key>
+    <Property Name="I_IDRIESGO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_SECTORLABORAL">
+    <Key>
+      <PropertyRef Name="I_IDSECTORLABORAL" />
+    </Key>
+    <Property Name="I_IDSECTORLABORAL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_SERVICIOSVIVIENDA">
+    <Key>
+      <PropertyRef Name="I_IDSERVICIO" />
+    </Key>
+    <Property Name="I_IDSERVICIO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_SEXO">
+    <Key>
+      <PropertyRef Name="I_IDSEXO" />
+    </Key>
+    <Property Name="I_IDSEXO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_SITUACION">
+    <Key>
+      <PropertyRef Name="I_IDSITUACION" />
+    </Key>
+    <Property Name="I_IDSITUACION" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TEMADESTREZA">
+    <Key>
+      <PropertyRef Name="I_IDTEMADESTREZA" />
+    </Key>
+    <Property Name="I_IDTEMADESTREZA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_TEMADESTREZA" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOASISTENCIA">
+    <Key>
+      <PropertyRef Name="I_IDTIPOASISTENCIA" />
+    </Key>
+    <Property Name="I_IDTIPOASISTENCIA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOBONO">
+    <Key>
+      <PropertyRef Name="I_IDTIPOBONO" />
+    </Key>
+    <Property Name="I_IDTIPOBONO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOCIELORASO">
+    <Key>
+      <PropertyRef Name="I_IDTIPOCIELORASO" />
+    </Key>
+    <Property Name="I_IDTIPOCIELORASO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOCURSO">
+    <Key>
+      <PropertyRef Name="I_IDTIPOCURSO" />
+    </Key>
+    <Property Name="I_IDTIPOCURSO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPODISCAPACIDAD">
+    <Key>
+      <PropertyRef Name="I_IDTIPODISCAPACIDAD" />
+    </Key>
+    <Property Name="I_IDTIPODISCAPACIDAD" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOEDUCACIONBASICA">
+    <Key>
+      <PropertyRef Name="I_IDTIPOEDUCACIONBASICA" />
+    </Key>
+    <Property Name="I_IDTIPOEDUCACIONBASICA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOEDUCACIONSUPERIOR">
+    <Key>
+      <PropertyRef Name="I_IDTIPOEDUCACIONSUPERIOR" />
+    </Key>
+    <Property Name="I_IDTIPOEDUCACIONSUPERIOR" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOEDUCACIONTECNICA">
+    <Key>
+      <PropertyRef Name="I_TIPOEDUCACIONTECNICA" />
+    </Key>
+    <Property Name="I_TIPOEDUCACIONTECNICA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar" Nullable="false" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOHORARIO">
+    <Key>
+      <PropertyRef Name="I_IDTIPOHORARIO" />
+    </Key>
+    <Property Name="I_IDTIPOHORARIO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOIDENTIFICACION">
+    <Key>
+      <PropertyRef Name="I_IDTIPOIDENTIFICACION" />
+    </Key>
+    <Property Name="I_IDTIPOIDENTIFICACION" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOINGRESOMONETARIO">
+    <Key>
+      <PropertyRef Name="I_IDTIPOINGRESOMONETARIO" />
+    </Key>
+    <Property Name="I_IDTIPOINGRESOMONETARIO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOLUGARREUNION">
+    <Key>
+      <PropertyRef Name="I_IDTIPOLUGARREUNION" />
+    </Key>
+    <Property Name="I_IDTIPOLUGARREUNION" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOPARED">
+    <Key>
+      <PropertyRef Name="I_IDTIPOPARED" />
+    </Key>
+    <Property Name="I_IDTIPOPARED" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOPISOVIVIENDA">
+    <Key>
+      <PropertyRef Name="I_IDTIPOPISOVIVIENDA" />
+    </Key>
+    <Property Name="I_IDTIPOPISOVIVIENDA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOPLANVIDA">
+    <Key>
+      <PropertyRef Name="I_IDTIPOPLANVIDA" />
+    </Key>
+    <Property Name="I_IDTIPOPLANVIDA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOPOBLACION">
+    <Key>
+      <PropertyRef Name="I_IDTIPOPOBLACION" />
+    </Key>
+    <Property Name="I_IDTIPOPOBLACION" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOSEGURO">
+    <Key>
+      <PropertyRef Name="I_IDTIPOSEGURO" />
+    </Key>
+    <Property Name="I_IDTIPOSEGURO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOSPROPIEDAD">
+    <Key>
+      <PropertyRef Name="I_IDTIPOSPROPIEDAD" />
+    </Key>
+    <Property Name="I_IDTIPOSPROPIEDAD" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOTECHOVIVIENDA">
+    <Key>
+      <PropertyRef Name="I_IDTIPOTECHOVIVIENDA" />
+    </Key>
+    <Property Name="I_IDTIPOTECHOVIVIENDA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOTENENCIA">
+    <Key>
+      <PropertyRef Name="I_IDTIPOTENENCIA" />
+    </Key>
+    <Property Name="I_IDTIPOTENENCIA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOVIOLENCIA">
+    <Key>
+      <PropertyRef Name="I_IDTIPOVIOLENCIA" />
+    </Key>
+    <Property Name="I_IDTIPOVIOLENCIA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TIPOVIVIENDA">
+    <Key>
+      <PropertyRef Name="I_IDTIPOVIVIENDA" />
+    </Key>
+    <Property Name="I_IDTIPOVIVIENDA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_TITULOEDUCATIVO">
+    <Key>
+      <PropertyRef Name="I_IDTITULO" />
+    </Key>
+    <Property Name="I_IDTITULO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_UTILIDADESTUDIO">
+    <Key>
+      <PropertyRef Name="I_IDUTILIDADESTUDIO" />
+    </Key>
+    <Property Name="I_IDUTILIDADESTUDIO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_VALORACIONAPOYO">
+    <Key>
+      <PropertyRef Name="I_IDVALORACIONAPOYO" />
+    </Key>
+    <Property Name="I_IDVALORACIONAPOYO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SEG_OPCIONPERFIL">
+    <Key>
+      <PropertyRef Name="I_IDOPCION" />
+      <PropertyRef Name="I_IDPERFIL" />
+    </Key>
+    <Property Name="I_IDOPCION" Type="int" Nullable="false" />
+    <Property Name="I_IDPERFIL" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SEG_OPCIONSISTEMA">
+    <Key>
+      <PropertyRef Name="I_IDOPCION" />
+    </Key>
+    <Property Name="I_IDOPCION" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+    <Property Name="VC_URL" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SEG_PERFIL">
+    <Key>
+      <PropertyRef Name="I_IDPERFIL" />
+    </Key>
+    <Property Name="I_IDPERFIL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SEG_USUARIO">
+    <Key>
+      <PropertyRef Name="I_IDUSUARIO" />
+    </Key>
+    <Property Name="I_IDUSUARIO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPERSONA" Type="int" Nullable="false" />
+    <Property Name="I_IDPERFIL" Type="int" Nullable="false" />
+    <Property Name="VC_LOGIN" Type="varchar(max)" Nullable="false" />
+    <Property Name="VC_CONTRASENNA" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA">
+    <Key>
+      <PropertyRef Name="ID_IDACTIVIDADECONOMICAJEFATURA" />
+    </Key>
+    <Property Name="ID_IDACTIVIDADECONOMICAJEFATURA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VC_LUGARTRABAJO" Type="varchar(max)" />
+    <Property Name="I_IDSECTORLABORAL" Type="int" />
+    <Property Name="I_IDRAMALABORAL" Type="int" />
+    <Property Name="I_IDCONDICIONLABORAL" Type="int" />
+    <Property Name="I_IDJORNADALABORAL" Type="int" />
+    <Property Name="I_IDINTEGRANTE" Type="int" />
+    <Property Name="B_JEFEHOGAR" Type="bit" />
+    <Property Name="B_EMPLEODIFERENTEHOGAR" Type="bit" />
+    <Property Name="VC_ULTIMOPUESTO" Type="varchar(max)" />
+    <Property Name="I_ANNOSULTIMOPUESTO" Type="int" />
+    <Property Name="I_MESESULTIMOPUESTO" Type="int" />
+    <Property Name="VC_EMPLEOMASDURACION" Type="varchar(max)" />
+    <Property Name="I_ANNOSEMPLEOMASDURACION" Type="int" />
+    <Property Name="I_MESESEMPLEOMASDURACION" Type="int" />
+  </EntityType>
+  <EntityType Name="T_ARCHIVOGRUPO">
+    <Key>
+      <PropertyRef Name="I_IDARCHIVOGRUPO" />
+    </Key>
+    <Property Name="I_IDARCHIVOGRUPO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDGRUPO" Type="int" Nullable="false" />
+    <Property Name="VC_URLARCHIVO" Type="varchar" Nullable="false" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="T_ASEGURAMIENTOINTEGRANTE">
+    <Key>
+      <PropertyRef Name="I_IDINTEGRANTE" />
+      <PropertyRef Name="I_IDTIPOSEGURO" />
+    </Key>
+    <Property Name="I_IDINTEGRANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOSEGURO" Type="int" Nullable="false" />
+    <Property Name="VC_OBSERVACIONES" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="T_ASISTENCIA">
+    <Key>
+      <PropertyRef Name="I_IDGRUPO" />
+      <PropertyRef Name="I_IDTIPOASISTENCIA" />
+      <PropertyRef Name="I_IDPARTICIPANTE" />
+    </Key>
+    <Property Name="I_IDGRUPO" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOASISTENCIA" Type="int" Nullable="false" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="DT_FECHA" Type="datetime" Nullable="false" />
+    <Property Name="B_FECHAALTERNATIVA" Type="bit" />
+  </EntityType>
+  <EntityType Name="T_BITACORA">
+    <Key>
+      <PropertyRef Name="I_IDBITACORA" />
+    </Key>
+    <Property Name="I_IDBITACORA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDUSUARIO" Type="int" Nullable="false" />
+    <Property Name="I_IDEVENTOBITACORA" Type="int" Nullable="false" />
+    <Property Name="DT_FECHA" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_DESTREZASEDUCACIONTECNICA">
+    <Key>
+      <PropertyRef Name="I_IDTEMADESTREZA" />
+      <PropertyRef Name="I_IDPLANEDUCACIONTECNICA" />
+    </Key>
+    <Property Name="I_IDTEMADESTREZA" Type="int" Nullable="false" />
+    <Property Name="I_IDPLANEDUCACIONTECNICA" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_DIASEDUCACIONTECNICA">
+    <Key>
+      <PropertyRef Name="I_IDDIA" />
+      <PropertyRef Name="I_IDPLANEDUCACIONTECNICA" />
+    </Key>
+    <Property Name="I_IDDIA" Type="int" Nullable="false" />
+    <Property Name="I_IDPLANEDUCACIONTECNICA" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_ERROR">
+    <Key>
+      <PropertyRef Name="I_IDERROR" />
+    </Key>
+    <Property Name="I_IDERROR" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDTIPOERROR" Type="int" Nullable="false" />
+    <Property Name="I_IDUSUARIO" Type="int" Nullable="false" />
+    <Property Name="DT_FECHA" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_EVENTOBITACORA">
+    <Key>
+      <PropertyRef Name="I_IDEVENTOBITACORA" />
+    </Key>
+    <Property Name="I_IDEVENTOBITACORA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CV_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_GRUPO">
+    <Key>
+      <PropertyRef Name="I_IDGRUPO" />
+    </Key>
+    <Property Name="I_IDGRUPO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDTIPOCURSO" Type="int" Nullable="false" />
+    <Property Name="VC_NUMEROGRUPO" Type="varchar(max)" Nullable="false" />
+    <Property Name="I_IDREGION" Type="int" Nullable="false" />
+    <Property Name="I_IDCANTON" Type="int" />
+    <Property Name="I_IDDISTRITO" Type="int" />
+    <Property Name="I_IDCOMUNIDAD" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOLUGARREUNION" Type="int" Nullable="false" />
+    <Property Name="I_IDCONDICIONLUGAR" Type="int" Nullable="false" />
+    <Property Name="I_IDSITUACION" Type="int" Nullable="false" />
+    <Property Name="I_IDRESPONSABLE" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOPOBLACION" Type="int" Nullable="false" />
+    <Property Name="I_IDFACILITADOR" Type="int" Nullable="false" />
+    <Property Name="F_MONTOMENSUAL" Type="float" />
+    <Property Name="VC_OBSERVACIONES" Type="varchar(max)" />
+    <Property Name="VC_METODOLOGIA" Type="varchar(max)" />
+    <Property Name="VC_RESPUESTAGRUPO" Type="varchar(max)" />
+    <Property Name="I_SESIONES" Type="int" Nullable="false" />
+    <Property Name="DT_FECHAINICIO" Type="datetime" Nullable="false" />
+    <Property Name="DT_FECHAFIN" Type="datetime" Nullable="false" />
+    <Property Name="DT_FECHAREALINICIO" Type="datetime" Nullable="false" />
+    <Property Name="DT_FECHAREALFIN" Type="datetime" Nullable="false" />
+    <Property Name="VC_MOTIVOCAMBIOFECHA" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="T_HORARIOGRUPO">
+    <Key>
+      <PropertyRef Name="I_IDGRUPO" />
+      <PropertyRef Name="I_IDDIA" />
+    </Key>
+    <Property Name="I_IDGRUPO" Type="int" Nullable="false" />
+    <Property Name="I_IDDIA" Type="int" Nullable="false" />
+    <Property Name="T_HORAINICIO" Type="time" />
+    <Property Name="T_HORAFIN" Type="time" />
+  </EntityType>
+  <EntityType Name="T_INTEGRANTEBENEFICIO">
+    <Key>
+      <PropertyRef Name="I_IDBENEFICIO" />
+      <PropertyRef Name="I_IDINTEGRANTE" />
+    </Key>
+    <Property Name="I_IDBENEFICIO" Type="int" Nullable="false" />
+    <Property Name="I_IDINTEGRANTE" Type="int" Nullable="false" />
+    <Property Name="F_MONTO" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_INTEGRANTECONDICIONESPECIAL">
+    <Key>
+      <PropertyRef Name="I_IDCONDICIONESPECIAL" />
+      <PropertyRef Name="I_IDINTEGRANTE" />
+    </Key>
+    <Property Name="I_IDCONDICIONESPECIAL" Type="int" Nullable="false" />
+    <Property Name="I_IDINTEGRANTE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_INTEGRANTEDISCAPACIDAD">
+    <Key>
+      <PropertyRef Name="I_IDDISCAPACIDAD" />
+      <PropertyRef Name="I_IDINTEGRANTE" />
+    </Key>
+    <Property Name="I_IDDISCAPACIDAD" Type="int" Nullable="false" />
+    <Property Name="I_IDINTEGRANTE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_INTEGRANTEENFERMEDAD">
+    <Key>
+      <PropertyRef Name="I_IDENFERMEDAD" />
+      <PropertyRef Name="I_IDINTEGRANTE" />
+    </Key>
+    <Property Name="I_IDENFERMEDAD" Type="int" Nullable="false" />
+    <Property Name="I_IDINTEGRANTE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_INTEGRANTEGRUPOFAMILIAR">
+    <Key>
+      <PropertyRef Name="I_IDINTEGRANTE" />
+    </Key>
+    <Property Name="I_IDINTEGRANTE" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPERSONA" Type="int" Nullable="false" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDPARENTESCO" Type="int" />
+    <Property Name="B_TIENEEMPLEO" Type="bit" />
+    <Property Name="I_IDOCUPACION" Type="int" />
+    <Property Name="B_JEFEHOGAR" Type="bit" />
+    <Property Name="I_IDLUGARTRABAJO" Type="int" />
+    <Property Name="I_IDTIPOINGRESOMONETARIO" Type="int" />
+    <Property Name="I_IDTIPOSEGURO" Type="int" />
+    <Property Name="VC_LUGARTRABAJO" Type="varchar" MaxLength="500" />
+    <Property Name="F_INGRESO" Type="float" />
+    <Property Name="F_MONTOAYUDAHOGAR" Type="float" />
+    <Property Name="B_DEPENDEDEPARTICIPANTE" Type="bit" />
+    <Property Name="VC_OBSERVACIONES" Type="varchar" MaxLength="500" />
+    <Property Name="B_ESASEGURADO" Type="bit" />
+  </EntityType>
+  <EntityType Name="T_INTEGRANTEPENSIONAPOYO">
+    <Key>
+      <PropertyRef Name="I_IDPENSIONAPOYO" />
+      <PropertyRef Name="I_IDINTEGRANTE" />
+    </Key>
+    <Property Name="I_IDPENSIONAPOYO" Type="int" Nullable="false" />
+    <Property Name="I_IDINTEGRANTE" Type="int" Nullable="false" />
+    <Property Name="F_MONTO" Type="float" />
+  </EntityType>
+  <EntityType Name="T_LOCALIZACIONPARTICIPANTE">
+    <Key>
+      <PropertyRef Name="I_IDLOCALIZACIONPARTICIPANTE" />
+    </Key>
+    <Property Name="I_IDLOCALIZACIONPARTICIPANTE" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDPAISANTERIOR" Type="int" />
+    <Property Name="I_IDCANTONANTERIOR" Type="int" />
+    <Property Name="I_IDDISTRITOANTERIOR" Type="int" />
+    <Property Name="I_IDPROVINCIAANTERIOR" Type="int" />
+    <Property Name="I_IDCOMUNIDAD" Type="int" />
+    <Property Name="B_VIVIDOACTUAL" Type="bit" Nullable="false" />
+    <Property Name="I_ANNOSVIVIENDAACTUAL" Type="int" Nullable="false" />
+    <Property Name="I_MESESVIVIENDAACTUAL" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_PARTICIPANTE">
+    <Key>
+      <PropertyRef Name="I_IDPARTICIPANTE" />
+    </Key>
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDGRUPO" Type="int" />
+    <Property Name="VC_NUMEROINGRESO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="I_IDPERSONA" Type="int" />
+    <Property Name="DT_FECHAINICIO" Type="datetime" />
+    <Property Name="I_IDMEDIOINFORMACION" Type="int" />
+    <Property Name="I_IDREFERENCIA" Type="int" />
+    <Property Name="I_IDESTADO" Type="int" Nullable="false" />
+    <Property Name="VC_TELEFONOMOVIL" Type="varchar(max)" />
+    <Property Name="VC_TELEFONORESIDENCIA" Type="varchar(max)" />
+    <Property Name="VC_PERSONACONFIANZA" Type="varchar(max)" Nullable="false" />
+    <Property Name="VC_CORREOELECTRONICO" Type="varchar(max)" />
+    <Property Name="B_JEFAHOGAR" Type="bit" />
+    <Property Name="VC_JEFEHOGAR" Type="varchar(max)" />
+    <Property Name="I_IDPUEBLOINDIGENA" Type="int" />
+    <Property Name="I_IDETNIA" Type="int" />
+  </EntityType>
+  <EntityType Name="T_PARTICIPANTECONDICIONESVIDA">
+    <Key>
+      <PropertyRef Name="I_ID_CONDICIONVIDA" />
+    </Key>
+    <Property Name="I_ID_CONDICIONVIDA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDRIESGO" Type="int" />
+    <Property Name="B_ACCESOVIAPUBLICA" Type="bit" Nullable="false" />
+    <Property Name="B_ACCESOTRANSPORTEPUBLICO" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_PARTICIPANTEEDUCACIONFORMAL">
+    <Key>
+      <PropertyRef Name="I_IDEDUCACIONFORMAL" />
+    </Key>
+    <Property Name="I_IDEDUCACIONFORMAL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDNIVELLECTURA" Type="int" />
+    <Property Name="I_IDNIVELESCRITURA" Type="int" />
+    <Property Name="I_IDTIPOEDUCACIONBASICA" Type="int" />
+    <Property Name="I_IDULTIMONIVELEDUCACIONBASICA" Type="int" />
+    <Property Name="I_IDTITULONIVELBASICO" Type="int" />
+    <Property Name="I_IDESPECIALIDADEDUCACIONBASICA" Type="int" />
+    <Property Name="I_IDTIPOEDUCACIONSUPERIOR" Type="int" />
+    <Property Name="I_IDULTIMONIVELEDUCACIONSUPER" Type="int" />
+    <Property Name="I_IDTITULONIVELSUPERIOR" Type="int" />
+    <Property Name="I_IDESPECIALIDADEDUCACIONSUPERIOR" Type="int" />
+    <Property Name="I_ANNOSEDUCACION" Type="int" />
+    <Property Name="B_ESTUDIAACTUALMENTE" Type="bit" />
+    <Property Name="I_IDINSTITUCIONEDUCATIVAACTUAL" Type="int" />
+    <Property Name="I_IDESPECIALIDADEDUCATIVAACTUAL" Type="int" />
+    <Property Name="I_IDTIPOHORARIOACTUAL" Type="int" />
+    <Property Name="I_IDMOTIVONOESTUDIA" Type="int" />
+  </EntityType>
+  <EntityType Name="T_PARTICIPANTEFORMACIONTECNICA">
+    <Key>
+      <PropertyRef Name="I_IDESTUDIOTECNICO" />
+    </Key>
+    <Property Name="I_IDESTUDIOTECNICO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="VC_INSTITUCION" Type="varchar" MaxLength="500" />
+    <Property Name="I_IDUTILIDADESTUDIO" Type="int" Nullable="false" />
+    <Property Name="I_ANNOCONCLUCION" Type="int" />
+    <Property Name="VC_NOMBRECURSO" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="T_PARTICIPANTEHISTORIAVIDA">
+    <Key>
+      <PropertyRef Name="I_ID_HISTORIAVIDA" />
+    </Key>
+    <Property Name="I_ID_HISTORIAVIDA" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOVIOLENCIAPAREJA" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOVIOLENCIAFAMILIAPROCEDENCIA" Type="int" Nullable="false" />
+    <Property Name="I_EDADPRIMEREMBARAZO" Type="int" />
+    <Property Name="B_ESTAEMBARAZADA" Type="bit" Nullable="false" />
+    <Property Name="B_APOYOVIOLENCIA" Type="bit" />
+    <Property Name="VC_TIPOAPOYOVIOLENCIA" Type="varchar" MaxLength="500" />
+    <Property Name="VC_NOAPOYOVIOLENCIA" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="T_PARTICIPANTELENGUA">
+    <Key>
+      <PropertyRef Name="I_IDLENGUA" />
+      <PropertyRef Name="I_IDPARTICIPANTE" />
+    </Key>
+    <Property Name="I_IDLENGUA" Type="int" Nullable="false" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_PARTICIPANTEPARTICIPACIONCOMUNAL">
+    <Key>
+      <PropertyRef Name="I_IDPARTICIPACIONCOMUNAL" />
+      <PropertyRef Name="I_IDPARTICIPANTE" />
+    </Key>
+    <Property Name="I_IDPARTICIPACIONCOMUNAL" Type="int" Nullable="false" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_PARTICIPANTEPUESTODIRECCIONLIDERAZGO">
+    <Key>
+      <PropertyRef Name="I_IDPUESTODIRECCIONLIDERAZGO" />
+      <PropertyRef Name="I_IDPARTICIPANTE" />
+    </Key>
+    <Property Name="I_IDPUESTODIRECCIONLIDERAZGO" Type="int" Nullable="false" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_PARTICIPANTEVIOLENCIAFAMILIA">
+    <Key>
+      <PropertyRef Name="I_IDPARTICIPANTE" />
+      <PropertyRef Name="I_IDTIPOVIOLENCIA" />
+    </Key>
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOVIOLENCIA" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_PARTICIPANTEVIOLENCIAPAREJA">
+    <Key>
+      <PropertyRef Name="I_IDPARTICIPANTE" />
+      <PropertyRef Name="I_IDTIPOVIOLENCIA" />
+    </Key>
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOVIOLENCIA" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_PARTICIPANTEVIVIENDA">
+    <Key>
+      <PropertyRef Name="I_ID_VIVIENDA" />
+    </Key>
+    <Property Name="I_ID_VIVIENDA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOTENENCIA" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOBONO" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOVIVIENDA" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOPISOVIVIENDA" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOTECHOVIVIENDA" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOPARED" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOCIELORASO" Type="int" Nullable="false" />
+    <Property Name="I_IDPARTICIPANTEPROPIEDAD" Type="int" Nullable="false" />
+    <Property Name="I_IDJEFEHOGARPROPIEDAD" Type="int" />
+    <Property Name="B_HABITAVIVIENDABONO" Type="bit" />
+    <Property Name="VC_MOTIVONOHABITAVIVIENDABONO" Type="varchar(max)" />
+    <Property Name="B_VIVIENDACOMPARTIDA" Type="bit" />
+    <Property Name="B_ESARRIMADO" Type="bit" />
+    <Property Name="I_FAMILIASHABITANVIVIENDA" Type="int" />
+    <Property Name="I_DORMITORIO" Type="int" />
+    <Property Name="I_APOSENTO" Type="int" />
+    <Property Name="B_SANITARIODENTROVIVIENDA" Type="int" />
+    <Property Name="B_BANNODENTROVIVIENDA" Type="int" />
+    <Property Name="B_SERVICIOELECTRICO" Type="bit" />
+    <Property Name="B_SERVICIOAGUA" Type="bit" />
+  </EntityType>
+  <EntityType Name="T_PLANEDUCACIONFORMAL">
+    <Key>
+      <PropertyRef Name="I_IDPLANEDUCACIONFORMAL" />
+    </Key>
+    <Property Name="I_IDPLANEDUCACIONFORMAL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" />
+    <Property Name="I_IDNECESIDADEDUCACIONFORMAL" Type="int" />
+    <Property Name="I_IDMETA" Type="int" />
+    <Property Name="VC_OBSERVACION" Type="varchar(max)" />
+    <Property Name="VC_RECURSOSCUMPLIRINTERES" Type="varchar(max)" />
+    <Property Name="I_IDRECURSOCUMPLIRINTERES" Type="int" />
+    <Property Name="I_IDINSTITUCIONCUMPLIRINTERES" Type="int" />
+    <Property Name="I_PRIORIDAD" Type="int" />
+  </EntityType>
+  <EntityType Name="T_PLANEDUCACIONTECNICA">
+    <Key>
+      <PropertyRef Name="I_IDPLANEDUCACIONTECNICA" />
+    </Key>
+    <Property Name="I_IDPLANEDUCACIONTECNICA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" />
+    <Property Name="I_IDRECURSOCUMPLIRINTERES" Type="int" />
+    <Property Name="I_IDINSTITUCIONCUMPLIRINTERES" Type="int" />
+    <Property Name="I_IDAPLICACIONESTUDIOTECNICO" Type="int" />
+    <Property Name="VC_OBSERVACION" Type="varchar(max)" />
+    <Property Name="VC_RECURSOSCUMPLIRINTERES" Type="varchar(max)" />
+    <Property Name="I_PRIORIDAD" Type="int" />
+    <Property Name="B_DISPONETIEMPO" Type="bit" />
+    <Property Name="I_TIPOEDUCACIONTECNICA" Type="int" />
+    <Property Name="I_HORASDIA" Type="int" />
+    <Property Name="I_DIASSEMANA" Type="int" />
+  </EntityType>
+  <EntityType Name="T_PLANEMPLEABILIDAD">
+    <Key>
+      <PropertyRef Name="I_IDPLANEMPLEABILIDAD" />
+    </Key>
+    <Property Name="I_IDPLANEMPLEABILIDAD" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" />
+    <Property Name="VC_RECURSOSCUMPLIRINTERES" Type="varchar(max)" />
+    <Property Name="I_IDRECURSOCUMPLIRINTERES" Type="int" />
+    <Property Name="I_IDINSTITUCIONCUMPLIRINTERES" Type="int" />
+    <Property Name="I_PRIORIDAD" Type="int" />
+  </EntityType>
+  <EntityType Name="T_PLANOTROS">
+    <Key>
+      <PropertyRef Name="I_IDPLANOTROS" />
+    </Key>
+    <Property Name="I_IDPLANOTROS" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" />
+    <Property Name="I_IDRECURSOCUMPLIRINTERES" Type="int" />
+    <Property Name="I_IDINSTITUCIONCUMPLIRINTERES" Type="int" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" />
+    <Property Name="VC_RECURSOSCUMPLIRINTERES" Type="varchar(max)" />
+    <Property Name="I_PRIORIDAD" Type="int" />
+  </EntityType>
+  <EntityType Name="T_PLANPROYECTOPRODUCTIVO">
+    <Key>
+      <PropertyRef Name="I_IDPLANPROYECTOPRODUCTIVO" />
+    </Key>
+    <Property Name="I_IDPLANPROYECTOPRODUCTIVO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" />
+    <Property Name="B_RECIBIOAPOYO" Type="bit" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" />
+    <Property Name="I_ANNOPROYECTO" Type="int" />
+    <Property Name="VC_ESTADOPROYECTO" Type="varchar(max)" />
+    <Property Name="VC_RECURSOSCUMPLIRINTERES" Type="varchar(max)" />
+    <Property Name="I_IDRECURSOCUMPLIRINTERES" Type="int" />
+    <Property Name="I_IDINSTITUCIONCUMPLIRINTERES" Type="int" />
+    <Property Name="I_PRIORIDAD" Type="int" />
+  </EntityType>
+  <EntityType Name="T_PLANSALUD">
+    <Key>
+      <PropertyRef Name="I_IDPLANSALUD" />
+    </Key>
+    <Property Name="I_IDPLANSALUD" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" />
+    <Property Name="I_IDRECURSOCUMPLIRINTERES" Type="int" />
+    <Property Name="I_IDINSTITUCIONCUMPLIRINTERES" Type="int" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" />
+    <Property Name="VC_RECURSOSCUMPLIRINTERES" Type="varchar(max)" />
+    <Property Name="I_PRIORIDAD" Type="int" />
+  </EntityType>
+  <EntityType Name="T_PLANVIDAOTRO">
+    <Key>
+      <PropertyRef Name="I_IDPLANVIDAOTRO" />
+    </Key>
+    <Property Name="I_IDPLANVIDAOTRO" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" />
+    <Property Name="VC_RECURSOSCUMPLIRINTERES" Type="varchar(max)" />
+    <Property Name="I_IDRECURSOCUMPLIRINTERES" Type="int" />
+    <Property Name="I_IDINSTITUCIONCUMPLIRINTERES" Type="int" />
+    <Property Name="I_PRIORIDAD" Type="int" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="T_PLANVIDAVIVIENDAACTUAL">
+    <Key>
+      <PropertyRef Name="I_IDPLANVIDAVIVIENDAACTUAL" />
+    </Key>
+    <Property Name="I_IDPLANVIDAVIVIENDAACTUAL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" />
+    <Property Name="I_IDTIPOPARED" Type="int" />
+    <Property Name="I_IDTIPOTECHOVIVIENDA" Type="int" />
+    <Property Name="I_PRIORIDAD" Type="int" />
+    <Property Name="VC_RECURSOSCUMPLIRINTERES" Type="varchar(max)" />
+    <Property Name="I_IDRECURSOCUMPLIRINTERES" Type="int" />
+    <Property Name="I_IDINSTITUCIONCUMPLIRINTERES" Type="int" />
+    <Property Name="I_IDTIPOPISOVIVIENDA" Type="int" />
+  </EntityType>
+  <EntityType Name="T_PROGRAMAPERSONA">
+    <Key>
+      <PropertyRef Name="I_IDPROGRAMA" />
+      <PropertyRef Name="I_IDPERSONA" />
+    </Key>
+    <Property Name="I_IDPROGRAMA" Type="int" Nullable="false" />
+    <Property Name="I_IDPERSONA" Type="int" Nullable="false" />
+    <Property Name="I_ANNO" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_PROPIEDADPORINTEGRANTEFAMILIAR">
+    <Key>
+      <PropertyRef Name="I_IDTIPOSPROPIEDAD" />
+      <PropertyRef Name="I_IDINTEGRANTE" />
+    </Key>
+    <Property Name="I_IDTIPOSPROPIEDAD" Type="int" Nullable="false" />
+    <Property Name="I_IDINTEGRANTE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_RIESGOVIVIENDAPARTICIPANTE">
+    <Key>
+      <PropertyRef Name="I_IDPARTICIPANTE" />
+      <PropertyRef Name="I_IDRIESGO" />
+    </Key>
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDRIESGO" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_SEGUIMIENTOPLANVIDA">
+    <Key>
+      <PropertyRef Name="I_IDSEGUIMIENTOPLANVIDA" />
+    </Key>
+    <Property Name="I_IDSEGUIMIENTOPLANVIDA" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDTIPOPLANVIDA" Type="int" Nullable="false" />
+    <Property Name="I_IDVALORACIONAPOYO" Type="int" />
+    <Property Name="I_IDTRAMITADOR" Type="int" />
+    <Property Name="VC_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+    <Property Name="DT_FECHA" Type="datetime" />
+    <Property Name="VC_OBSERVACION" Type="varchar(max)" />
+    <Property Name="VC_TIPOAPOYOINSTITUCIONES" Type="varchar(max)" />
+    <Property Name="VC_RESULTADOOBTENIDO" Type="varchar(max)" />
+    <Property Name="VC_DESCRIPCIONDOCUMENTOFUENTE" Type="varchar(max)" />
+    <Property Name="VC_INFORMACIONDESEADA" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="T_SEGUIMIENTOPLANVIDAINSTITUCIONESAPOYO">
+    <Key>
+      <PropertyRef Name="I_IDSEGUIMIENTOPLANVIDA" />
+      <PropertyRef Name="I_IDINSTITUCIONCUMPLIRINTERES" />
+    </Key>
+    <Property Name="I_IDSEGUIMIENTOPLANVIDA" Type="int" Nullable="false" />
+    <Property Name="I_IDINSTITUCIONCUMPLIRINTERES" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_SERVICIOSHOGAR">
+    <Key>
+      <PropertyRef Name="I_IDPARTICIPANTE" />
+      <PropertyRef Name="I_IDSERVICIO" />
+    </Key>
+    <Property Name="I_IDPARTICIPANTE" Type="int" Nullable="false" />
+    <Property Name="I_IDSERVICIO" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_TIPOERROR">
+    <Key>
+      <PropertyRef Name="I_IDTIPOERROR" />
+    </Key>
+    <Property Name="I_IDTIPOERROR" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CV_CODIGOERROR" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="CV_DESCRIPCION" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+</Schema>
