@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d639772728f144649b91caf7b23d2009" Name="Diagrama1" ZoomLevel="88">
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_APLICACIONESTUDIOTECNICO" Width="1.5" PointX="27" PointY="93.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_BENEFICIO" Width="1.5" PointX="9.75" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_CANTON" Width="1.5" PointX="3" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_COMUNIDAD" Width="1.5" PointX="10.5" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_CONDICIONESPECIAL" Width="1.5" PointX="7.5" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_CONDICIONLABORAL" Width="1.5" PointX="21" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_CONDICIONLUGAR" Width="1.5" PointX="10.5" PointY="56" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_DIA" Width="1.5" PointX="15.75" PointY="43.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_DISCAPACIDAD" Width="1.5" PointX="7.5" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_DISTRITO" Width="1.5" PointX="5.25" PointY="52.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_ENFERMEDAD" Width="1.5" PointX="7.5" PointY="42" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_ESPECIALIDADEDUCATIVA" Width="1.5" PointX="27" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_ESTADO" Width="1.5" PointX="18.75" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_ESTADOCIVIL" Width="1.5" PointX="5.25" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_ETNIA" Width="1.5" PointX="5.25" PointY="48.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_GRADOSEDUCACIONBASICA" Width="1.5" PointX="27" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_GRADOSEDUCACIONSUPERIOR" Width="1.5" PointX="27" PointY="73.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_INSTITUCIONCUMPLIRINTERES" Width="1.5" PointX="24" PointY="41.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_INSTITUCIONEDUCATIVAACTUAL" Width="1.5" PointX="27" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_JORNADALABORAL" Width="1.5" PointX="21" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_LENGUA" Width="1.5" PointX="18.75" PointY="44" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_LUGARTRABAJO" Width="1.5" PointX="7.5" PointY="44.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_MEDIOINFORMACION" Width="1.5" PointX="18.75" PointY="38.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_META" Width="1.5" PointX="21" PointY="64.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_MOTIVONOESTUDIA" Width="1.5" PointX="27" PointY="78.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_NECESIDADEDUCACIONFORMAL" Width="1.5" PointX="21" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_NIVELAVANCE" Width="1.5" PointX="30" PointY="64.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_NIVELLECTOESCRITURA" Width="1.5" PointX="27" PointY="80.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_OCUPACION" Width="1.5" PointX="7.5" PointY="46.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_PAIS" Width="1.5" PointX="5.25" PointY="55.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_PARENTESCO" Width="1.5" PointX="7.5" PointY="58" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_PARTICIPACIONCOMUNAL" Width="1.5" PointX="18.75" PointY="55.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_PENSIONAPOYO" Width="1.5" PointX="12.75" PointY="40.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_PERSONA" Width="1.5" PointX="7.5" PointY="49.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_PROGRAMA" Width="2" PointX="0.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_PROVINCIA" Width="1.5" PointX="0.75" PointY="52.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_PUEBLOINDIGENA" Width="1.5" PointX="18.75" PointY="58" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_PUESTODIRECCIONLIDERAZGO" Width="1.5" PointX="18.75" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_RAMALABORAL" Width="1.5" PointX="21" PointY="59.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_RECURSOSCUMPLIRINTERES" Width="1.5" PointX="24" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_REFERENCIA" Width="1.5" PointX="18.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_REGION" Width="1.5" PointX="5.25" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_RESPONSABLE" Width="1.5" PointX="10.5" PointY="58.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_RESPUESTACORTA" Width="1.5" PointX="27" PointY="36" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_RIESGOVIVIENDA" Width="1.5" PointX="18.75" PointY="65" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_SECTORLABORAL" Width="1.5" PointX="21" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_SERVICIOSVIVIENDA" Width="1.5" PointX="18.75" PointY="67.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_SEXO" Width="1.5" PointX="5.25" PointY="60.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_SITUACION" Width="1.5" PointX="10.5" PointY="60.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TEMADESTREZA" Width="1.5" PointX="27" PointY="95.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOASISTENCIA" Width="1.5" PointX="15.75" PointY="40.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOBONO" Width="1.5" PointX="27" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOCIELORASO" Width="1.5" PointX="27" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOCURSO" Width="1.5" PointX="10.5" PointY="63" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPODISCAPACIDAD" Width="1.5" PointX="5.25" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOEDUCACIONBASICA" Width="1.5" PointX="27" PointY="83" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOEDUCACIONSUPERIOR" Width="1.5" PointX="27" PointY="85.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOEDUCACIONTECNICA" Width="1.5" PointX="27" PointY="97.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOHORARIO" Width="1.5" PointX="27" PointY="88.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOIDENTIFICACION" Width="1.5" PointX="5.25" PointY="62.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOINGRESOMONETARIO" Width="1.5" PointX="7.5" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOLUGARREUNION" Width="1.5" PointX="10.5" PointY="65.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOPARED" Width="1.5" PointX="27" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOPISOVIVIENDA" Width="1.5" PointX="27" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOPLANVIDA" Width="1.5" PointX="30" PointY="66.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOPOBLACION" Width="1.5" PointX="10.5" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOSEGURO" Width="1.5" PointX="7.5" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOSPROPIEDAD" Width="1.5" PointX="7.5" PointY="65.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOTECHOVIVIENDA" Width="1.5" PointX="27" PointY="65.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOTENENCIA" Width="1.5" PointX="27" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOVIOLENCIA" Width="1.5" PointX="18.75" PointY="69.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TIPOVIVIENDA" Width="1.5" PointX="27" PointY="70.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_TITULOEDUCATIVO" Width="1.5" PointX="27" PointY="90.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_UTILIDADESTUDIO" Width="1.5" PointX="24" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.CAT_VALORACIONAPOYO" Width="1.5" PointX="30" PointY="68.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.SEG_OPCIONSISTEMA" Width="1.5" PointX="5.25" PointY="68.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.SEG_PERFIL" Width="1.5" PointX="7.5" PointY="68.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.SEG_USUARIO" Width="1.5" PointX="9.75" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA" Width="1.5" PointX="23.25" PointY="48.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_ARCHIVOGRUPO" Width="1.5" PointX="15" PointY="52.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_ASEGURAMIENTOINTEGRANTE" Width="1.5" PointX="12" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_ASISTENCIA" Width="1.5" PointX="18" PointY="52.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_BITACORA" Width="1.5" PointX="15" PointY="49.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_ERROR" Width="1.5" PointX="15" PointY="55.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_EVENTOBITACORA" Width="1.5" PointX="12.75" PointY="58.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_GRUPO" Width="1.5" PointX="12.75" PointY="49.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_HORARIOGRUPO" Width="1.5" PointX="18" PointY="48.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_INTEGRANTEBENEFICIO" Width="1.5" PointX="12" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_INTEGRANTEGRUPOFAMILIAR" Width="1.5" PointX="9.75" PointY="44" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_INTEGRANTEPENSIONAPOYO" Width="1.5" PointX="15" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_LOCALIZACIONPARTICIPANTE" Width="1.5" PointX="26.25" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PARTICIPANTE" Width="1.5" PointX="21" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PARTICIPANTECONDICIONESVIDA" Width="1.5" PointX="23.25" PointY="55.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PARTICIPANTEEDUCACIONFORMAL" Width="1.5" PointX="29.25" PointY="49.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PARTICIPANTEFORMACIONTECNICA" Width="1.5" PointX="26.25" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PARTICIPANTEHISTORIAVIDA" Width="1.5" PointX="26.25" PointY="56.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PARTICIPANTEVIVIENDA" Width="1.5" PointX="29.25" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PLANEDUCACIONFORMAL" Width="1.5" PointX="23.25" PointY="58.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PLANEDUCACIONTECNICA" Width="1.5" PointX="29.25" PointY="58" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PLANEMPLEABILIDAD" Width="1.5" PointX="23.25" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PLANOTROS" Width="1.5" PointX="26.25" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PLANPROYECTOPRODUCTIVO" Width="1.5" PointX="32.25" PointY="51.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PLANSALUD" Width="1.5" PointX="26.25" PointY="60.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PLANVIDAVIVIENDAACTUAL" Width="1.5" PointX="32.25" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_PROGRAMAPERSONA" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_SEGUIMIENTOPLANVIDA" Width="1.5" PointX="32.25" PointY="56" IsExpanded="true" />
+        <EntityTypeShape EntityType="SIPAMU5_Model.T_TIPOERROR" Width="1.5" PointX="12.75" PointY="61.5" IsExpanded="true" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANED_REFERENCE_CAT_APLI" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_INTEGR_REFERENCE_CAT_BENE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_CANT_REFERENCE_CAT_PROV" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_DIST_REFERENCE_CAT_CANT" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_PERS_REFERENCE_CAT_CANT" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_GRUPO_REFERENCE_CAT_CANT" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_LOCALI_REFERENCE_CAT_CANT09" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_LOCALI_REFERENCE_CAT_CANT8" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_GRUPO_REFERENCE_CAT_COMU" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_LOCALI_REFERENCE_CAT_COMU" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ACTIVI_REFERENCE_CAT_COND" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_GRUPO_REFERENCE_CAT_COND" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_HORARI_REFERENCE_CAT_DIA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_DISC_REFERENCE_CAT_TIPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_PERS_REFERENCE_CAT_DIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_GRUPO_REFERENCE_CAT_DIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_LOCALI_REFERENCE_CAT_DIST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_LOCALI_REFERENCE_CAT_DIST234" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_ESPE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_ESPE27" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_ESPE73" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_ESTA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_PERS_REFERENCE_CAT_ESTA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_PERS_REFERENCE_CAT_ETNI" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_ETNI" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_GRAD4" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_GRAD3" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANED_REFERENCE_CAT_INST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANED_REFERENCE_CAT_INST75" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANEM_REFERENCE_CAT_INST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANOT_REFERENCE_CAT_INST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANPR_REFERENCE_CAT_INST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANSA_REFERENCE_CAT_INST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANVI_REFERENCE_CAT_INST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_INST" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ACTIVI_REFERENCE_CAT_JORN" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_INTEGR_REFERENCE_CAT_LUGA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_MEDI" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANED_REFERENCE_CAT_META" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_MOTI" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANED_REFERENCE_CAT_NECE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_SEGUIM_REFERENCE_CAT_NIVE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_NIVE63" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_NIVE86" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_INTEGR_REFERENCE_CAT_OCUP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_PERS_REFERENCE_CAT_PAIS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_INTEGR_REFERENCE_CAT_PARE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_INTEGR_REFERENCE_CAT_PENS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_PERS_REFERENCE_CAT_PROV" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_PERS_REFERENCE_CAT_REGI" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_PERS_REFERENCE_CAT_SEXO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_PERS_REFERENCE_CAT_TIPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_SEG_USUA_REFERENCE_CAT_PERS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_GRUPO_REFERENCE_CAT_PERS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_INTEGR_REFERENCE_CAT_PERS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_PERS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_SEGUIM_REFERENCE_CAT_PERS" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PROGRA_REFERENCE_CAT_PROG" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_LOCALI_REFERENCE_CAT_PROV221" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_LOCALI_REFERENCE_CAT_PROV531" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_PUEB" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ACTIVI_REFERENCE_CAT_RAMA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANED_REFERENCE_CAT_RECU095" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANED_REFERENCE_CAT_RECU85" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANEM_REFERENCE_CAT_RECU" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANOT_REFERENCE_CAT_RECU" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANPR_REFERENCE_CAT_RECU" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANSA_REFERENCE_CAT_RECU" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANVI_REFERENCE_CAT_RECU" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_REFE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_GRUPO_REFERENCE_CAT_REGI" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_GRUPO_REFERENCE_CAT_RESP" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_RESP72" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_RESP782" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_RIES" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ACTIVI_REFERENCE_CAT_SECT" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_GRUPO_REFERENCE_CAT_SITU" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ASISTE_REFERENCE_CAT_TIPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO023" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO32" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_GRUPO_REFERENCE_CAT_TIPO555" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_CAT_TIPO_REFERENCE_CAT_TIPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO3342" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO46" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANED_REFERENCE_CAT_TIPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO378" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_INTEGR_REFERENCE_CAT_TIPO552" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_GRUPO_REFERENCE_CAT_TIPO333" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO4212" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANVI_REFERENCE_CAT_TIPO55" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO215" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANVI_REFERENCE_CAT_TIPO8233" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_SEGUIM_REFERENCE_CAT_TIPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_GRUPO_REFERENCE_CAT_TIPO1" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ASEGUR_REFERENCE_CAT_TIPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_INTEGR_REFERENCE_CAT_TIPO322" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO42" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANVI_REFERENCE_CAT_TIPO334" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO622" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO427" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO93" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TIPO4214" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TITU52" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_TITU72" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_CAT_UTIL" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_SEGUIM_REFERENCE_CAT_VALO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_SEG_USUA_REFERENCE_SEG_PERF" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_BITACO_REFERENCE_SEG_USUA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ERROR_REFERENCE_SEG_USUA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ACTIVI_REFERENCE_T_INTEGR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ACTIVI_REFERENCE_T_PARTIC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ARCHIV_REFERENCE_T_GRUPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ASEGUR_REFERENCE_T_INTEGR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ASISTE_REFERENCE_T_GRUPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ASISTE_REFERENCE_T_PARTIC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_BITACO_REFERENCE_T_EVENTO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_ERROR_REFERENCE_T_TIPOER" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_HORARI_REFERENCE_T_GRUPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_T_GRUPO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_INTEGR_REFERENCE_T_INTEGR312" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_INTEGR_REFERENCE_T_INTEGR43" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_LOCALI_REFERENCE_T_PARTIC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_T_PARTIC334" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_T_PARTIC42" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_T_PARTIC43" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_T_PARTIC623" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PARTIC_REFERENCE_T_PARTIC745" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANED_REFERENCE_T_PARTIC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANED_REFERENCE_T_PARTIC53" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANEM_REFERENCE_T_PARTIC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANOT_REFERENCE_T_PARTIC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANPR_REFERENCE_T_PARTIC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANSA_REFERENCE_T_PARTIC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_PLANVI_REFERENCE_T_PARTIC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.FK_T_SEGUIM_REFERENCE_T_PARTIC" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.SEG_OPCIONPERFIL" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_DESTREZASEDUCACIONTECNICA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_DIASEDUCACIONTECNICA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_INTEGRANTECONDICIONESPECIAL" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_INTEGRANTEDISCAPACIDAD" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_INTEGRANTEENFERMEDAD" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_PARTICIPANTELENGUA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_PARTICIPANTEPARTICIPACIONCOMUNAL" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_PARTICIPANTEPUESTODIRECCIONLIDERAZGO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_PARTICIPANTEVIOLENCIAFAMILIA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_PARTICIPANTEVIOLENCIAPAREJA" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_PROPIEDADPORINTEGRANTEFAMILIAR" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_RIESGOVIVIENDAPARTICIPANTE" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_SEGUIMIENTOPLANVIDAINSTITUCIONESAPOYO" ManuallyRouted="false" />
+        <AssociationConnector Association="SIPAMU5_Model.T_SERVICIOSHOGAR" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

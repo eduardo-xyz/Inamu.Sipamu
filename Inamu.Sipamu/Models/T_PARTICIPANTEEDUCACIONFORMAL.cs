@@ -15,22 +15,38 @@ namespace Inamu.Sipamu.Models
     public partial class T_PARTICIPANTEEDUCACIONFORMAL
     {
         public int I_IDEDUCACIONFORMAL { get; set; }
-        public int I_IDPARTICIPANTE { get; set; }
-        public Nullable<int> I_IDNIVELLECTURA { get; set; }
-        public Nullable<int> I_IDNIVELESCRITURA { get; set; }
         public Nullable<int> I_IDTIPOEDUCACIONBASICA { get; set; }
-        public Nullable<int> I_IDULTIMONIVELEDUCACIONBASICA { get; set; }
-        public Nullable<int> I_IDTITULONIVELBASICO { get; set; }
-        public Nullable<int> I_IDESPECIALIDADEDUCACIONBASICA { get; set; }
-        public Nullable<int> I_IDTIPOEDUCACIONSUPERIOR { get; set; }
-        public Nullable<int> I_IDULTIMONIVELEDUCACIONSUPER { get; set; }
-        public Nullable<int> I_IDTITULONIVELSUPERIOR { get; set; }
-        public Nullable<int> I_IDESPECIALIDADEDUCACIONSUPERIOR { get; set; }
+        public Nullable<int> I_IDESPECIALIDADEDUCATIVASUPERIOR { get; set; }
+        public Nullable<int> I_IDESPECIALIDADEDUCATIVAACTUAL { get; set; }
         public Nullable<int> I_ANNOSEDUCACION { get; set; }
         public Nullable<bool> B_ESTUDIAACTUALMENTE { get; set; }
-        public Nullable<int> I_IDINSTITUCIONEDUCATIVAACTUAL { get; set; }
-        public Nullable<int> I_IDESPECIALIDADEDUCATIVAACTUAL { get; set; }
-        public Nullable<int> I_IDTIPOHORARIOACTUAL { get; set; }
+        public Nullable<int> I_IDPARTICIPANTE { get; set; }
+        public Nullable<int> I_IDNIVELLECTURA { get; set; }
+        public Nullable<int> I_IDNIVELESCRITURA { get; set; }
+        public Nullable<int> I_IDESPECIALIDADEDUCATIVABASICA { get; set; }
+        public Nullable<int> I_IDTIPOEDUCACIONSUPERIOR { get; set; }
+        public Nullable<int> I_IDTIPOHORARIO { get; set; }
         public Nullable<int> I_IDMOTIVONOESTUDIA { get; set; }
+        public Nullable<int> I_IDTITULOBASICO { get; set; }
+        public Nullable<int> I_IDTITULOSUPERIOR { get; set; }
+        public Nullable<int> I_IDGRADOSEDUCACIONBASICA { get; set; }
+        public Nullable<int> I_IDGRADOSEDUCACIONSUPER { get; set; }
+        public Nullable<int> I_IDINSTITUCIONEDUCATIVAACTUAL { get; set; }
+    
+        public virtual CAT_ESPECIALIDADEDUCATIVA CAT_ESPECIALIDADEDUCATIVA { get; set; }
+        public virtual CAT_ESPECIALIDADEDUCATIVA CAT_ESPECIALIDADEDUCATIVA1 { get; set; }
+        public virtual CAT_ESPECIALIDADEDUCATIVA CAT_ESPECIALIDADEDUCATIVA2 { get; set; }
+        public virtual CAT_GRADOSEDUCACIONBASICA CAT_GRADOSEDUCACIONBASICA { get; set; }
+        public virtual CAT_GRADOSEDUCACIONSUPERIOR CAT_GRADOSEDUCACIONSUPERIOR { get; set; }
+        public virtual CAT_INSTITUCIONEDUCATIVAACTUAL CAT_INSTITUCIONEDUCATIVAACTUAL { get; set; }
+        public virtual CAT_MOTIVONOESTUDIA CAT_MOTIVONOESTUDIA { get; set; }
+        public virtual CAT_NIVELLECTOESCRITURA CAT_NIVELLECTOESCRITURA { get; set; }
+        public virtual CAT_NIVELLECTOESCRITURA CAT_NIVELLECTOESCRITURA1 { get; set; }
+        public virtual CAT_TIPOEDUCACIONBASICA CAT_TIPOEDUCACIONBASICA { get; set; }
+        public virtual CAT_TIPOEDUCACIONSUPERIOR CAT_TIPOEDUCACIONSUPERIOR { get; set; }
+        public virtual CAT_TIPOHORARIO CAT_TIPOHORARIO { get; set; }
+        public virtual CAT_TITULOEDUCATIVO CAT_TITULOEDUCATIVO { get; set; }
+        public virtual CAT_TITULOEDUCATIVO CAT_TITULOEDUCATIVO1 { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
     }
 }

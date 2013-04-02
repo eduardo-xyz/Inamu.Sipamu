@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_NECESIDADEDUCACIONFORMAL
     {
+        public CAT_NECESIDADEDUCACIONFORMAL()
+        {
+            this.T_PLANEDUCACIONFORMAL = new HashSet<T_PLANEDUCACIONFORMAL>();
+        }
+    
         public int I_IDNECESIDADEDUCACIONFORMAL { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_PLANEDUCACIONFORMAL> T_PLANEDUCACIONFORMAL { get; set; }
     }
 }

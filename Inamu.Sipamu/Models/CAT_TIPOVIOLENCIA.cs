@@ -14,7 +14,20 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_TIPOVIOLENCIA
     {
+        public CAT_TIPOVIOLENCIA()
+        {
+            this.T_PARTICIPANTEHISTORIAVIDA = new HashSet<T_PARTICIPANTEHISTORIAVIDA>();
+            this.T_PARTICIPANTEHISTORIAVIDA1 = new HashSet<T_PARTICIPANTEHISTORIAVIDA>();
+            this.T_PARTICIPANTE = new HashSet<T_PARTICIPANTE>();
+            this.T_PARTICIPANTE1 = new HashSet<T_PARTICIPANTE>();
+        }
+    
         public int I_IDTIPOVIOLENCIA { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_PARTICIPANTEHISTORIAVIDA> T_PARTICIPANTEHISTORIAVIDA { get; set; }
+        public virtual ICollection<T_PARTICIPANTEHISTORIAVIDA> T_PARTICIPANTEHISTORIAVIDA1 { get; set; }
+        public virtual ICollection<T_PARTICIPANTE> T_PARTICIPANTE { get; set; }
+        public virtual ICollection<T_PARTICIPANTE> T_PARTICIPANTE1 { get; set; }
     }
 }

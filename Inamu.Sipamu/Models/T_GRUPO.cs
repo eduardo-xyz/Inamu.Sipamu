@@ -14,19 +14,27 @@ namespace Inamu.Sipamu.Models
     
     public partial class T_GRUPO
     {
+        public T_GRUPO()
+        {
+            this.T_ARCHIVOGRUPO = new HashSet<T_ARCHIVOGRUPO>();
+            this.T_ASISTENCIA = new HashSet<T_ASISTENCIA>();
+            this.T_HORARIOGRUPO = new HashSet<T_HORARIOGRUPO>();
+            this.T_PARTICIPANTE = new HashSet<T_PARTICIPANTE>();
+        }
+    
         public int I_IDGRUPO { get; set; }
-        public int I_IDTIPOCURSO { get; set; }
         public string VC_NUMEROGRUPO { get; set; }
-        public int I_IDREGION { get; set; }
+        public Nullable<int> I_IDREGION { get; set; }
+        public Nullable<int> I_IDTIPOPOBLACION { get; set; }
+        public Nullable<int> I_IDTIPOLUGARREUNION { get; set; }
+        public Nullable<int> I_IDSITUACION { get; set; }
+        public Nullable<int> I_IDTIPOCURSO { get; set; }
+        public Nullable<int> I_IDRESPONSABLE { get; set; }
+        public Nullable<int> I_IDPERSONA { get; set; }
         public Nullable<int> I_IDCANTON { get; set; }
         public Nullable<int> I_IDDISTRITO { get; set; }
-        public int I_IDCOMUNIDAD { get; set; }
-        public int I_IDTIPOLUGARREUNION { get; set; }
-        public int I_IDCONDICIONLUGAR { get; set; }
-        public int I_IDSITUACION { get; set; }
-        public int I_IDRESPONSABLE { get; set; }
-        public int I_IDTIPOPOBLACION { get; set; }
-        public int I_IDFACILITADOR { get; set; }
+        public Nullable<int> I_IDCOMUNIDAD { get; set; }
+        public Nullable<int> I_IDCONDICIONLUGAR { get; set; }
         public Nullable<double> F_MONTOMENSUAL { get; set; }
         public string VC_OBSERVACIONES { get; set; }
         public string VC_METODOLOGIA { get; set; }
@@ -37,5 +45,21 @@ namespace Inamu.Sipamu.Models
         public System.DateTime DT_FECHAREALINICIO { get; set; }
         public System.DateTime DT_FECHAREALFIN { get; set; }
         public string VC_MOTIVOCAMBIOFECHA { get; set; }
+    
+        public virtual CAT_CANTON CAT_CANTON { get; set; }
+        public virtual CAT_COMUNIDAD CAT_COMUNIDAD { get; set; }
+        public virtual CAT_CONDICIONLUGAR CAT_CONDICIONLUGAR { get; set; }
+        public virtual CAT_DISTRITO CAT_DISTRITO { get; set; }
+        public virtual CAT_PERSONA CAT_PERSONA { get; set; }
+        public virtual CAT_REGION CAT_REGION { get; set; }
+        public virtual CAT_RESPONSABLE CAT_RESPONSABLE { get; set; }
+        public virtual CAT_SITUACION CAT_SITUACION { get; set; }
+        public virtual CAT_TIPOCURSO CAT_TIPOCURSO { get; set; }
+        public virtual CAT_TIPOLUGARREUNION CAT_TIPOLUGARREUNION { get; set; }
+        public virtual CAT_TIPOPOBLACION CAT_TIPOPOBLACION { get; set; }
+        public virtual ICollection<T_ARCHIVOGRUPO> T_ARCHIVOGRUPO { get; set; }
+        public virtual ICollection<T_ASISTENCIA> T_ASISTENCIA { get; set; }
+        public virtual ICollection<T_HORARIOGRUPO> T_HORARIOGRUPO { get; set; }
+        public virtual ICollection<T_PARTICIPANTE> T_PARTICIPANTE { get; set; }
     }
 }

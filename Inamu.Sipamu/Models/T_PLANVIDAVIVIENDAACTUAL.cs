@@ -15,13 +15,20 @@ namespace Inamu.Sipamu.Models
     public partial class T_PLANVIDAVIVIENDAACTUAL
     {
         public int I_IDPLANVIDAVIVIENDAACTUAL { get; set; }
-        public Nullable<int> I_IDPARTICIPANTE { get; set; }
-        public Nullable<int> I_IDTIPOPARED { get; set; }
-        public Nullable<int> I_IDTIPOTECHOVIVIENDA { get; set; }
         public Nullable<int> I_PRIORIDAD { get; set; }
         public string VC_RECURSOSCUMPLIRINTERES { get; set; }
         public Nullable<int> I_IDRECURSOCUMPLIRINTERES { get; set; }
         public Nullable<int> I_IDINSTITUCIONCUMPLIRINTERES { get; set; }
+        public Nullable<int> I_IDPARTICIPANTE { get; set; }
+        public Nullable<int> I_IDTIPOPARED { get; set; }
         public Nullable<int> I_IDTIPOPISOVIVIENDA { get; set; }
+        public Nullable<int> I_IDTIPOTECHOVIVIENDA { get; set; }
+    
+        public virtual CAT_INSTITUCIONCUMPLIRINTERES CAT_INSTITUCIONCUMPLIRINTERES { get; set; }
+        public virtual CAT_RECURSOSCUMPLIRINTERES CAT_RECURSOSCUMPLIRINTERES { get; set; }
+        public virtual CAT_TIPOPARED CAT_TIPOPARED { get; set; }
+        public virtual CAT_TIPOPISOVIVIENDA CAT_TIPOPISOVIVIENDA { get; set; }
+        public virtual CAT_TIPOTECHOVIVIENDA CAT_TIPOTECHOVIVIENDA { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
     }
 }

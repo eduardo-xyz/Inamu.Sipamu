@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_SITUACION
     {
+        public CAT_SITUACION()
+        {
+            this.T_GRUPO = new HashSet<T_GRUPO>();
+        }
+    
         public int I_IDSITUACION { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_GRUPO> T_GRUPO { get; set; }
     }
 }

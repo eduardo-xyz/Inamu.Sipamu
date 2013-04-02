@@ -1,0 +1,1202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SIPAMU5_ModelStoreContainer" CdmEntityContainer="SIPAMU_Entities">
+    <EntitySetMapping Name="CAT_APLICACIONESTUDIOTECNICO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_APLICACIONESTUDIOTECNICO">
+        <MappingFragment StoreEntitySet="CAT_APLICACIONESTUDIOTECNICO">
+          <ScalarProperty Name="I_IDAPLICACIONESTUDIOTECNICO" ColumnName="I_IDAPLICACIONESTUDIOTECNICO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_BENEFICIO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_BENEFICIO">
+        <MappingFragment StoreEntitySet="CAT_BENEFICIO">
+          <ScalarProperty Name="I_IDBENEFICIO" ColumnName="I_IDBENEFICIO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_CANTON">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_CANTON">
+        <MappingFragment StoreEntitySet="CAT_CANTON">
+          <ScalarProperty Name="I_IDCANTON" ColumnName="I_IDCANTON" />
+          <ScalarProperty Name="I_IDPROVINCIA" ColumnName="I_IDPROVINCIA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_COMUNIDAD">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_COMUNIDAD">
+        <MappingFragment StoreEntitySet="CAT_COMUNIDAD">
+          <ScalarProperty Name="I_IDCOMUNIDAD" ColumnName="I_IDCOMUNIDAD" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_CONDICIONESPECIAL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_CONDICIONESPECIAL">
+        <MappingFragment StoreEntitySet="CAT_CONDICIONESPECIAL">
+          <ScalarProperty Name="I_IDCONDICIONESPECIAL" ColumnName="I_IDCONDICIONESPECIAL" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_CONDICIONLABORAL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_CONDICIONLABORAL">
+        <MappingFragment StoreEntitySet="CAT_CONDICIONLABORAL">
+          <ScalarProperty Name="I_IDCONDICIONLABORAL" ColumnName="I_IDCONDICIONLABORAL" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_CONDICIONLUGAR">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_CONDICIONLUGAR">
+        <MappingFragment StoreEntitySet="CAT_CONDICIONLUGAR">
+          <ScalarProperty Name="I_IDCONDICIONLUGAR" ColumnName="I_IDCONDICIONLUGAR" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_DIA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_DIA">
+        <MappingFragment StoreEntitySet="CAT_DIA">
+          <ScalarProperty Name="I_IDDIA" ColumnName="I_IDDIA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_DISCAPACIDAD">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_DISCAPACIDAD">
+        <MappingFragment StoreEntitySet="CAT_DISCAPACIDAD">
+          <ScalarProperty Name="I_IDDISCAPACIDAD" ColumnName="I_IDDISCAPACIDAD" />
+          <ScalarProperty Name="I_IDTIPODISCAPACIDAD" ColumnName="I_IDTIPODISCAPACIDAD" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_DISTRITO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_DISTRITO">
+        <MappingFragment StoreEntitySet="CAT_DISTRITO">
+          <ScalarProperty Name="I_IDDISTRITO" ColumnName="I_IDDISTRITO" />
+          <ScalarProperty Name="I_IDCANTON" ColumnName="I_IDCANTON" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_ENFERMEDAD">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_ENFERMEDAD">
+        <MappingFragment StoreEntitySet="CAT_ENFERMEDAD">
+          <ScalarProperty Name="I_IDENFERMEDAD" ColumnName="I_IDENFERMEDAD" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_ESPECIALIDADEDUCATIVA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_ESPECIALIDADEDUCATIVA">
+        <MappingFragment StoreEntitySet="CAT_ESPECIALIDADEDUCATIVA">
+          <ScalarProperty Name="I_IDESPECIALIDADEDUCATIVA" ColumnName="I_IDESPECIALIDADEDUCATIVA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_ESTADO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_ESTADO">
+        <MappingFragment StoreEntitySet="CAT_ESTADO">
+          <ScalarProperty Name="I_IDESTADO" ColumnName="I_IDESTADO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_ESTADOCIVIL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_ESTADOCIVIL">
+        <MappingFragment StoreEntitySet="CAT_ESTADOCIVIL">
+          <ScalarProperty Name="I_IDESTADOCIVIL" ColumnName="I_IDESTADOCIVIL" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_ETNIA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_ETNIA">
+        <MappingFragment StoreEntitySet="CAT_ETNIA">
+          <ScalarProperty Name="I_IDETNIA" ColumnName="I_IDETNIA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_GRADOSEDUCACIONBASICA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_GRADOSEDUCACIONBASICA">
+        <MappingFragment StoreEntitySet="CAT_GRADOSEDUCACIONBASICA">
+          <ScalarProperty Name="I_IDGRADOSEDUCACIONBASICA" ColumnName="I_IDGRADOSEDUCACIONBASICA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_GRADOSEDUCACIONSUPERIOR">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_GRADOSEDUCACIONSUPERIOR">
+        <MappingFragment StoreEntitySet="CAT_GRADOSEDUCACIONSUPERIOR">
+          <ScalarProperty Name="I_IDGRADOSEDUCACIONSUPER" ColumnName="I_IDGRADOSEDUCACIONSUPER" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_INSTITUCIONCUMPLIRINTERES">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_INSTITUCIONCUMPLIRINTERES">
+        <MappingFragment StoreEntitySet="CAT_INSTITUCIONCUMPLIRINTERES">
+          <ScalarProperty Name="I_IDINSTITUCIONCUMPLIRINTERES" ColumnName="I_IDINSTITUCIONCUMPLIRINTERES" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_INSTITUCIONEDUCATIVAACTUAL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_INSTITUCIONEDUCATIVAACTUAL">
+        <MappingFragment StoreEntitySet="CAT_INSTITUCIONEDUCATIVAACTUAL">
+          <ScalarProperty Name="I_IDINSTITUCIONEDUCATIVAACTUAL" ColumnName="I_IDINSTITUCIONEDUCATIVAACTUAL" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_JORNADALABORAL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_JORNADALABORAL">
+        <MappingFragment StoreEntitySet="CAT_JORNADALABORAL">
+          <ScalarProperty Name="I_IDJORNADALABORAL" ColumnName="I_IDJORNADALABORAL" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_LENGUA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_LENGUA">
+        <MappingFragment StoreEntitySet="CAT_LENGUA">
+          <ScalarProperty Name="I_IDLENGUA" ColumnName="I_IDLENGUA" />
+          <ScalarProperty Name="CV_DESCRIPCION" ColumnName="CV_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_LUGARTRABAJO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_LUGARTRABAJO">
+        <MappingFragment StoreEntitySet="CAT_LUGARTRABAJO">
+          <ScalarProperty Name="I_IDLUGARTRABAJO" ColumnName="I_IDLUGARTRABAJO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_MEDIOINFORMACION">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_MEDIOINFORMACION">
+        <MappingFragment StoreEntitySet="CAT_MEDIOINFORMACION">
+          <ScalarProperty Name="I_IDMEDIOINFORMACION" ColumnName="I_IDMEDIOINFORMACION" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_META">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_META">
+        <MappingFragment StoreEntitySet="CAT_META">
+          <ScalarProperty Name="I_IDMETA" ColumnName="I_IDMETA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_MOTIVONOESTUDIA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_MOTIVONOESTUDIA">
+        <MappingFragment StoreEntitySet="CAT_MOTIVONOESTUDIA">
+          <ScalarProperty Name="I_IDMOTIVONOESTUDIA" ColumnName="I_IDMOTIVONOESTUDIA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_NECESIDADEDUCACIONFORMAL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_NECESIDADEDUCACIONFORMAL">
+        <MappingFragment StoreEntitySet="CAT_NECESIDADEDUCACIONFORMAL">
+          <ScalarProperty Name="I_IDNECESIDADEDUCACIONFORMAL" ColumnName="I_IDNECESIDADEDUCACIONFORMAL" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_NIVELAVANCE">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_NIVELAVANCE">
+        <MappingFragment StoreEntitySet="CAT_NIVELAVANCE">
+          <ScalarProperty Name="I_IDNIVELAVANCE" ColumnName="I_IDNIVELAVANCE" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_NIVELLECTOESCRITURA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_NIVELLECTOESCRITURA">
+        <MappingFragment StoreEntitySet="CAT_NIVELLECTOESCRITURA">
+          <ScalarProperty Name="I_IDNIVELLECTOESCRITURA" ColumnName="I_IDNIVELLECTOESCRITURA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_OCUPACION">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_OCUPACION">
+        <MappingFragment StoreEntitySet="CAT_OCUPACION">
+          <ScalarProperty Name="I_IDOCUPACION" ColumnName="I_IDOCUPACION" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_PAIS">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_PAIS">
+        <MappingFragment StoreEntitySet="CAT_PAIS">
+          <ScalarProperty Name="I_IDPAIS" ColumnName="I_IDPAIS" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_PARENTESCO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_PARENTESCO">
+        <MappingFragment StoreEntitySet="CAT_PARENTESCO">
+          <ScalarProperty Name="I_IDPARENTESCO" ColumnName="I_IDPARENTESCO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_PARTICIPACIONCOMUNAL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_PARTICIPACIONCOMUNAL">
+        <MappingFragment StoreEntitySet="CAT_PARTICIPACIONCOMUNAL">
+          <ScalarProperty Name="I_IDPARTICIPACIONCOMUNAL" ColumnName="I_IDPARTICIPACIONCOMUNAL" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_PENSIONAPOYO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_PENSIONAPOYO">
+        <MappingFragment StoreEntitySet="CAT_PENSIONAPOYO">
+          <ScalarProperty Name="I_IDPENSIONAPOYO" ColumnName="I_IDPENSIONAPOYO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_PERSONA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_PERSONA">
+        <MappingFragment StoreEntitySet="CAT_PERSONA">
+          <ScalarProperty Name="I_IDPERSONA" ColumnName="I_IDPERSONA" />
+          <ScalarProperty Name="I_IDCOMUNIDAD" ColumnName="I_IDCOMUNIDAD" />
+          <ScalarProperty Name="I_IDESTADOCIVIL" ColumnName="I_IDESTADOCIVIL" />
+          <ScalarProperty Name="I_IDPAIS" ColumnName="I_IDPAIS" />
+          <ScalarProperty Name="I_IDSEXO" ColumnName="I_IDSEXO" />
+          <ScalarProperty Name="I_IDTIPOIDENTIFICACION" ColumnName="I_IDTIPOIDENTIFICACION" />
+          <ScalarProperty Name="I_IDREGION" ColumnName="I_IDREGION" />
+          <ScalarProperty Name="I_IDETNIA" ColumnName="I_IDETNIA" />
+          <ScalarProperty Name="I_IDCANTON" ColumnName="I_IDCANTON" />
+          <ScalarProperty Name="I_IDPROVINCIA" ColumnName="I_IDPROVINCIA" />
+          <ScalarProperty Name="I_IDDISTRITO" ColumnName="I_IDDISTRITO" />
+          <ScalarProperty Name="I_IDNACIONALIDAD" ColumnName="I_IDNACIONALIDAD" />
+          <ScalarProperty Name="VC_IDENTIFICACION" ColumnName="VC_IDENTIFICACION" />
+          <ScalarProperty Name="DT_IDENTIFICACIONVENCIMIENTO" ColumnName="DT_IDENTIFICACIONVENCIMIENTO" />
+          <ScalarProperty Name="VC_NOMBRE" ColumnName="VC_NOMBRE" />
+          <ScalarProperty Name="VC_PRIMERAPELLIDO" ColumnName="VC_PRIMERAPELLIDO" />
+          <ScalarProperty Name="VC_SEGUNDOAPELLIDO" ColumnName="VC_SEGUNDOAPELLIDO" />
+          <ScalarProperty Name="DT_FECHANACIMIENTO" ColumnName="DT_FECHANACIMIENTO" />
+          <ScalarProperty Name="VC_CONOCIDOCOMO" ColumnName="VC_CONOCIDOCOMO" />
+          <ScalarProperty Name="VC_OBSERVACIONESESTADOCIVIL" ColumnName="VC_OBSERVACIONESESTADOCIVIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_PROGRAMA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_PROGRAMA">
+        <MappingFragment StoreEntitySet="CAT_PROGRAMA">
+          <ScalarProperty Name="I_IDPROGRAMA" ColumnName="I_IDPROGRAMA" />
+          <ScalarProperty Name="VC_DESCIPCION" ColumnName="VC_DESCIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_PROVINCIA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_PROVINCIA">
+        <MappingFragment StoreEntitySet="CAT_PROVINCIA">
+          <ScalarProperty Name="I_IDPROVINCIA" ColumnName="I_IDPROVINCIA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_PUEBLOINDIGENA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_PUEBLOINDIGENA">
+        <MappingFragment StoreEntitySet="CAT_PUEBLOINDIGENA">
+          <ScalarProperty Name="I_IDPUEBLOINDIGENA" ColumnName="I_IDPUEBLOINDIGENA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_PUESTODIRECCIONLIDERAZGO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_PUESTODIRECCIONLIDERAZGO">
+        <MappingFragment StoreEntitySet="CAT_PUESTODIRECCIONLIDERAZGO">
+          <ScalarProperty Name="I_IDPUESTODIRECCIONLIDERAZGO" ColumnName="I_IDPUESTODIRECCIONLIDERAZGO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_RAMALABORAL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_RAMALABORAL">
+        <MappingFragment StoreEntitySet="CAT_RAMALABORAL">
+          <ScalarProperty Name="I_IDRAMALABORAL" ColumnName="I_IDRAMALABORAL" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_RECURSOSCUMPLIRINTERES">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_RECURSOSCUMPLIRINTERES">
+        <MappingFragment StoreEntitySet="CAT_RECURSOSCUMPLIRINTERES">
+          <ScalarProperty Name="I_IDRECURSOCUMPLIRINTERES" ColumnName="I_IDRECURSOCUMPLIRINTERES" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_REFERENCIA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_REFERENCIA">
+        <MappingFragment StoreEntitySet="CAT_REFERENCIA">
+          <ScalarProperty Name="I_IDREFERENCIA" ColumnName="I_IDREFERENCIA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_REGION">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_REGION">
+        <MappingFragment StoreEntitySet="CAT_REGION">
+          <ScalarProperty Name="I_IDREGION" ColumnName="I_IDREGION" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_RESPONSABLE">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_RESPONSABLE">
+        <MappingFragment StoreEntitySet="CAT_RESPONSABLE">
+          <ScalarProperty Name="I_IDRESPONSABLE" ColumnName="I_IDRESPONSABLE" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_RESPUESTACORTA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_RESPUESTACORTA">
+        <MappingFragment StoreEntitySet="CAT_RESPUESTACORTA">
+          <ScalarProperty Name="I_IDRESPUESTACORTA" ColumnName="I_IDRESPUESTACORTA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_RIESGOVIVIENDA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_RIESGOVIVIENDA">
+        <MappingFragment StoreEntitySet="CAT_RIESGOVIVIENDA">
+          <ScalarProperty Name="I_IDRIESGO" ColumnName="I_IDRIESGO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_SECTORLABORAL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_SECTORLABORAL">
+        <MappingFragment StoreEntitySet="CAT_SECTORLABORAL">
+          <ScalarProperty Name="I_IDSECTORLABORAL" ColumnName="I_IDSECTORLABORAL" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_SERVICIOSVIVIENDA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_SERVICIOSVIVIENDA">
+        <MappingFragment StoreEntitySet="CAT_SERVICIOSVIVIENDA">
+          <ScalarProperty Name="I_IDSERVICIO" ColumnName="I_IDSERVICIO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_SEXO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_SEXO">
+        <MappingFragment StoreEntitySet="CAT_SEXO">
+          <ScalarProperty Name="I_IDSEXO" ColumnName="I_IDSEXO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_SITUACION">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_SITUACION">
+        <MappingFragment StoreEntitySet="CAT_SITUACION">
+          <ScalarProperty Name="I_IDSITUACION" ColumnName="I_IDSITUACION" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TEMADESTREZA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TEMADESTREZA">
+        <MappingFragment StoreEntitySet="CAT_TEMADESTREZA">
+          <ScalarProperty Name="I_IDTEMADESTREZA" ColumnName="I_IDTEMADESTREZA" />
+          <ScalarProperty Name="VC_TEMADESTREZA" ColumnName="VC_TEMADESTREZA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOASISTENCIA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOASISTENCIA">
+        <MappingFragment StoreEntitySet="CAT_TIPOASISTENCIA">
+          <ScalarProperty Name="I_IDTIPOASISTENCIA" ColumnName="I_IDTIPOASISTENCIA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOBONO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOBONO">
+        <MappingFragment StoreEntitySet="CAT_TIPOBONO">
+          <ScalarProperty Name="I_IDTIPOBONO" ColumnName="I_IDTIPOBONO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOCIELORASO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOCIELORASO">
+        <MappingFragment StoreEntitySet="CAT_TIPOCIELORASO">
+          <ScalarProperty Name="I_IDTIPOCIELORASO" ColumnName="I_IDTIPOCIELORASO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOCURSO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOCURSO">
+        <MappingFragment StoreEntitySet="CAT_TIPOCURSO">
+          <ScalarProperty Name="I_IDTIPOCURSO" ColumnName="I_IDTIPOCURSO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPODISCAPACIDAD">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPODISCAPACIDAD">
+        <MappingFragment StoreEntitySet="CAT_TIPODISCAPACIDAD">
+          <ScalarProperty Name="I_IDTIPODISCAPACIDAD" ColumnName="I_IDTIPODISCAPACIDAD" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOEDUCACIONBASICA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOEDUCACIONBASICA">
+        <MappingFragment StoreEntitySet="CAT_TIPOEDUCACIONBASICA">
+          <ScalarProperty Name="I_IDTIPOEDUCACIONBASICA" ColumnName="I_IDTIPOEDUCACIONBASICA" />
+          <ScalarProperty Name="CAT_I_IDTIPOEDUCACIONBASICA" ColumnName="CAT_I_IDTIPOEDUCACIONBASICA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOEDUCACIONSUPERIOR">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOEDUCACIONSUPERIOR">
+        <MappingFragment StoreEntitySet="CAT_TIPOEDUCACIONSUPERIOR">
+          <ScalarProperty Name="I_IDTIPOEDUCACIONSUPERIOR" ColumnName="I_IDTIPOEDUCACIONSUPERIOR" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOEDUCACIONTECNICA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOEDUCACIONTECNICA">
+        <MappingFragment StoreEntitySet="CAT_TIPOEDUCACIONTECNICA">
+          <ScalarProperty Name="I_TIPOEDUCACIONTECNICA" ColumnName="I_TIPOEDUCACIONTECNICA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOHORARIO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOHORARIO">
+        <MappingFragment StoreEntitySet="CAT_TIPOHORARIO">
+          <ScalarProperty Name="I_IDTIPOHORARIO" ColumnName="I_IDTIPOHORARIO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOIDENTIFICACION">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOIDENTIFICACION">
+        <MappingFragment StoreEntitySet="CAT_TIPOIDENTIFICACION">
+          <ScalarProperty Name="I_IDTIPOIDENTIFICACION" ColumnName="I_IDTIPOIDENTIFICACION" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOINGRESOMONETARIO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOINGRESOMONETARIO">
+        <MappingFragment StoreEntitySet="CAT_TIPOINGRESOMONETARIO">
+          <ScalarProperty Name="I_IDTIPOINGRESOMONETARIO" ColumnName="I_IDTIPOINGRESOMONETARIO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOLUGARREUNION">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOLUGARREUNION">
+        <MappingFragment StoreEntitySet="CAT_TIPOLUGARREUNION">
+          <ScalarProperty Name="I_IDTIPOLUGARREUNION" ColumnName="I_IDTIPOLUGARREUNION" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOPARED">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOPARED">
+        <MappingFragment StoreEntitySet="CAT_TIPOPARED">
+          <ScalarProperty Name="I_IDTIPOPARED" ColumnName="I_IDTIPOPARED" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOPISOVIVIENDA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOPISOVIVIENDA">
+        <MappingFragment StoreEntitySet="CAT_TIPOPISOVIVIENDA">
+          <ScalarProperty Name="I_IDTIPOPISOVIVIENDA" ColumnName="I_IDTIPOPISOVIVIENDA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOPLANVIDA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOPLANVIDA">
+        <MappingFragment StoreEntitySet="CAT_TIPOPLANVIDA">
+          <ScalarProperty Name="I_IDTIPOPLANVIDA" ColumnName="I_IDTIPOPLANVIDA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOPOBLACION">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOPOBLACION">
+        <MappingFragment StoreEntitySet="CAT_TIPOPOBLACION">
+          <ScalarProperty Name="I_IDTIPOPOBLACION" ColumnName="I_IDTIPOPOBLACION" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOSEGURO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOSEGURO">
+        <MappingFragment StoreEntitySet="CAT_TIPOSEGURO">
+          <ScalarProperty Name="I_IDTIPOSEGURO" ColumnName="I_IDTIPOSEGURO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOSPROPIEDAD">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOSPROPIEDAD">
+        <MappingFragment StoreEntitySet="CAT_TIPOSPROPIEDAD">
+          <ScalarProperty Name="I_IDTIPOSPROPIEDAD" ColumnName="I_IDTIPOSPROPIEDAD" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOTECHOVIVIENDA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOTECHOVIVIENDA">
+        <MappingFragment StoreEntitySet="CAT_TIPOTECHOVIVIENDA">
+          <ScalarProperty Name="I_IDTIPOTECHOVIVIENDA" ColumnName="I_IDTIPOTECHOVIVIENDA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOTENENCIA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOTENENCIA">
+        <MappingFragment StoreEntitySet="CAT_TIPOTENENCIA">
+          <ScalarProperty Name="I_IDTIPOTENENCIA" ColumnName="I_IDTIPOTENENCIA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOVIOLENCIA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOVIOLENCIA">
+        <MappingFragment StoreEntitySet="CAT_TIPOVIOLENCIA">
+          <ScalarProperty Name="I_IDTIPOVIOLENCIA" ColumnName="I_IDTIPOVIOLENCIA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TIPOVIVIENDA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TIPOVIVIENDA">
+        <MappingFragment StoreEntitySet="CAT_TIPOVIVIENDA">
+          <ScalarProperty Name="I_IDTIPOVIVIENDA" ColumnName="I_IDTIPOVIVIENDA" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_TITULOEDUCATIVO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_TITULOEDUCATIVO">
+        <MappingFragment StoreEntitySet="CAT_TITULOEDUCATIVO">
+          <ScalarProperty Name="I_IDTITULO" ColumnName="I_IDTITULO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_UTILIDADESTUDIO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_UTILIDADESTUDIO">
+        <MappingFragment StoreEntitySet="CAT_UTILIDADESTUDIO">
+          <ScalarProperty Name="I_IDUTILIDADESTUDIO" ColumnName="I_IDUTILIDADESTUDIO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_VALORACIONAPOYO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.CAT_VALORACIONAPOYO">
+        <MappingFragment StoreEntitySet="CAT_VALORACIONAPOYO">
+          <ScalarProperty Name="I_IDVALORACIONAPOYO" ColumnName="I_IDVALORACIONAPOYO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEG_OPCIONSISTEMA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.SEG_OPCIONSISTEMA">
+        <MappingFragment StoreEntitySet="SEG_OPCIONSISTEMA">
+          <ScalarProperty Name="I_IDOPCION" ColumnName="I_IDOPCION" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+          <ScalarProperty Name="VC_URL" ColumnName="VC_URL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEG_PERFIL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.SEG_PERFIL">
+        <MappingFragment StoreEntitySet="SEG_PERFIL">
+          <ScalarProperty Name="I_IDPERFIL" ColumnName="I_IDPERFIL" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEG_USUARIO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.SEG_USUARIO">
+        <MappingFragment StoreEntitySet="SEG_USUARIO">
+          <ScalarProperty Name="I_IDUSUARIO" ColumnName="I_IDUSUARIO" />
+          <ScalarProperty Name="I_IDPERSONA" ColumnName="I_IDPERSONA" />
+          <ScalarProperty Name="I_IDPERFIL" ColumnName="I_IDPERFIL" />
+          <ScalarProperty Name="VC_LOGIN" ColumnName="VC_LOGIN" />
+          <ScalarProperty Name="VC_CONTRASENNA" ColumnName="VC_CONTRASENNA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA">
+        <MappingFragment StoreEntitySet="T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA">
+          <ScalarProperty Name="ID_IDACTIVIDADECONOMICAJEFATURA" ColumnName="ID_IDACTIVIDADECONOMICAJEFATURA" />
+          <ScalarProperty Name="VC_LUGARTRABAJO" ColumnName="VC_LUGARTRABAJO" />
+          <ScalarProperty Name="I_IDSECTORLABORAL" ColumnName="I_IDSECTORLABORAL" />
+          <ScalarProperty Name="I_IDRAMALABORAL" ColumnName="I_IDRAMALABORAL" />
+          <ScalarProperty Name="I_IDCONDICIONLABORAL" ColumnName="I_IDCONDICIONLABORAL" />
+          <ScalarProperty Name="I_IDJORNADALABORAL" ColumnName="I_IDJORNADALABORAL" />
+          <ScalarProperty Name="T_I_I_IDINTEGRANTE" ColumnName="T_I_I_IDINTEGRANTE" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="B_JEFEHOGAR" ColumnName="B_JEFEHOGAR" />
+          <ScalarProperty Name="B_EMPLEODIFERENTEHOGAR" ColumnName="B_EMPLEODIFERENTEHOGAR" />
+          <ScalarProperty Name="VC_ULTIMOPUESTO" ColumnName="VC_ULTIMOPUESTO" />
+          <ScalarProperty Name="I_ANNOSULTIMOPUESTO" ColumnName="I_ANNOSULTIMOPUESTO" />
+          <ScalarProperty Name="I_MESESULTIMOPUESTO" ColumnName="I_MESESULTIMOPUESTO" />
+          <ScalarProperty Name="VC_EMPLEOMASDURACION" ColumnName="VC_EMPLEOMASDURACION" />
+          <ScalarProperty Name="I_ANNOSEMPLEOMASDURACION" ColumnName="I_ANNOSEMPLEOMASDURACION" />
+          <ScalarProperty Name="I_MESESEMPLEOMASDURACION" ColumnName="I_MESESEMPLEOMASDURACION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_ARCHIVOGRUPO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_ARCHIVOGRUPO">
+        <MappingFragment StoreEntitySet="T_ARCHIVOGRUPO">
+          <ScalarProperty Name="I_IDARCHIVOGRUPO" ColumnName="I_IDARCHIVOGRUPO" />
+          <ScalarProperty Name="I_IDGRUPO" ColumnName="I_IDGRUPO" />
+          <ScalarProperty Name="VC_URLARCHIVO" ColumnName="VC_URLARCHIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_ASEGURAMIENTOINTEGRANTE">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_ASEGURAMIENTOINTEGRANTE">
+        <MappingFragment StoreEntitySet="T_ASEGURAMIENTOINTEGRANTE">
+          <ScalarProperty Name="I_IDINTEGRANTE" ColumnName="I_IDINTEGRANTE" />
+          <ScalarProperty Name="I_IDTIPOSEGURO" ColumnName="I_IDTIPOSEGURO" />
+          <ScalarProperty Name="VC_OBSERVACIONES" ColumnName="VC_OBSERVACIONES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_ASISTENCIA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_ASISTENCIA">
+        <MappingFragment StoreEntitySet="T_ASISTENCIA">
+          <ScalarProperty Name="I_IDGRUPO" ColumnName="I_IDGRUPO" />
+          <ScalarProperty Name="I_IDTIPOASISTENCIA" ColumnName="I_IDTIPOASISTENCIA" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="DT_FECHA" ColumnName="DT_FECHA" />
+          <ScalarProperty Name="B_FECHAALTERNATIVA" ColumnName="B_FECHAALTERNATIVA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_BITACORA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_BITACORA">
+        <MappingFragment StoreEntitySet="T_BITACORA">
+          <ScalarProperty Name="I_IDBITACORA" ColumnName="I_IDBITACORA" />
+          <ScalarProperty Name="I_IDUSUARIO" ColumnName="I_IDUSUARIO" />
+          <ScalarProperty Name="I_IDEVENTOBITACORA" ColumnName="I_IDEVENTOBITACORA" />
+          <ScalarProperty Name="DT_FECHA" ColumnName="DT_FECHA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_ERROR">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_ERROR">
+        <MappingFragment StoreEntitySet="T_ERROR">
+          <ScalarProperty Name="I_IDERROR" ColumnName="I_IDERROR" />
+          <ScalarProperty Name="I_IDUSUARIO" ColumnName="I_IDUSUARIO" />
+          <ScalarProperty Name="I_IDTIPOERROR" ColumnName="I_IDTIPOERROR" />
+          <ScalarProperty Name="DT_FECHA" ColumnName="DT_FECHA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_EVENTOBITACORA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_EVENTOBITACORA">
+        <MappingFragment StoreEntitySet="T_EVENTOBITACORA">
+          <ScalarProperty Name="I_IDEVENTOBITACORA" ColumnName="I_IDEVENTOBITACORA" />
+          <ScalarProperty Name="CV_DESCRIPCION" ColumnName="CV_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_GRUPO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_GRUPO">
+        <MappingFragment StoreEntitySet="T_GRUPO">
+          <ScalarProperty Name="I_IDGRUPO" ColumnName="I_IDGRUPO" />
+          <ScalarProperty Name="VC_NUMEROGRUPO" ColumnName="VC_NUMEROGRUPO" />
+          <ScalarProperty Name="I_IDREGION" ColumnName="I_IDREGION" />
+          <ScalarProperty Name="I_IDTIPOPOBLACION" ColumnName="I_IDTIPOPOBLACION" />
+          <ScalarProperty Name="I_IDTIPOLUGARREUNION" ColumnName="I_IDTIPOLUGARREUNION" />
+          <ScalarProperty Name="I_IDSITUACION" ColumnName="I_IDSITUACION" />
+          <ScalarProperty Name="I_IDTIPOCURSO" ColumnName="I_IDTIPOCURSO" />
+          <ScalarProperty Name="I_IDRESPONSABLE" ColumnName="I_IDRESPONSABLE" />
+          <ScalarProperty Name="I_IDPERSONA" ColumnName="I_IDPERSONA" />
+          <ScalarProperty Name="I_IDCANTON" ColumnName="I_IDCANTON" />
+          <ScalarProperty Name="I_IDDISTRITO" ColumnName="I_IDDISTRITO" />
+          <ScalarProperty Name="I_IDCOMUNIDAD" ColumnName="I_IDCOMUNIDAD" />
+          <ScalarProperty Name="I_IDCONDICIONLUGAR" ColumnName="I_IDCONDICIONLUGAR" />
+          <ScalarProperty Name="F_MONTOMENSUAL" ColumnName="F_MONTOMENSUAL" />
+          <ScalarProperty Name="VC_OBSERVACIONES" ColumnName="VC_OBSERVACIONES" />
+          <ScalarProperty Name="VC_METODOLOGIA" ColumnName="VC_METODOLOGIA" />
+          <ScalarProperty Name="VC_RESPUESTAGRUPO" ColumnName="VC_RESPUESTAGRUPO" />
+          <ScalarProperty Name="I_SESIONES" ColumnName="I_SESIONES" />
+          <ScalarProperty Name="DT_FECHAINICIO" ColumnName="DT_FECHAINICIO" />
+          <ScalarProperty Name="DT_FECHAFIN" ColumnName="DT_FECHAFIN" />
+          <ScalarProperty Name="DT_FECHAREALINICIO" ColumnName="DT_FECHAREALINICIO" />
+          <ScalarProperty Name="DT_FECHAREALFIN" ColumnName="DT_FECHAREALFIN" />
+          <ScalarProperty Name="VC_MOTIVOCAMBIOFECHA" ColumnName="VC_MOTIVOCAMBIOFECHA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_HORARIOGRUPO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_HORARIOGRUPO">
+        <MappingFragment StoreEntitySet="T_HORARIOGRUPO">
+          <ScalarProperty Name="I_IDGRUPO" ColumnName="I_IDGRUPO" />
+          <ScalarProperty Name="I_IDDIA" ColumnName="I_IDDIA" />
+          <ScalarProperty Name="T_HORAINICIO" ColumnName="T_HORAINICIO" />
+          <ScalarProperty Name="T_HORAFIN" ColumnName="T_HORAFIN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_INTEGRANTEBENEFICIO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_INTEGRANTEBENEFICIO">
+        <MappingFragment StoreEntitySet="T_INTEGRANTEBENEFICIO">
+          <ScalarProperty Name="I_IDBENEFICIO" ColumnName="I_IDBENEFICIO" />
+          <ScalarProperty Name="I_IDINTEGRANTE" ColumnName="I_IDINTEGRANTE" />
+          <ScalarProperty Name="F_MONTO" ColumnName="F_MONTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_INTEGRANTEGRUPOFAMILIAR">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_INTEGRANTEGRUPOFAMILIAR">
+        <MappingFragment StoreEntitySet="T_INTEGRANTEGRUPOFAMILIAR">
+          <ScalarProperty Name="I_IDINTEGRANTE" ColumnName="I_IDINTEGRANTE" />
+          <ScalarProperty Name="B_TIENEEMPLEO" ColumnName="B_TIENEEMPLEO" />
+          <ScalarProperty Name="B_JEFEHOGAR" ColumnName="B_JEFEHOGAR" />
+          <ScalarProperty Name="I_IDPERSONA" ColumnName="I_IDPERSONA" />
+          <ScalarProperty Name="I_IDPARENTESCO" ColumnName="I_IDPARENTESCO" />
+          <ScalarProperty Name="I_IDTIPOINGRESOMONETARIO" ColumnName="I_IDTIPOINGRESOMONETARIO" />
+          <ScalarProperty Name="I_IDLUGARTRABAJO" ColumnName="I_IDLUGARTRABAJO" />
+          <ScalarProperty Name="I_IDOCUPACION" ColumnName="I_IDOCUPACION" />
+          <ScalarProperty Name="I_IDTIPOSEGURO" ColumnName="I_IDTIPOSEGURO" />
+          <ScalarProperty Name="VC_LUGARTRABAJO" ColumnName="VC_LUGARTRABAJO" />
+          <ScalarProperty Name="F_INGRESO" ColumnName="F_INGRESO" />
+          <ScalarProperty Name="F_MONTOAYUDAHOGAR" ColumnName="F_MONTOAYUDAHOGAR" />
+          <ScalarProperty Name="B_DEPENDEDEPARTICIPANTE" ColumnName="B_DEPENDEDEPARTICIPANTE" />
+          <ScalarProperty Name="VC_OBSERVACIONES" ColumnName="VC_OBSERVACIONES" />
+          <ScalarProperty Name="B_ESASEGURADO" ColumnName="B_ESASEGURADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_INTEGRANTEPENSIONAPOYO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_INTEGRANTEPENSIONAPOYO">
+        <MappingFragment StoreEntitySet="T_INTEGRANTEPENSIONAPOYO">
+          <ScalarProperty Name="I_IDPENSIONAPOYO" ColumnName="I_IDPENSIONAPOYO" />
+          <ScalarProperty Name="I_IDINTEGRANTE" ColumnName="I_IDINTEGRANTE" />
+          <ScalarProperty Name="F_MONTO" ColumnName="F_MONTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_LOCALIZACIONPARTICIPANTE">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_LOCALIZACIONPARTICIPANTE">
+        <MappingFragment StoreEntitySet="T_LOCALIZACIONPARTICIPANTE">
+          <ScalarProperty Name="I_IDLOCALIZACIONPARTICIPANTE" ColumnName="I_IDLOCALIZACIONPARTICIPANTE" />
+          <ScalarProperty Name="I_IDDISTRITO" ColumnName="I_IDDISTRITO" />
+          <ScalarProperty Name="I_IDDISTRITOANTERIOR" ColumnName="I_IDDISTRITOANTERIOR" />
+          <ScalarProperty Name="I_IDPROVINCIA" ColumnName="I_IDPROVINCIA" />
+          <ScalarProperty Name="I_IDPROVINCIAANTERIOR" ColumnName="I_IDPROVINCIAANTERIOR" />
+          <ScalarProperty Name="I_IDCANTON" ColumnName="I_IDCANTON" />
+          <ScalarProperty Name="I_IDCANTONANTERIOR" ColumnName="I_IDCANTONANTERIOR" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="I_IDCOMUNIDAD" ColumnName="I_IDCOMUNIDAD" />
+          <ScalarProperty Name="B_VIVIDOACTUAL" ColumnName="B_VIVIDOACTUAL" />
+          <ScalarProperty Name="I_ANNOSVIVIENDAACTUAL" ColumnName="I_ANNOSVIVIENDAACTUAL" />
+          <ScalarProperty Name="I_MESESVIVIENDAACTUAL" ColumnName="I_MESESVIVIENDAACTUAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PARTICIPANTE">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PARTICIPANTE">
+        <MappingFragment StoreEntitySet="T_PARTICIPANTE">
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="VC_NUMEROINGRESO" ColumnName="VC_NUMEROINGRESO" />
+          <ScalarProperty Name="DT_FECHAINICIO" ColumnName="DT_FECHAINICIO" />
+          <ScalarProperty Name="VC_TELEFONOMOVIL" ColumnName="VC_TELEFONOMOVIL" />
+          <ScalarProperty Name="VC_TELEFONORESIDENCIA" ColumnName="VC_TELEFONORESIDENCIA" />
+          <ScalarProperty Name="VC_PERSONACONFIANZA" ColumnName="VC_PERSONACONFIANZA" />
+          <ScalarProperty Name="VC_CORREOELECTRONICO" ColumnName="VC_CORREOELECTRONICO" />
+          <ScalarProperty Name="B_JEFAHOGAR" ColumnName="B_JEFAHOGAR" />
+          <ScalarProperty Name="VC_JEFEHOGAR" ColumnName="VC_JEFEHOGAR" />
+          <ScalarProperty Name="I_IDESTADO" ColumnName="I_IDESTADO" />
+          <ScalarProperty Name="I_IDMEDIOINFORMACION" ColumnName="I_IDMEDIOINFORMACION" />
+          <ScalarProperty Name="I_IDPUEBLOINDIGENA" ColumnName="I_IDPUEBLOINDIGENA" />
+          <ScalarProperty Name="I_IDREFERENCIA" ColumnName="I_IDREFERENCIA" />
+          <ScalarProperty Name="I_IDPERSONA" ColumnName="I_IDPERSONA" />
+          <ScalarProperty Name="I_IDGRUPO" ColumnName="I_IDGRUPO" />
+          <ScalarProperty Name="I_IDETNIA" ColumnName="I_IDETNIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PARTICIPANTECONDICIONESVIDA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PARTICIPANTECONDICIONESVIDA">
+        <MappingFragment StoreEntitySet="T_PARTICIPANTECONDICIONESVIDA">
+          <ScalarProperty Name="I_ID_CONDICIONVIDA" ColumnName="I_ID_CONDICIONVIDA" />
+          <ScalarProperty Name="I_IDRIESGO" ColumnName="I_IDRIESGO" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="B_ACCESOVIAPUBLICA" ColumnName="B_ACCESOVIAPUBLICA" />
+          <ScalarProperty Name="B_ACCESOTRANSPORTEPUBLICO" ColumnName="B_ACCESOTRANSPORTEPUBLICO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PARTICIPANTEEDUCACIONFORMAL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PARTICIPANTEEDUCACIONFORMAL">
+        <MappingFragment StoreEntitySet="T_PARTICIPANTEEDUCACIONFORMAL">
+          <ScalarProperty Name="I_IDEDUCACIONFORMAL" ColumnName="I_IDEDUCACIONFORMAL" />
+          <ScalarProperty Name="I_IDTIPOEDUCACIONBASICA" ColumnName="I_IDTIPOEDUCACIONBASICA" />
+          <ScalarProperty Name="I_IDESPECIALIDADEDUCATIVASUPERIOR" ColumnName="I_IDESPECIALIDADEDUCATIVASUPERIOR" />
+          <ScalarProperty Name="I_IDESPECIALIDADEDUCATIVAACTUAL" ColumnName="I_IDESPECIALIDADEDUCATIVAACTUAL" />
+          <ScalarProperty Name="I_ANNOSEDUCACION" ColumnName="I_ANNOSEDUCACION" />
+          <ScalarProperty Name="B_ESTUDIAACTUALMENTE" ColumnName="B_ESTUDIAACTUALMENTE" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="I_IDNIVELLECTURA" ColumnName="I_IDNIVELLECTURA" />
+          <ScalarProperty Name="I_IDNIVELESCRITURA" ColumnName="I_IDNIVELESCRITURA" />
+          <ScalarProperty Name="I_IDESPECIALIDADEDUCATIVABASICA" ColumnName="I_IDESPECIALIDADEDUCATIVABASICA" />
+          <ScalarProperty Name="I_IDTIPOEDUCACIONSUPERIOR" ColumnName="I_IDTIPOEDUCACIONSUPERIOR" />
+          <ScalarProperty Name="I_IDTIPOHORARIO" ColumnName="I_IDTIPOHORARIO" />
+          <ScalarProperty Name="I_IDMOTIVONOESTUDIA" ColumnName="I_IDMOTIVONOESTUDIA" />
+          <ScalarProperty Name="I_IDTITULOBASICO" ColumnName="I_IDTITULOBASICO" />
+          <ScalarProperty Name="I_IDTITULOSUPERIOR" ColumnName="I_IDTITULOSUPERIOR" />
+          <ScalarProperty Name="I_IDGRADOSEDUCACIONBASICA" ColumnName="I_IDGRADOSEDUCACIONBASICA" />
+          <ScalarProperty Name="I_IDGRADOSEDUCACIONSUPER" ColumnName="I_IDGRADOSEDUCACIONSUPER" />
+          <ScalarProperty Name="I_IDINSTITUCIONEDUCATIVAACTUAL" ColumnName="I_IDINSTITUCIONEDUCATIVAACTUAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PARTICIPANTEFORMACIONTECNICA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PARTICIPANTEFORMACIONTECNICA">
+        <MappingFragment StoreEntitySet="T_PARTICIPANTEFORMACIONTECNICA">
+          <ScalarProperty Name="I_IDESTUDIOTECNICO" ColumnName="I_IDESTUDIOTECNICO" />
+          <ScalarProperty Name="VC_INSTITUCION" ColumnName="VC_INSTITUCION" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="I_IDUTILIDADESTUDIO" ColumnName="I_IDUTILIDADESTUDIO" />
+          <ScalarProperty Name="I_ANNOCONCLUCION" ColumnName="I_ANNOCONCLUCION" />
+          <ScalarProperty Name="VC_NOMBRECURSO" ColumnName="VC_NOMBRECURSO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PARTICIPANTEHISTORIAVIDA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PARTICIPANTEHISTORIAVIDA">
+        <MappingFragment StoreEntitySet="T_PARTICIPANTEHISTORIAVIDA">
+          <ScalarProperty Name="I_ID_HISTORIAVIDA" ColumnName="I_ID_HISTORIAVIDA" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="I_IDTIPOVIOLENCIAPAREJA" ColumnName="I_IDTIPOVIOLENCIAPAREJA" />
+          <ScalarProperty Name="I_IDTIPOVIOLENCIAFAMILIA" ColumnName="I_IDTIPOVIOLENCIAFAMILIA" />
+          <ScalarProperty Name="I_EDADPRIMEREMBARAZO" ColumnName="I_EDADPRIMEREMBARAZO" />
+          <ScalarProperty Name="B_ESTAEMBARAZADA" ColumnName="B_ESTAEMBARAZADA" />
+          <ScalarProperty Name="B_APOYOVIOLENCIA" ColumnName="B_APOYOVIOLENCIA" />
+          <ScalarProperty Name="VC_TIPOAPOYOVIOLENCIA" ColumnName="VC_TIPOAPOYOVIOLENCIA" />
+          <ScalarProperty Name="VC_NOAPOYOVIOLENCIA" ColumnName="VC_NOAPOYOVIOLENCIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PARTICIPANTEVIVIENDA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PARTICIPANTEVIVIENDA">
+        <MappingFragment StoreEntitySet="T_PARTICIPANTEVIVIENDA">
+          <ScalarProperty Name="I_ID_VIVIENDA" ColumnName="I_ID_VIVIENDA" />
+          <ScalarProperty Name="I_IDTIPOTENENCIA" ColumnName="I_IDTIPOTENENCIA" />
+          <ScalarProperty Name="I_IDTIPOBONO" ColumnName="I_IDTIPOBONO" />
+          <ScalarProperty Name="I_IDTIPOVIVIENDA" ColumnName="I_IDTIPOVIVIENDA" />
+          <ScalarProperty Name="I_IDTIPOTECHOVIVIENDA" ColumnName="I_IDTIPOTECHOVIVIENDA" />
+          <ScalarProperty Name="I_IDTIPOCIELORASO" ColumnName="I_IDTIPOCIELORASO" />
+          <ScalarProperty Name="I_IDPARTICIPANTEPROPIEDAD" ColumnName="I_IDPARTICIPANTEPROPIEDAD" />
+          <ScalarProperty Name="I_IDJEFEHOGARPROPIEDAD" ColumnName="I_IDJEFEHOGARPROPIEDAD" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="I_IDTIPOPISOVIVIENDA" ColumnName="I_IDTIPOPISOVIVIENDA" />
+          <ScalarProperty Name="I_IDTIPOPARED" ColumnName="I_IDTIPOPARED" />
+          <ScalarProperty Name="B_HABITAVIVIENDABONO" ColumnName="B_HABITAVIVIENDABONO" />
+          <ScalarProperty Name="VC_MOTIVONOHABITAVIVIENDABONO" ColumnName="VC_MOTIVONOHABITAVIVIENDABONO" />
+          <ScalarProperty Name="B_VIVIENDACOMPARTIDA" ColumnName="B_VIVIENDACOMPARTIDA" />
+          <ScalarProperty Name="B_ESARRIMADO" ColumnName="B_ESARRIMADO" />
+          <ScalarProperty Name="I_FAMILIASHABITANVIVIENDA" ColumnName="I_FAMILIASHABITANVIVIENDA" />
+          <ScalarProperty Name="I_DORMITORIO" ColumnName="I_DORMITORIO" />
+          <ScalarProperty Name="I_APOSENTO" ColumnName="I_APOSENTO" />
+          <ScalarProperty Name="B_SANITARIODENTROVIVIENDA" ColumnName="B_SANITARIODENTROVIVIENDA" />
+          <ScalarProperty Name="B_BANNODENTROVIVIENDA" ColumnName="B_BANNODENTROVIVIENDA" />
+          <ScalarProperty Name="B_SERVICIOELECTRICO" ColumnName="B_SERVICIOELECTRICO" />
+          <ScalarProperty Name="B_SERVICIOAGUA" ColumnName="B_SERVICIOAGUA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PLANEDUCACIONFORMAL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PLANEDUCACIONFORMAL">
+        <MappingFragment StoreEntitySet="T_PLANEDUCACIONFORMAL">
+          <ScalarProperty Name="I_IDPLANEDUCACIONFORMAL" ColumnName="I_IDPLANEDUCACIONFORMAL" />
+          <ScalarProperty Name="VC_OBSERVACION" ColumnName="VC_OBSERVACION" />
+          <ScalarProperty Name="VC_RECURSOSCUMPLIRINTERES" ColumnName="VC_RECURSOSCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDMETA" ColumnName="I_IDMETA" />
+          <ScalarProperty Name="I_IDNECESIDADEDUCACIONFORMAL" ColumnName="I_IDNECESIDADEDUCACIONFORMAL" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="I_IDINSTITUCIONCUMPLIRINTERES" ColumnName="I_IDINSTITUCIONCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDRECURSOCUMPLIRINTERES" ColumnName="I_IDRECURSOCUMPLIRINTERES" />
+          <ScalarProperty Name="I_PRIORIDAD" ColumnName="I_PRIORIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PLANEDUCACIONTECNICA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PLANEDUCACIONTECNICA">
+        <MappingFragment StoreEntitySet="T_PLANEDUCACIONTECNICA">
+          <ScalarProperty Name="I_IDPLANEDUCACIONTECNICA" ColumnName="I_IDPLANEDUCACIONTECNICA" />
+          <ScalarProperty Name="I_TIPOEDUCACIONTECNICA" ColumnName="I_TIPOEDUCACIONTECNICA" />
+          <ScalarProperty Name="I_IDINSTITUCIONCUMPLIRINTERES" ColumnName="I_IDINSTITUCIONCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDRECURSOCUMPLIRINTERES" ColumnName="I_IDRECURSOCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="I_IDAPLICACIONESTUDIOTECNICO" ColumnName="I_IDAPLICACIONESTUDIOTECNICO" />
+          <ScalarProperty Name="VC_OBSERVACION" ColumnName="VC_OBSERVACION" />
+          <ScalarProperty Name="VC_RECURSOSCUMPLIRINTERES" ColumnName="VC_RECURSOSCUMPLIRINTERES" />
+          <ScalarProperty Name="I_PRIORIDAD" ColumnName="I_PRIORIDAD" />
+          <ScalarProperty Name="B_DISPONETIEMPO" ColumnName="B_DISPONETIEMPO" />
+          <ScalarProperty Name="I_HORASDIA" ColumnName="I_HORASDIA" />
+          <ScalarProperty Name="I_DIASSEMANA" ColumnName="I_DIASSEMANA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PLANEMPLEABILIDAD">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PLANEMPLEABILIDAD">
+        <MappingFragment StoreEntitySet="T_PLANEMPLEABILIDAD">
+          <ScalarProperty Name="I_IDPLANEMPLEABILIDAD" ColumnName="I_IDPLANEMPLEABILIDAD" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+          <ScalarProperty Name="VC_RECURSOSCUMPLIRINTERES" ColumnName="VC_RECURSOSCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="I_IDRECURSOCUMPLIRINTERES" ColumnName="I_IDRECURSOCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDINSTITUCIONCUMPLIRINTERES" ColumnName="I_IDINSTITUCIONCUMPLIRINTERES" />
+          <ScalarProperty Name="I_PRIORIDAD" ColumnName="I_PRIORIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PLANOTROS">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PLANOTROS">
+        <MappingFragment StoreEntitySet="T_PLANOTROS">
+          <ScalarProperty Name="I_IDPLANOTROS" ColumnName="I_IDPLANOTROS" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="I_IDINSTITUCIONCUMPLIRINTERES" ColumnName="I_IDINSTITUCIONCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDRECURSOCUMPLIRINTERES" ColumnName="I_IDRECURSOCUMPLIRINTERES" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+          <ScalarProperty Name="VC_RECURSOSCUMPLIRINTERES" ColumnName="VC_RECURSOSCUMPLIRINTERES" />
+          <ScalarProperty Name="I_PRIORIDAD" ColumnName="I_PRIORIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PLANPROYECTOPRODUCTIVO">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PLANPROYECTOPRODUCTIVO">
+        <MappingFragment StoreEntitySet="T_PLANPROYECTOPRODUCTIVO">
+          <ScalarProperty Name="I_IDPLANPROYECTOPRODUCTIVO" ColumnName="I_IDPLANPROYECTOPRODUCTIVO" />
+          <ScalarProperty Name="I_IDRECURSOCUMPLIRINTERES" ColumnName="I_IDRECURSOCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDINSTITUCIONCUMPLIRINTERES" ColumnName="I_IDINSTITUCIONCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="B_RECIBIOAPOYO" ColumnName="B_RECIBIOAPOYO" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+          <ScalarProperty Name="I_ANNOPROYECTO" ColumnName="I_ANNOPROYECTO" />
+          <ScalarProperty Name="VC_ESTADOPROYECTO" ColumnName="VC_ESTADOPROYECTO" />
+          <ScalarProperty Name="VC_RECURSOSCUMPLIRINTERES" ColumnName="VC_RECURSOSCUMPLIRINTERES" />
+          <ScalarProperty Name="I_PRIORIDAD" ColumnName="I_PRIORIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PLANSALUD">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PLANSALUD">
+        <MappingFragment StoreEntitySet="T_PLANSALUD">
+          <ScalarProperty Name="I_IDPLANSALUD" ColumnName="I_IDPLANSALUD" />
+          <ScalarProperty Name="I_IDRECURSOCUMPLIRINTERES" ColumnName="I_IDRECURSOCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDINSTITUCIONCUMPLIRINTERES" ColumnName="I_IDINSTITUCIONCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+          <ScalarProperty Name="VC_RECURSOSCUMPLIRINTERES" ColumnName="VC_RECURSOSCUMPLIRINTERES" />
+          <ScalarProperty Name="I_PRIORIDAD" ColumnName="I_PRIORIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PLANVIDAVIVIENDAACTUAL">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PLANVIDAVIVIENDAACTUAL">
+        <MappingFragment StoreEntitySet="T_PLANVIDAVIVIENDAACTUAL">
+          <ScalarProperty Name="I_IDPLANVIDAVIVIENDAACTUAL" ColumnName="I_IDPLANVIDAVIVIENDAACTUAL" />
+          <ScalarProperty Name="I_PRIORIDAD" ColumnName="I_PRIORIDAD" />
+          <ScalarProperty Name="VC_RECURSOSCUMPLIRINTERES" ColumnName="VC_RECURSOSCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDRECURSOCUMPLIRINTERES" ColumnName="I_IDRECURSOCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDINSTITUCIONCUMPLIRINTERES" ColumnName="I_IDINSTITUCIONCUMPLIRINTERES" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="I_IDTIPOPARED" ColumnName="I_IDTIPOPARED" />
+          <ScalarProperty Name="I_IDTIPOPISOVIVIENDA" ColumnName="I_IDTIPOPISOVIVIENDA" />
+          <ScalarProperty Name="I_IDTIPOTECHOVIVIENDA" ColumnName="I_IDTIPOTECHOVIVIENDA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PROGRAMAPERSONA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_PROGRAMAPERSONA">
+        <MappingFragment StoreEntitySet="T_PROGRAMAPERSONA">
+          <ScalarProperty Name="I_IDPROGRAMA" ColumnName="I_IDPROGRAMA" />
+          <ScalarProperty Name="I_IDPERSONA" ColumnName="I_IDPERSONA" />
+          <ScalarProperty Name="I_ANNO" ColumnName="I_ANNO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SEGUIMIENTOPLANVIDA">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_SEGUIMIENTOPLANVIDA">
+        <MappingFragment StoreEntitySet="T_SEGUIMIENTOPLANVIDA">
+          <ScalarProperty Name="I_IDSEGUIMIENTOPLANVIDA" ColumnName="I_IDSEGUIMIENTOPLANVIDA" />
+          <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+          <ScalarProperty Name="I_IDPERSONA" ColumnName="I_IDPERSONA" />
+          <ScalarProperty Name="I_IDTIPOPLANVIDA" ColumnName="I_IDTIPOPLANVIDA" />
+          <ScalarProperty Name="I_IDVALORACIONAPOYO" ColumnName="I_IDVALORACIONAPOYO" />
+          <ScalarProperty Name="I_IDNIVELAVANCE" ColumnName="I_IDNIVELAVANCE" />
+          <ScalarProperty Name="VC_DESCRIPCION" ColumnName="VC_DESCRIPCION" />
+          <ScalarProperty Name="DT_FECHA" ColumnName="DT_FECHA" />
+          <ScalarProperty Name="VC_OBSERVACION" ColumnName="VC_OBSERVACION" />
+          <ScalarProperty Name="VC_TIPOAPOYOINSTITUCIONES" ColumnName="VC_TIPOAPOYOINSTITUCIONES" />
+          <ScalarProperty Name="VC_RESULTADOOBTENIDO" ColumnName="VC_RESULTADOOBTENIDO" />
+          <ScalarProperty Name="VC_DESCRIPCIONDOCUMENTOFUENTE" ColumnName="VC_DESCRIPCIONDOCUMENTOFUENTE" />
+          <ScalarProperty Name="VC_INFORMACIONDESEADA" ColumnName="VC_INFORMACIONDESEADA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_TIPOERROR">
+      <EntityTypeMapping TypeName="SIPAMU5_Model.T_TIPOERROR">
+        <MappingFragment StoreEntitySet="T_TIPOERROR">
+          <ScalarProperty Name="I_IDTIPOERROR" ColumnName="I_IDTIPOERROR" />
+          <ScalarProperty Name="CV_CODIGOERROR" ColumnName="CV_CODIGOERROR" />
+          <ScalarProperty Name="CV_DESCRIPCION" ColumnName="CV_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="SEG_OPCIONPERFIL" TypeName="SIPAMU5_Model.SEG_OPCIONPERFIL" StoreEntitySet="SEG_OPCIONPERFIL">
+      <EndProperty Name="SEG_OPCIONSISTEMA">
+        <ScalarProperty Name="I_IDOPCION" ColumnName="I_IDOPCION" />
+      </EndProperty>
+      <EndProperty Name="SEG_PERFIL">
+        <ScalarProperty Name="I_IDPERFIL" ColumnName="I_IDPERFIL" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_DESTREZASEDUCACIONTECNICA" TypeName="SIPAMU5_Model.T_DESTREZASEDUCACIONTECNICA" StoreEntitySet="T_DESTREZASEDUCACIONTECNICA">
+      <EndProperty Name="CAT_TEMADESTREZA">
+        <ScalarProperty Name="I_IDTEMADESTREZA" ColumnName="I_IDTEMADESTREZA" />
+      </EndProperty>
+      <EndProperty Name="T_PLANEDUCACIONTECNICA">
+        <ScalarProperty Name="I_IDPLANEDUCACIONTECNICA" ColumnName="I_IDPLANEDUCACIONTECNICA" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_DIASEDUCACIONTECNICA" TypeName="SIPAMU5_Model.T_DIASEDUCACIONTECNICA" StoreEntitySet="T_DIASEDUCACIONTECNICA">
+      <EndProperty Name="CAT_DIA">
+        <ScalarProperty Name="I_IDDIA" ColumnName="I_IDDIA" />
+      </EndProperty>
+      <EndProperty Name="T_PLANEDUCACIONTECNICA">
+        <ScalarProperty Name="I_IDPLANEDUCACIONTECNICA" ColumnName="I_IDPLANEDUCACIONTECNICA" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_INTEGRANTECONDICIONESPECIAL" TypeName="SIPAMU5_Model.T_INTEGRANTECONDICIONESPECIAL" StoreEntitySet="T_INTEGRANTECONDICIONESPECIAL">
+      <EndProperty Name="CAT_CONDICIONESPECIAL">
+        <ScalarProperty Name="I_IDCONDICIONESPECIAL" ColumnName="I_IDCONDICIONESPECIAL" />
+      </EndProperty>
+      <EndProperty Name="T_INTEGRANTEGRUPOFAMILIAR">
+        <ScalarProperty Name="I_IDINTEGRANTE" ColumnName="I_IDINTEGRANTE" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_INTEGRANTEDISCAPACIDAD" TypeName="SIPAMU5_Model.T_INTEGRANTEDISCAPACIDAD" StoreEntitySet="T_INTEGRANTEDISCAPACIDAD">
+      <EndProperty Name="CAT_DISCAPACIDAD">
+        <ScalarProperty Name="I_IDDISCAPACIDAD" ColumnName="I_IDDISCAPACIDAD" />
+      </EndProperty>
+      <EndProperty Name="T_INTEGRANTEGRUPOFAMILIAR">
+        <ScalarProperty Name="I_IDINTEGRANTE" ColumnName="I_IDINTEGRANTE" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_INTEGRANTEENFERMEDAD" TypeName="SIPAMU5_Model.T_INTEGRANTEENFERMEDAD" StoreEntitySet="T_INTEGRANTEENFERMEDAD">
+      <EndProperty Name="CAT_ENFERMEDAD">
+        <ScalarProperty Name="I_IDENFERMEDAD" ColumnName="I_IDENFERMEDAD" />
+      </EndProperty>
+      <EndProperty Name="T_INTEGRANTEGRUPOFAMILIAR">
+        <ScalarProperty Name="I_IDINTEGRANTE" ColumnName="I_IDINTEGRANTE" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_PARTICIPANTELENGUA" TypeName="SIPAMU5_Model.T_PARTICIPANTELENGUA" StoreEntitySet="T_PARTICIPANTELENGUA">
+      <EndProperty Name="CAT_LENGUA">
+        <ScalarProperty Name="I_IDLENGUA" ColumnName="I_IDLENGUA" />
+      </EndProperty>
+      <EndProperty Name="T_PARTICIPANTE">
+        <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_PARTICIPANTEPARTICIPACIONCOMUNAL" TypeName="SIPAMU5_Model.T_PARTICIPANTEPARTICIPACIONCOMUNAL" StoreEntitySet="T_PARTICIPANTEPARTICIPACIONCOMUNAL">
+      <EndProperty Name="CAT_PARTICIPACIONCOMUNAL">
+        <ScalarProperty Name="I_IDPARTICIPACIONCOMUNAL" ColumnName="I_IDPARTICIPACIONCOMUNAL" />
+      </EndProperty>
+      <EndProperty Name="T_PARTICIPANTE">
+        <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_PARTICIPANTEPUESTODIRECCIONLIDERAZGO" TypeName="SIPAMU5_Model.T_PARTICIPANTEPUESTODIRECCIONLIDERAZGO" StoreEntitySet="T_PARTICIPANTEPUESTODIRECCIONLIDERAZGO">
+      <EndProperty Name="CAT_PUESTODIRECCIONLIDERAZGO">
+        <ScalarProperty Name="I_IDPUESTODIRECCIONLIDERAZGO" ColumnName="I_IDPUESTODIRECCIONLIDERAZGO" />
+      </EndProperty>
+      <EndProperty Name="T_PARTICIPANTE">
+        <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_PARTICIPANTEVIOLENCIAFAMILIA" TypeName="SIPAMU5_Model.T_PARTICIPANTEVIOLENCIAFAMILIA" StoreEntitySet="T_PARTICIPANTEVIOLENCIAFAMILIA">
+      <EndProperty Name="CAT_TIPOVIOLENCIA">
+        <ScalarProperty Name="I_IDTIPOVIOLENCIA" ColumnName="I_IDTIPOVIOLENCIA" />
+      </EndProperty>
+      <EndProperty Name="T_PARTICIPANTE">
+        <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_PARTICIPANTEVIOLENCIAPAREJA" TypeName="SIPAMU5_Model.T_PARTICIPANTEVIOLENCIAPAREJA" StoreEntitySet="T_PARTICIPANTEVIOLENCIAPAREJA">
+      <EndProperty Name="CAT_TIPOVIOLENCIA">
+        <ScalarProperty Name="I_IDTIPOVIOLENCIA" ColumnName="I_IDTIPOVIOLENCIA" />
+      </EndProperty>
+      <EndProperty Name="T_PARTICIPANTE">
+        <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_PROPIEDADPORINTEGRANTEFAMILIAR" TypeName="SIPAMU5_Model.T_PROPIEDADPORINTEGRANTEFAMILIAR" StoreEntitySet="T_PROPIEDADPORINTEGRANTEFAMILIAR">
+      <EndProperty Name="CAT_TIPOSPROPIEDAD">
+        <ScalarProperty Name="I_IDTIPOSPROPIEDAD" ColumnName="I_IDTIPOSPROPIEDAD" />
+      </EndProperty>
+      <EndProperty Name="T_INTEGRANTEGRUPOFAMILIAR">
+        <ScalarProperty Name="I_IDINTEGRANTE" ColumnName="I_IDINTEGRANTE" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_RIESGOVIVIENDAPARTICIPANTE" TypeName="SIPAMU5_Model.T_RIESGOVIVIENDAPARTICIPANTE" StoreEntitySet="T_RIESGOVIVIENDAPARTICIPANTE">
+      <EndProperty Name="CAT_RIESGOVIVIENDA">
+        <ScalarProperty Name="I_IDRIESGO" ColumnName="I_IDRIESGO" />
+      </EndProperty>
+      <EndProperty Name="T_PARTICIPANTE">
+        <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_SEGUIMIENTOPLANVIDAINSTITUCIONESAPOYO" TypeName="SIPAMU5_Model.T_SEGUIMIENTOPLANVIDAINSTITUCIONESAPOYO" StoreEntitySet="T_SEGUIMIENTOPLANVIDAINSTITUCIONESAPOYO">
+      <EndProperty Name="CAT_INSTITUCIONCUMPLIRINTERES">
+        <ScalarProperty Name="I_IDINSTITUCIONCUMPLIRINTERES" ColumnName="I_IDINSTITUCIONCUMPLIRINTERES" />
+      </EndProperty>
+      <EndProperty Name="T_SEGUIMIENTOPLANVIDA">
+        <ScalarProperty Name="I_IDSEGUIMIENTOPLANVIDA" ColumnName="I_IDSEGUIMIENTOPLANVIDA" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="T_SERVICIOSHOGAR" TypeName="SIPAMU5_Model.T_SERVICIOSHOGAR" StoreEntitySet="T_SERVICIOSHOGAR">
+      <EndProperty Name="CAT_SERVICIOSVIVIENDA">
+        <ScalarProperty Name="I_IDSERVICIO" ColumnName="I_IDSERVICIO" />
+      </EndProperty>
+      <EndProperty Name="T_PARTICIPANTE">
+        <ScalarProperty Name="I_IDPARTICIPANTE" ColumnName="I_IDPARTICIPANTE" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -14,7 +14,18 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_ESPECIALIDADEDUCATIVA
     {
+        public CAT_ESPECIALIDADEDUCATIVA()
+        {
+            this.T_PARTICIPANTEEDUCACIONFORMAL = new HashSet<T_PARTICIPANTEEDUCACIONFORMAL>();
+            this.T_PARTICIPANTEEDUCACIONFORMAL1 = new HashSet<T_PARTICIPANTEEDUCACIONFORMAL>();
+            this.T_PARTICIPANTEEDUCACIONFORMAL2 = new HashSet<T_PARTICIPANTEEDUCACIONFORMAL>();
+        }
+    
         public int I_IDESPECIALIDADEDUCATIVA { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_PARTICIPANTEEDUCACIONFORMAL> T_PARTICIPANTEEDUCACIONFORMAL { get; set; }
+        public virtual ICollection<T_PARTICIPANTEEDUCACIONFORMAL> T_PARTICIPANTEEDUCACIONFORMAL1 { get; set; }
+        public virtual ICollection<T_PARTICIPANTEEDUCACIONFORMAL> T_PARTICIPANTEEDUCACIONFORMAL2 { get; set; }
     }
 }

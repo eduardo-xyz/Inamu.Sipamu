@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_CONDICIONESPECIAL
     {
+        public CAT_CONDICIONESPECIAL()
+        {
+            this.T_INTEGRANTEGRUPOFAMILIAR = new HashSet<T_INTEGRANTEGRUPOFAMILIAR>();
+        }
+    
         public int I_IDCONDICIONESPECIAL { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_INTEGRANTEGRUPOFAMILIAR> T_INTEGRANTEGRUPOFAMILIAR { get; set; }
     }
 }

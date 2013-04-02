@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_ESTADOCIVIL
     {
+        public CAT_ESTADOCIVIL()
+        {
+            this.CAT_PERSONA = new HashSet<CAT_PERSONA>();
+        }
+    
         public int I_IDESTADOCIVIL { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<CAT_PERSONA> CAT_PERSONA { get; set; }
     }
 }

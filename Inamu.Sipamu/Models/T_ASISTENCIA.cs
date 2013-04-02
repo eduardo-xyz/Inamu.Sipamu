@@ -19,5 +19,9 @@ namespace Inamu.Sipamu.Models
         public int I_IDPARTICIPANTE { get; set; }
         public System.DateTime DT_FECHA { get; set; }
         public Nullable<bool> B_FECHAALTERNATIVA { get; set; }
+    
+        public virtual CAT_TIPOASISTENCIA CAT_TIPOASISTENCIA { get; set; }
+        public virtual T_GRUPO T_GRUPO { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
     }
 }

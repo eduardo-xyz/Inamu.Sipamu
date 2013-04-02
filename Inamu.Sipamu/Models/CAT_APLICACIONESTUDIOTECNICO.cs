@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_APLICACIONESTUDIOTECNICO
     {
+        public CAT_APLICACIONESTUDIOTECNICO()
+        {
+            this.T_PLANEDUCACIONTECNICA = new HashSet<T_PLANEDUCACIONTECNICA>();
+        }
+    
         public int I_IDAPLICACIONESTUDIOTECNICO { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_PLANEDUCACIONTECNICA> T_PLANEDUCACIONTECNICA { get; set; }
     }
 }

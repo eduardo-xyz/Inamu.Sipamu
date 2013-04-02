@@ -14,11 +14,17 @@ namespace Inamu.Sipamu.Models
     
     public partial class T_SEGUIMIENTOPLANVIDA
     {
+        public T_SEGUIMIENTOPLANVIDA()
+        {
+            this.CAT_INSTITUCIONCUMPLIRINTERES = new HashSet<CAT_INSTITUCIONCUMPLIRINTERES>();
+        }
+    
         public int I_IDSEGUIMIENTOPLANVIDA { get; set; }
-        public int I_IDPARTICIPANTE { get; set; }
-        public int I_IDTIPOPLANVIDA { get; set; }
+        public Nullable<int> I_IDPARTICIPANTE { get; set; }
+        public Nullable<int> I_IDPERSONA { get; set; }
+        public Nullable<int> I_IDTIPOPLANVIDA { get; set; }
         public Nullable<int> I_IDVALORACIONAPOYO { get; set; }
-        public Nullable<int> I_IDTRAMITADOR { get; set; }
+        public Nullable<int> I_IDNIVELAVANCE { get; set; }
         public string VC_DESCRIPCION { get; set; }
         public Nullable<System.DateTime> DT_FECHA { get; set; }
         public string VC_OBSERVACION { get; set; }
@@ -26,5 +32,12 @@ namespace Inamu.Sipamu.Models
         public string VC_RESULTADOOBTENIDO { get; set; }
         public string VC_DESCRIPCIONDOCUMENTOFUENTE { get; set; }
         public string VC_INFORMACIONDESEADA { get; set; }
+    
+        public virtual CAT_NIVELAVANCE CAT_NIVELAVANCE { get; set; }
+        public virtual CAT_PERSONA CAT_PERSONA { get; set; }
+        public virtual CAT_TIPOPLANVIDA CAT_TIPOPLANVIDA { get; set; }
+        public virtual CAT_VALORACIONAPOYO CAT_VALORACIONAPOYO { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
+        public virtual ICollection<CAT_INSTITUCIONCUMPLIRINTERES> CAT_INSTITUCIONCUMPLIRINTERES { get; set; }
     }
 }

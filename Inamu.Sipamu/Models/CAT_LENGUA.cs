@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_LENGUA
     {
+        public CAT_LENGUA()
+        {
+            this.T_PARTICIPANTE = new HashSet<T_PARTICIPANTE>();
+        }
+    
         public int I_IDLENGUA { get; set; }
         public string CV_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_PARTICIPANTE> T_PARTICIPANTE { get; set; }
     }
 }

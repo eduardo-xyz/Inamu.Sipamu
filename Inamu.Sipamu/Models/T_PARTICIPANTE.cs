@@ -14,21 +14,79 @@ namespace Inamu.Sipamu.Models
     
     public partial class T_PARTICIPANTE
     {
+        public T_PARTICIPANTE()
+        {
+            this.T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA = new HashSet<T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA>();
+            this.T_ASISTENCIA = new HashSet<T_ASISTENCIA>();
+            this.T_LOCALIZACIONPARTICIPANTE = new HashSet<T_LOCALIZACIONPARTICIPANTE>();
+            this.T_PARTICIPANTEEDUCACIONFORMAL = new HashSet<T_PARTICIPANTEEDUCACIONFORMAL>();
+            this.T_PARTICIPANTEVIVIENDA = new HashSet<T_PARTICIPANTEVIVIENDA>();
+            this.T_PARTICIPANTEHISTORIAVIDA = new HashSet<T_PARTICIPANTEHISTORIAVIDA>();
+            this.T_PARTICIPANTECONDICIONESVIDA = new HashSet<T_PARTICIPANTECONDICIONESVIDA>();
+            this.T_PARTICIPANTEFORMACIONTECNICA = new HashSet<T_PARTICIPANTEFORMACIONTECNICA>();
+            this.T_PLANEDUCACIONFORMAL = new HashSet<T_PLANEDUCACIONFORMAL>();
+            this.T_PLANEDUCACIONTECNICA = new HashSet<T_PLANEDUCACIONTECNICA>();
+            this.T_PLANEMPLEABILIDAD = new HashSet<T_PLANEMPLEABILIDAD>();
+            this.T_PLANOTROS = new HashSet<T_PLANOTROS>();
+            this.T_PLANPROYECTOPRODUCTIVO = new HashSet<T_PLANPROYECTOPRODUCTIVO>();
+            this.T_PLANSALUD = new HashSet<T_PLANSALUD>();
+            this.T_PLANVIDAVIVIENDAACTUAL = new HashSet<T_PLANVIDAVIVIENDAACTUAL>();
+            this.T_SEGUIMIENTOPLANVIDA = new HashSet<T_SEGUIMIENTOPLANVIDA>();
+            this.CAT_LENGUA = new HashSet<CAT_LENGUA>();
+            this.CAT_PARTICIPACIONCOMUNAL = new HashSet<CAT_PARTICIPACIONCOMUNAL>();
+            this.CAT_PUESTODIRECCIONLIDERAZGO = new HashSet<CAT_PUESTODIRECCIONLIDERAZGO>();
+            this.CAT_TIPOVIOLENCIA = new HashSet<CAT_TIPOVIOLENCIA>();
+            this.CAT_TIPOVIOLENCIA1 = new HashSet<CAT_TIPOVIOLENCIA>();
+            this.CAT_RIESGOVIVIENDA = new HashSet<CAT_RIESGOVIVIENDA>();
+            this.CAT_SERVICIOSVIVIENDA = new HashSet<CAT_SERVICIOSVIVIENDA>();
+        }
+    
         public int I_IDPARTICIPANTE { get; set; }
-        public Nullable<int> I_IDGRUPO { get; set; }
         public string VC_NUMEROINGRESO { get; set; }
-        public Nullable<int> I_IDPERSONA { get; set; }
         public Nullable<System.DateTime> DT_FECHAINICIO { get; set; }
-        public Nullable<int> I_IDMEDIOINFORMACION { get; set; }
-        public Nullable<int> I_IDREFERENCIA { get; set; }
-        public int I_IDESTADO { get; set; }
         public string VC_TELEFONOMOVIL { get; set; }
         public string VC_TELEFONORESIDENCIA { get; set; }
         public string VC_PERSONACONFIANZA { get; set; }
         public string VC_CORREOELECTRONICO { get; set; }
         public Nullable<bool> B_JEFAHOGAR { get; set; }
         public string VC_JEFEHOGAR { get; set; }
+        public Nullable<int> I_IDESTADO { get; set; }
+        public Nullable<int> I_IDMEDIOINFORMACION { get; set; }
         public Nullable<int> I_IDPUEBLOINDIGENA { get; set; }
+        public Nullable<int> I_IDREFERENCIA { get; set; }
+        public Nullable<int> I_IDPERSONA { get; set; }
+        public Nullable<int> I_IDGRUPO { get; set; }
         public Nullable<int> I_IDETNIA { get; set; }
+    
+        public virtual CAT_ESTADO CAT_ESTADO { get; set; }
+        public virtual CAT_ETNIA CAT_ETNIA { get; set; }
+        public virtual CAT_MEDIOINFORMACION CAT_MEDIOINFORMACION { get; set; }
+        public virtual CAT_PERSONA CAT_PERSONA { get; set; }
+        public virtual CAT_PUEBLOINDIGENA CAT_PUEBLOINDIGENA { get; set; }
+        public virtual CAT_REFERENCIA CAT_REFERENCIA { get; set; }
+        public virtual ICollection<T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA> T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA { get; set; }
+        public virtual ICollection<T_ASISTENCIA> T_ASISTENCIA { get; set; }
+        public virtual T_GRUPO T_GRUPO { get; set; }
+        public virtual ICollection<T_LOCALIZACIONPARTICIPANTE> T_LOCALIZACIONPARTICIPANTE { get; set; }
+        public virtual ICollection<T_PARTICIPANTEEDUCACIONFORMAL> T_PARTICIPANTEEDUCACIONFORMAL { get; set; }
+        public virtual ICollection<T_PARTICIPANTEVIVIENDA> T_PARTICIPANTEVIVIENDA { get; set; }
+        public virtual ICollection<T_PARTICIPANTEHISTORIAVIDA> T_PARTICIPANTEHISTORIAVIDA { get; set; }
+        public virtual ICollection<T_PARTICIPANTECONDICIONESVIDA> T_PARTICIPANTECONDICIONESVIDA { get; set; }
+        public virtual ICollection<T_PARTICIPANTEFORMACIONTECNICA> T_PARTICIPANTEFORMACIONTECNICA { get; set; }
+        public virtual ICollection<T_PLANEDUCACIONFORMAL> T_PLANEDUCACIONFORMAL { get; set; }
+        public virtual ICollection<T_PLANEDUCACIONTECNICA> T_PLANEDUCACIONTECNICA { get; set; }
+        public virtual ICollection<T_PLANEMPLEABILIDAD> T_PLANEMPLEABILIDAD { get; set; }
+        public virtual ICollection<T_PLANOTROS> T_PLANOTROS { get; set; }
+        public virtual ICollection<T_PLANPROYECTOPRODUCTIVO> T_PLANPROYECTOPRODUCTIVO { get; set; }
+        public virtual ICollection<T_PLANSALUD> T_PLANSALUD { get; set; }
+        public virtual ICollection<T_PLANVIDAVIVIENDAACTUAL> T_PLANVIDAVIVIENDAACTUAL { get; set; }
+        public virtual ICollection<T_SEGUIMIENTOPLANVIDA> T_SEGUIMIENTOPLANVIDA { get; set; }
+        public virtual ICollection<CAT_LENGUA> CAT_LENGUA { get; set; }
+        public virtual ICollection<CAT_PARTICIPACIONCOMUNAL> CAT_PARTICIPACIONCOMUNAL { get; set; }
+        public virtual ICollection<CAT_PUESTODIRECCIONLIDERAZGO> CAT_PUESTODIRECCIONLIDERAZGO { get; set; }
+        public virtual ICollection<CAT_TIPOVIOLENCIA> CAT_TIPOVIOLENCIA { get; set; }
+        public virtual ICollection<CAT_TIPOVIOLENCIA> CAT_TIPOVIOLENCIA1 { get; set; }
+        public virtual ICollection<CAT_RIESGOVIVIENDA> CAT_RIESGOVIVIENDA { get; set; }
+        public virtual ICollection<CAT_SERVICIOSVIVIENDA> CAT_SERVICIOSVIVIENDA { get; set; }
     }
 }

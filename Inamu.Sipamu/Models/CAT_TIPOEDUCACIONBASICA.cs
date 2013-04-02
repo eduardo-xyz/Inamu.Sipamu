@@ -14,7 +14,18 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_TIPOEDUCACIONBASICA
     {
+        public CAT_TIPOEDUCACIONBASICA()
+        {
+            this.CAT_TIPOEDUCACIONBASICA1 = new HashSet<CAT_TIPOEDUCACIONBASICA>();
+            this.T_PARTICIPANTEEDUCACIONFORMAL = new HashSet<T_PARTICIPANTEEDUCACIONFORMAL>();
+        }
+    
         public int I_IDTIPOEDUCACIONBASICA { get; set; }
+        public Nullable<int> CAT_I_IDTIPOEDUCACIONBASICA { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<CAT_TIPOEDUCACIONBASICA> CAT_TIPOEDUCACIONBASICA1 { get; set; }
+        public virtual CAT_TIPOEDUCACIONBASICA CAT_TIPOEDUCACIONBASICA2 { get; set; }
+        public virtual ICollection<T_PARTICIPANTEEDUCACIONFORMAL> T_PARTICIPANTEEDUCACIONFORMAL { get; set; }
     }
 }

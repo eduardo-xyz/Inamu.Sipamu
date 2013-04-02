@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_RAMALABORAL
     {
+        public CAT_RAMALABORAL()
+        {
+            this.T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA = new HashSet<T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA>();
+        }
+    
         public int I_IDRAMALABORAL { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA> T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA { get; set; }
     }
 }

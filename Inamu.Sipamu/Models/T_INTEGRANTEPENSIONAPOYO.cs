@@ -17,5 +17,8 @@ namespace Inamu.Sipamu.Models
         public int I_IDPENSIONAPOYO { get; set; }
         public int I_IDINTEGRANTE { get; set; }
         public Nullable<double> F_MONTO { get; set; }
+    
+        public virtual CAT_PENSIONAPOYO CAT_PENSIONAPOYO { get; set; }
+        public virtual T_INTEGRANTEGRUPOFAMILIAR T_INTEGRANTEGRUPOFAMILIAR { get; set; }
     }
 }

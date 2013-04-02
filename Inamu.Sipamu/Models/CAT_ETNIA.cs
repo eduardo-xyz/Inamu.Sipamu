@@ -14,7 +14,16 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_ETNIA
     {
+        public CAT_ETNIA()
+        {
+            this.CAT_PERSONA = new HashSet<CAT_PERSONA>();
+            this.T_PARTICIPANTE = new HashSet<T_PARTICIPANTE>();
+        }
+    
         public int I_IDETNIA { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<CAT_PERSONA> CAT_PERSONA { get; set; }
+        public virtual ICollection<T_PARTICIPANTE> T_PARTICIPANTE { get; set; }
     }
 }

@@ -14,17 +14,31 @@ namespace Inamu.Sipamu.Models
     
     public partial class T_PLANEDUCACIONTECNICA
     {
+        public T_PLANEDUCACIONTECNICA()
+        {
+            this.CAT_TEMADESTREZA = new HashSet<CAT_TEMADESTREZA>();
+            this.CAT_DIA = new HashSet<CAT_DIA>();
+        }
+    
         public int I_IDPLANEDUCACIONTECNICA { get; set; }
-        public Nullable<int> I_IDPARTICIPANTE { get; set; }
-        public Nullable<int> I_IDRECURSOCUMPLIRINTERES { get; set; }
+        public Nullable<int> I_TIPOEDUCACIONTECNICA { get; set; }
         public Nullable<int> I_IDINSTITUCIONCUMPLIRINTERES { get; set; }
+        public Nullable<int> I_IDRECURSOCUMPLIRINTERES { get; set; }
+        public Nullable<int> I_IDPARTICIPANTE { get; set; }
         public Nullable<int> I_IDAPLICACIONESTUDIOTECNICO { get; set; }
         public string VC_OBSERVACION { get; set; }
         public string VC_RECURSOSCUMPLIRINTERES { get; set; }
         public Nullable<int> I_PRIORIDAD { get; set; }
         public Nullable<bool> B_DISPONETIEMPO { get; set; }
-        public Nullable<int> I_TIPOEDUCACIONTECNICA { get; set; }
         public Nullable<int> I_HORASDIA { get; set; }
         public Nullable<int> I_DIASSEMANA { get; set; }
+    
+        public virtual CAT_APLICACIONESTUDIOTECNICO CAT_APLICACIONESTUDIOTECNICO { get; set; }
+        public virtual CAT_INSTITUCIONCUMPLIRINTERES CAT_INSTITUCIONCUMPLIRINTERES { get; set; }
+        public virtual CAT_RECURSOSCUMPLIRINTERES CAT_RECURSOSCUMPLIRINTERES { get; set; }
+        public virtual CAT_TIPOEDUCACIONTECNICA CAT_TIPOEDUCACIONTECNICA { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
+        public virtual ICollection<CAT_TEMADESTREZA> CAT_TEMADESTREZA { get; set; }
+        public virtual ICollection<CAT_DIA> CAT_DIA { get; set; }
     }
 }

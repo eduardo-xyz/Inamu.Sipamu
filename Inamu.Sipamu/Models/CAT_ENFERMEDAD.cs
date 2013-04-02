@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_ENFERMEDAD
     {
+        public CAT_ENFERMEDAD()
+        {
+            this.T_INTEGRANTEGRUPOFAMILIAR = new HashSet<T_INTEGRANTEGRUPOFAMILIAR>();
+        }
+    
         public int I_IDENFERMEDAD { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_INTEGRANTEGRUPOFAMILIAR> T_INTEGRANTEGRUPOFAMILIAR { get; set; }
     }
 }

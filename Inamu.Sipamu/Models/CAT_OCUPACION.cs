@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_OCUPACION
     {
+        public CAT_OCUPACION()
+        {
+            this.T_INTEGRANTEGRUPOFAMILIAR = new HashSet<T_INTEGRANTEGRUPOFAMILIAR>();
+        }
+    
         public int I_IDOCUPACION { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_INTEGRANTEGRUPOFAMILIAR> T_INTEGRANTEGRUPOFAMILIAR { get; set; }
     }
 }

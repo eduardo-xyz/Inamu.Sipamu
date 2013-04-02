@@ -14,7 +14,16 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_NIVELLECTOESCRITURA
     {
+        public CAT_NIVELLECTOESCRITURA()
+        {
+            this.T_PARTICIPANTEEDUCACIONFORMAL = new HashSet<T_PARTICIPANTEEDUCACIONFORMAL>();
+            this.T_PARTICIPANTEEDUCACIONFORMAL1 = new HashSet<T_PARTICIPANTEEDUCACIONFORMAL>();
+        }
+    
         public int I_IDNIVELLECTOESCRITURA { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_PARTICIPANTEEDUCACIONFORMAL> T_PARTICIPANTEEDUCACIONFORMAL { get; set; }
+        public virtual ICollection<T_PARTICIPANTEEDUCACIONFORMAL> T_PARTICIPANTEEDUCACIONFORMAL1 { get; set; }
     }
 }

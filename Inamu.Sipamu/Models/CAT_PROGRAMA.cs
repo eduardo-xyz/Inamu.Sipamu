@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_PROGRAMA
     {
+        public CAT_PROGRAMA()
+        {
+            this.T_PROGRAMAPERSONA = new HashSet<T_PROGRAMAPERSONA>();
+        }
+    
         public int I_IDPROGRAMA { get; set; }
         public string VC_DESCIPCION { get; set; }
+    
+        public virtual ICollection<T_PROGRAMAPERSONA> T_PROGRAMAPERSONA { get; set; }
     }
 }

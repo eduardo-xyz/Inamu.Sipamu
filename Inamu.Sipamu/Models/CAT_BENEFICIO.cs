@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_BENEFICIO
     {
+        public CAT_BENEFICIO()
+        {
+            this.T_INTEGRANTEBENEFICIO = new HashSet<T_INTEGRANTEBENEFICIO>();
+        }
+    
         public int I_IDBENEFICIO { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_INTEGRANTEBENEFICIO> T_INTEGRANTEBENEFICIO { get; set; }
     }
 }

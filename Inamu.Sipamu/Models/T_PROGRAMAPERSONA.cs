@@ -17,5 +17,7 @@ namespace Inamu.Sipamu.Models
         public int I_IDPROGRAMA { get; set; }
         public int I_IDPERSONA { get; set; }
         public int I_ANNO { get; set; }
+    
+        public virtual CAT_PROGRAMA CAT_PROGRAMA { get; set; }
     }
 }

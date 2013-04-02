@@ -14,10 +14,21 @@ namespace Inamu.Sipamu.Models
     
     public partial class SEG_USUARIO
     {
+        public SEG_USUARIO()
+        {
+            this.T_BITACORA = new HashSet<T_BITACORA>();
+            this.T_ERROR = new HashSet<T_ERROR>();
+        }
+    
         public int I_IDUSUARIO { get; set; }
-        public int I_IDPERSONA { get; set; }
-        public int I_IDPERFIL { get; set; }
+        public Nullable<int> I_IDPERSONA { get; set; }
+        public Nullable<int> I_IDPERFIL { get; set; }
         public string VC_LOGIN { get; set; }
         public string VC_CONTRASENNA { get; set; }
+    
+        public virtual CAT_PERSONA CAT_PERSONA { get; set; }
+        public virtual SEG_PERFIL SEG_PERFIL { get; set; }
+        public virtual ICollection<T_BITACORA> T_BITACORA { get; set; }
+        public virtual ICollection<T_ERROR> T_ERROR { get; set; }
     }
 }

@@ -15,13 +15,19 @@ namespace Inamu.Sipamu.Models
     public partial class T_PLANEDUCACIONFORMAL
     {
         public int I_IDPLANEDUCACIONFORMAL { get; set; }
-        public Nullable<int> I_IDPARTICIPANTE { get; set; }
-        public Nullable<int> I_IDNECESIDADEDUCACIONFORMAL { get; set; }
-        public Nullable<int> I_IDMETA { get; set; }
         public string VC_OBSERVACION { get; set; }
         public string VC_RECURSOSCUMPLIRINTERES { get; set; }
-        public Nullable<int> I_IDRECURSOCUMPLIRINTERES { get; set; }
+        public Nullable<int> I_IDMETA { get; set; }
+        public Nullable<int> I_IDNECESIDADEDUCACIONFORMAL { get; set; }
+        public Nullable<int> I_IDPARTICIPANTE { get; set; }
         public Nullable<int> I_IDINSTITUCIONCUMPLIRINTERES { get; set; }
+        public Nullable<int> I_IDRECURSOCUMPLIRINTERES { get; set; }
         public Nullable<int> I_PRIORIDAD { get; set; }
+    
+        public virtual CAT_INSTITUCIONCUMPLIRINTERES CAT_INSTITUCIONCUMPLIRINTERES { get; set; }
+        public virtual CAT_META CAT_META { get; set; }
+        public virtual CAT_NECESIDADEDUCACIONFORMAL CAT_NECESIDADEDUCACIONFORMAL { get; set; }
+        public virtual CAT_RECURSOSCUMPLIRINTERES CAT_RECURSOSCUMPLIRINTERES { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
     }
 }

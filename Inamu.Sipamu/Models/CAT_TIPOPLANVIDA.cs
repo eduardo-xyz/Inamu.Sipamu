@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_TIPOPLANVIDA
     {
+        public CAT_TIPOPLANVIDA()
+        {
+            this.T_SEGUIMIENTOPLANVIDA = new HashSet<T_SEGUIMIENTOPLANVIDA>();
+        }
+    
         public int I_IDTIPOPLANVIDA { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_SEGUIMIENTOPLANVIDA> T_SEGUIMIENTOPLANVIDA { get; set; }
     }
 }

@@ -14,8 +14,24 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_CANTON
     {
+        public CAT_CANTON()
+        {
+            this.CAT_DISTRITO = new HashSet<CAT_DISTRITO>();
+            this.CAT_PERSONA = new HashSet<CAT_PERSONA>();
+            this.T_GRUPO = new HashSet<T_GRUPO>();
+            this.T_LOCALIZACIONPARTICIPANTE = new HashSet<T_LOCALIZACIONPARTICIPANTE>();
+            this.T_LOCALIZACIONPARTICIPANTE1 = new HashSet<T_LOCALIZACIONPARTICIPANTE>();
+        }
+    
         public int I_IDCANTON { get; set; }
         public Nullable<int> I_IDPROVINCIA { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual CAT_PROVINCIA CAT_PROVINCIA { get; set; }
+        public virtual ICollection<CAT_DISTRITO> CAT_DISTRITO { get; set; }
+        public virtual ICollection<CAT_PERSONA> CAT_PERSONA { get; set; }
+        public virtual ICollection<T_GRUPO> T_GRUPO { get; set; }
+        public virtual ICollection<T_LOCALIZACIONPARTICIPANTE> T_LOCALIZACIONPARTICIPANTE { get; set; }
+        public virtual ICollection<T_LOCALIZACIONPARTICIPANTE> T_LOCALIZACIONPARTICIPANTE1 { get; set; }
     }
 }

@@ -14,8 +14,15 @@ namespace Inamu.Sipamu.Models
     
     public partial class T_TIPOERROR
     {
+        public T_TIPOERROR()
+        {
+            this.T_ERROR = new HashSet<T_ERROR>();
+        }
+    
         public int I_IDTIPOERROR { get; set; }
         public string CV_CODIGOERROR { get; set; }
         public string CV_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_ERROR> T_ERROR { get; set; }
     }
 }

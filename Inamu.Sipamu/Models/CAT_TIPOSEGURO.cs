@@ -14,7 +14,16 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_TIPOSEGURO
     {
+        public CAT_TIPOSEGURO()
+        {
+            this.T_ASEGURAMIENTOINTEGRANTE = new HashSet<T_ASEGURAMIENTOINTEGRANTE>();
+            this.T_INTEGRANTEGRUPOFAMILIAR = new HashSet<T_INTEGRANTEGRUPOFAMILIAR>();
+        }
+    
         public int I_IDTIPOSEGURO { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_ASEGURAMIENTOINTEGRANTE> T_ASEGURAMIENTOINTEGRANTE { get; set; }
+        public virtual ICollection<T_INTEGRANTEGRUPOFAMILIAR> T_INTEGRANTEGRUPOFAMILIAR { get; set; }
     }
 }

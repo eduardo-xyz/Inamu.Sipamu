@@ -15,14 +15,25 @@ namespace Inamu.Sipamu.Models
     public partial class T_LOCALIZACIONPARTICIPANTE
     {
         public int I_IDLOCALIZACIONPARTICIPANTE { get; set; }
-        public int I_IDPARTICIPANTE { get; set; }
-        public Nullable<int> I_IDPAISANTERIOR { get; set; }
-        public Nullable<int> I_IDCANTONANTERIOR { get; set; }
+        public Nullable<int> I_IDDISTRITO { get; set; }
         public Nullable<int> I_IDDISTRITOANTERIOR { get; set; }
+        public Nullable<int> I_IDPROVINCIA { get; set; }
         public Nullable<int> I_IDPROVINCIAANTERIOR { get; set; }
+        public Nullable<int> I_IDCANTON { get; set; }
+        public Nullable<int> I_IDCANTONANTERIOR { get; set; }
+        public Nullable<int> I_IDPARTICIPANTE { get; set; }
         public Nullable<int> I_IDCOMUNIDAD { get; set; }
         public bool B_VIVIDOACTUAL { get; set; }
         public int I_ANNOSVIVIENDAACTUAL { get; set; }
         public int I_MESESVIVIENDAACTUAL { get; set; }
+    
+        public virtual CAT_CANTON CAT_CANTON { get; set; }
+        public virtual CAT_CANTON CAT_CANTON1 { get; set; }
+        public virtual CAT_COMUNIDAD CAT_COMUNIDAD { get; set; }
+        public virtual CAT_DISTRITO CAT_DISTRITO { get; set; }
+        public virtual CAT_DISTRITO CAT_DISTRITO1 { get; set; }
+        public virtual CAT_PROVINCIA CAT_PROVINCIA { get; set; }
+        public virtual CAT_PROVINCIA CAT_PROVINCIA1 { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
     }
 }

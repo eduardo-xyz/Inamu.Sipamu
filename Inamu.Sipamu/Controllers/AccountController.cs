@@ -6,11 +6,12 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 using DotNetOpenAuth.AspNet;
-using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
 using Inamu.Sipamu.Filters;
 using Inamu.Sipamu.Models;
 using Inamu.Sipamu.Security;
+using Microsoft.Web.WebPages.OAuth;
+using System.Windows.Forms;
 
 namespace Inamu.Sipamu.Controllers
 {
@@ -52,7 +53,20 @@ namespace Inamu.Sipamu.Controllers
                 FormsAuthentication.SetAuthCookie(model.UserName, model.RememberMe);
                 return RedirectToLocal(returnUrl);
             }
+            else
+            {
+                if (MembershipService.Authenticate(model.UserName, model.Password, "babel"))
+                {
+                    FormsAuthentication.SetAuthCookie(model.UserName, model.RememberMe);
+                    return RedirectToLocal(returnUrl);
+                }
+                else
+                {
+                    MessageBox.Show("REGISTRAR");
+                }
+            }
 
+           
             // If we got this far, something failed, redisplay form
             ModelState.AddModelError("", "The user name or password provided is incorrect.");
             return View(model);

@@ -14,7 +14,16 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_TIPOPARED
     {
+        public CAT_TIPOPARED()
+        {
+            this.T_PARTICIPANTEVIVIENDA = new HashSet<T_PARTICIPANTEVIVIENDA>();
+            this.T_PLANVIDAVIVIENDAACTUAL = new HashSet<T_PLANVIDAVIVIENDAACTUAL>();
+        }
+    
         public int I_IDTIPOPARED { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_PARTICIPANTEVIVIENDA> T_PARTICIPANTEVIVIENDA { get; set; }
+        public virtual ICollection<T_PLANVIDAVIVIENDAACTUAL> T_PLANVIDAVIVIENDAACTUAL { get; set; }
     }
 }

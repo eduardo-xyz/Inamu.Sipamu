@@ -43,7 +43,7 @@
 
     <section class="social" id="socialLoginForm">
         <h2>Use another service to log in.</h2>
-        <%: Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl }) %>
+        <%--<%: Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl }) %>--%>
     </section>
 </asp:Content>
 

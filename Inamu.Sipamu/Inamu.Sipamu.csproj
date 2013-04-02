@@ -17,9 +17,11 @@
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,10 +41,42 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.3.1.7705, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.2.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.2.2.13055\lib\net40-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core">
+      <HintPath>..\..\..\Users\Desarrollo\AppData\Local\Temp\Temporary ASP.NET Files\root\ec304a0c\f8ce83c\assembly\dl3\1f6e9fbb\223b7140_672ace01\DotNetOpenAuth.Core.DLL</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.2.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.2.2.13055\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.2.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.2.2.13055\lib\net40-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.2.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.2.2.13055\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Users\Desarrollo\AppData\Local\Temp\Temporary ASP.NET Files\root\6a3d3939\6580374e\assembly\dl3\848c2f26\00b0d062_9629ce01\Microsoft.Web.WebPages.OAuth.DLL</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
@@ -52,6 +86,11 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20715.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -68,9 +107,6 @@
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
       <Private>True</Private>
@@ -100,10 +136,6 @@
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
-    </Reference>
     <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
@@ -116,49 +148,16 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="WebGrease">
+      <HintPath>..\..\..\Users\Desarrollo\Documents\Visual Studio 2012\Projects\MvcApplication2\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+    </Reference>
     <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.20710.0\lib\net40\WebMatrix.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.20710.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
-    </Reference>
     <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.20710.0\lib\net40\WebMatrix.WebData.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.AspNet, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.0.3.12153\lib\net40-full\DotNetOpenAuth.AspNet.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OAuth, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OpenId, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
-    </Reference>
-    <Reference Include="WebGrease">
-      <Private>True</Private>
-      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
-    </Reference>
-    <Reference Include="Antlr3.Runtime">
-      <Private>True</Private>
-      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -169,399 +168,354 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="LdapAuthentication.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\CAT_APLICACIONESTUDIOTECNICO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_BENEFICIO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_CANTON.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_COMUNIDAD.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_CONDICIONESPECIAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_CONDICIONLABORAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_CONDICIONLUGAR.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_DIA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_DISCAPACIDAD.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_DISTRITO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_ENFERMEDAD.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_ESPECIALIDADEDUCATIVA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_ESTADO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_ESTADOCIVIL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_ETNIA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_GRADOSEDUCACIONBASICA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_GRADOSEDUCACIONSUPERIOR.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_INSTITUCIONCUMPLIRINTERES.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_INSTITUCIONEDUCATIVAACTUAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_JORNADALABORAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_LENGUA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_LUGARTRABAJO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_MEDIOINFORMACION.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_META.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_MOTIVONOESTUDIA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_NECESIDADEDUCACIONFORMAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_NIVELAVANCE.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_NIVELLECTOESCRITURA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_OCUPACION.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_PAIS.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_PARENTESCO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_PARTICIPACIONCOMUNAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_PENSIONAPOYO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_PERSONA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_PROGRAMA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_PROVINCIA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_PUEBLOINDIGENA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_PUESTODIRECCIONLIDERAZGO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_RAMALABORAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_RECURSOSCUMPLIRINTERES.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_REFERENCIA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_REGION.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_RESPONSABLE.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_RESPUESTACORTA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_RIESGOVIVIENDA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_SECTORLABORAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_SERVICIOSVIVIENDA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_SEXO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_SITUACION.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TEMADESTREZA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOASISTENCIA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOBONO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOCIELORASO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOCURSO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPODISCAPACIDAD.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOEDUCACIONBASICA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOEDUCACIONSUPERIOR.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOEDUCACIONTECNICA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOHORARIO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOIDENTIFICACION.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOINGRESOMONETARIO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOLUGARREUNION.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOPARED.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOPISOVIVIENDA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOPLANVIDA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOPOBLACION.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOSEGURO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOSPROPIEDAD.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOTECHOVIVIENDA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOTENENCIA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOVIOLENCIA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TIPOVIVIENDA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_TITULOEDUCATIVO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_UTILIDADESTUDIO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CAT_VALORACIONAPOYO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Entities.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Entities.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Entities.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Entities.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Entities.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SEG_OPCIONPERFIL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SEG_OPCIONSISTEMA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SEG_PERFIL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SEG_USUARIO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SIPAMU_Model.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SIPAMU_Model.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SIPAMU_Model.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SIPAMU_Model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SIPAMU_Model.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_ARCHIVOGRUPO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_ASEGURAMIENTOINTEGRANTE.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_ASISTENCIA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_BITACORA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_DESTREZASEDUCACIONTECNICA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_DIASEDUCACIONTECNICA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_ERROR.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_EVENTOBITACORA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_GRUPO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_HORARIOGRUPO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_INTEGRANTEBENEFICIO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_INTEGRANTECONDICIONESPECIAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_INTEGRANTEDISCAPACIDAD.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_INTEGRANTEENFERMEDAD.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_INTEGRANTEGRUPOFAMILIAR.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_INTEGRANTEPENSIONAPOYO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_LOCALIZACIONPARTICIPANTE.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PARTICIPANTE.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PARTICIPANTECONDICIONESVIDA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PARTICIPANTEEDUCACIONFORMAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PARTICIPANTEFORMACIONTECNICA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PARTICIPANTEHISTORIAVIDA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_PARTICIPANTELENGUA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_PARTICIPANTEPARTICIPACIONCOMUNAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_PARTICIPANTEPUESTODIRECCIONLIDERAZGO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_PARTICIPANTEVIOLENCIAFAMILIA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_PARTICIPANTEVIOLENCIAPAREJA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PARTICIPANTEVIVIENDA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PLANEDUCACIONFORMAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PLANEDUCACIONTECNICA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PLANEMPLEABILIDAD.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PLANOTROS.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PLANPROYECTOPRODUCTIVO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PLANSALUD.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_PLANVIDAOTRO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PLANVIDAVIVIENDAACTUAL.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_PROGRAMAPERSONA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_PROPIEDADPORINTEGRANTEFAMILIAR.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_RIESGOVIVIENDAPARTICIPANTE.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_SEGUIMIENTOPLANVIDA.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_SEGUIMIENTOPLANVIDAINSTITUCIONESAPOYO.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\T_SERVICIOSHOGAR.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\T_TIPOERROR.cs">
-      <DependentUpon>Entities.tt</DependentUpon>
+      <DependentUpon>SIPAMU_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Security\CustomMembershipProvider.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\themes\base\images\animated-overlay.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -584,12 +538,16 @@
     <Content Include="Content\themes\base\jquery.ui.core.css" />
     <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
     <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.menu.css" />
     <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
     <Content Include="Content\themes\base\jquery.ui.resizable.css" />
     <Content Include="Content\themes\base\jquery.ui.selectable.css" />
     <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.spinner.css" />
     <Content Include="Content\themes\base\jquery.ui.tabs.css" />
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\jquery.ui.tooltip.css" />
+    <Content Include="Content\themes\base\minified\images\animated-overlay.gif" />
     <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -610,47 +568,60 @@
     <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.menu.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.spinner.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <EntityDeploy Include="Models\Entities.edmx">
+    <Content Include="ClassDiagram1.cd" />
+    <EntityDeploy Include="Models\SIPAMU_Model.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Entities.Designer.cs</LastGenOutput>
+      <LastGenOutput>SIPAMU_Model.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\Entities.Context.tt">
+    <Content Include="Models\SIPAMU_Model.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Entities.edmx</DependentUpon>
-      <LastGenOutput>Entities.Context.cs</LastGenOutput>
+      <DependentUpon>SIPAMU_Model.edmx</DependentUpon>
+      <LastGenOutput>SIPAMU_Model.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\Entities.edmx.diagram">
-      <DependentUpon>Entities.edmx</DependentUpon>
+    <Content Include="Models\SIPAMU_Model.edmx.diagram">
+      <DependentUpon>SIPAMU_Model.edmx</DependentUpon>
     </Content>
-    <Content Include="Models\Entities.tt">
+    <Content Include="Models\SIPAMU_Model.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Entities.edmx</DependentUpon>
-      <LastGenOutput>Entities.cs</LastGenOutput>
+      <DependentUpon>SIPAMU_Model.edmx</DependentUpon>
+      <LastGenOutput>SIPAMU_Model.cs</LastGenOutput>
     </Content>
-    <None Include="Scripts\jquery-1.7.1.intellisense.js" />
-    <Content Include="Scripts\jquery-1.7.1.js" />
-    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Scripts\jquery-ui-1.10.2.js" />
+    <Content Include="Scripts\jquery-ui-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery-ui-1.8.20.js" />
-    <Content Include="Scripts\jquery-ui-1.8.20.min.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\knockout-2.1.0.debug.js" />
-    <Content Include="Scripts\knockout-2.1.0.js" />
-    <Content Include="Scripts\modernizr-2.5.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Scripts\knockout-2.2.1.debug.js" />
+    <Content Include="Scripts\knockout-2.2.1.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\sipamu.js" />
+    <Content Include="Views\Usuarios\Create.aspx" />
+    <Content Include="Views\Usuarios\Delete.aspx" />
+    <Content Include="Views\Usuarios\Details.aspx" />
+    <Content Include="Views\Usuarios\Edit.aspx" />
+    <Content Include="Views\Usuarios\Index.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -698,6 +669,9 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -712,12 +686,12 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>2208</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:57862/</IISUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
+          <NTLMAuthentication>True</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
           </CustomServerUrl>
@@ -726,6 +700,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

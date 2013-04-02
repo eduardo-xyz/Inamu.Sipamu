@@ -20,7 +20,8 @@ namespace Inamu.Sipamu.Models
         public Nullable<int> I_IDRAMALABORAL { get; set; }
         public Nullable<int> I_IDCONDICIONLABORAL { get; set; }
         public Nullable<int> I_IDJORNADALABORAL { get; set; }
-        public Nullable<int> I_IDINTEGRANTE { get; set; }
+        public Nullable<int> T_I_I_IDINTEGRANTE { get; set; }
+        public Nullable<int> I_IDPARTICIPANTE { get; set; }
         public Nullable<bool> B_JEFEHOGAR { get; set; }
         public Nullable<bool> B_EMPLEODIFERENTEHOGAR { get; set; }
         public string VC_ULTIMOPUESTO { get; set; }
@@ -29,5 +30,12 @@ namespace Inamu.Sipamu.Models
         public string VC_EMPLEOMASDURACION { get; set; }
         public Nullable<int> I_ANNOSEMPLEOMASDURACION { get; set; }
         public Nullable<int> I_MESESEMPLEOMASDURACION { get; set; }
+    
+        public virtual CAT_CONDICIONLABORAL CAT_CONDICIONLABORAL { get; set; }
+        public virtual CAT_JORNADALABORAL CAT_JORNADALABORAL { get; set; }
+        public virtual CAT_RAMALABORAL CAT_RAMALABORAL { get; set; }
+        public virtual CAT_SECTORLABORAL CAT_SECTORLABORAL { get; set; }
+        public virtual T_INTEGRANTEGRUPOFAMILIAR T_INTEGRANTEGRUPOFAMILIAR { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
     }
 }

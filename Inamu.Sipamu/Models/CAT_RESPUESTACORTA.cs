@@ -14,7 +14,16 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_RESPUESTACORTA
     {
+        public CAT_RESPUESTACORTA()
+        {
+            this.T_PARTICIPANTEVIVIENDA = new HashSet<T_PARTICIPANTEVIVIENDA>();
+            this.T_PARTICIPANTEVIVIENDA1 = new HashSet<T_PARTICIPANTEVIVIENDA>();
+        }
+    
         public int I_IDRESPUESTACORTA { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_PARTICIPANTEVIVIENDA> T_PARTICIPANTEVIVIENDA { get; set; }
+        public virtual ICollection<T_PARTICIPANTEVIVIENDA> T_PARTICIPANTEVIVIENDA1 { get; set; }
     }
 }

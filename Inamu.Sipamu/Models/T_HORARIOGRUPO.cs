@@ -18,5 +18,8 @@ namespace Inamu.Sipamu.Models
         public int I_IDDIA { get; set; }
         public Nullable<System.TimeSpan> T_HORAINICIO { get; set; }
         public Nullable<System.TimeSpan> T_HORAFIN { get; set; }
+    
+        public virtual CAT_DIA CAT_DIA { get; set; }
+        public virtual T_GRUPO T_GRUPO { get; set; }
     }
 }

@@ -14,8 +14,16 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_DISCAPACIDAD
     {
+        public CAT_DISCAPACIDAD()
+        {
+            this.T_INTEGRANTEGRUPOFAMILIAR = new HashSet<T_INTEGRANTEGRUPOFAMILIAR>();
+        }
+    
         public int I_IDDISCAPACIDAD { get; set; }
+        public Nullable<int> I_IDTIPODISCAPACIDAD { get; set; }
         public string VC_DESCRIPCION { get; set; }
-        public int I_IDTIPODISCAPACIDAD { get; set; }
+    
+        public virtual CAT_TIPODISCAPACIDAD CAT_TIPODISCAPACIDAD { get; set; }
+        public virtual ICollection<T_INTEGRANTEGRUPOFAMILIAR> T_INTEGRANTEGRUPOFAMILIAR { get; set; }
     }
 }

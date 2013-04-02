@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_VALORACIONAPOYO
     {
+        public CAT_VALORACIONAPOYO()
+        {
+            this.T_SEGUIMIENTOPLANVIDA = new HashSet<T_SEGUIMIENTOPLANVIDA>();
+        }
+    
         public int I_IDVALORACIONAPOYO { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_SEGUIMIENTOPLANVIDA> T_SEGUIMIENTOPLANVIDA { get; set; }
     }
 }

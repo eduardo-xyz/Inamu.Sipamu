@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_PENSIONAPOYO
     {
+        public CAT_PENSIONAPOYO()
+        {
+            this.T_INTEGRANTEPENSIONAPOYO = new HashSet<T_INTEGRANTEPENSIONAPOYO>();
+        }
+    
         public int I_IDPENSIONAPOYO { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_INTEGRANTEPENSIONAPOYO> T_INTEGRANTEPENSIONAPOYO { get; set; }
     }
 }

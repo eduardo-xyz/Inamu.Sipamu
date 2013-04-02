@@ -14,7 +14,16 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_DIA
     {
+        public CAT_DIA()
+        {
+            this.T_HORARIOGRUPO = new HashSet<T_HORARIOGRUPO>();
+            this.T_PLANEDUCACIONTECNICA = new HashSet<T_PLANEDUCACIONTECNICA>();
+        }
+    
         public int I_IDDIA { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_HORARIOGRUPO> T_HORARIOGRUPO { get; set; }
+        public virtual ICollection<T_PLANEDUCACIONTECNICA> T_PLANEDUCACIONTECNICA { get; set; }
     }
 }

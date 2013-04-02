@@ -14,7 +14,28 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_INSTITUCIONCUMPLIRINTERES
     {
+        public CAT_INSTITUCIONCUMPLIRINTERES()
+        {
+            this.T_PLANEDUCACIONFORMAL = new HashSet<T_PLANEDUCACIONFORMAL>();
+            this.T_PLANEDUCACIONTECNICA = new HashSet<T_PLANEDUCACIONTECNICA>();
+            this.T_PLANEMPLEABILIDAD = new HashSet<T_PLANEMPLEABILIDAD>();
+            this.T_PLANOTROS = new HashSet<T_PLANOTROS>();
+            this.T_PLANPROYECTOPRODUCTIVO = new HashSet<T_PLANPROYECTOPRODUCTIVO>();
+            this.T_PLANSALUD = new HashSet<T_PLANSALUD>();
+            this.T_PLANVIDAVIVIENDAACTUAL = new HashSet<T_PLANVIDAVIVIENDAACTUAL>();
+            this.T_SEGUIMIENTOPLANVIDA = new HashSet<T_SEGUIMIENTOPLANVIDA>();
+        }
+    
         public int I_IDINSTITUCIONCUMPLIRINTERES { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_PLANEDUCACIONFORMAL> T_PLANEDUCACIONFORMAL { get; set; }
+        public virtual ICollection<T_PLANEDUCACIONTECNICA> T_PLANEDUCACIONTECNICA { get; set; }
+        public virtual ICollection<T_PLANEMPLEABILIDAD> T_PLANEMPLEABILIDAD { get; set; }
+        public virtual ICollection<T_PLANOTROS> T_PLANOTROS { get; set; }
+        public virtual ICollection<T_PLANPROYECTOPRODUCTIVO> T_PLANPROYECTOPRODUCTIVO { get; set; }
+        public virtual ICollection<T_PLANSALUD> T_PLANSALUD { get; set; }
+        public virtual ICollection<T_PLANVIDAVIVIENDAACTUAL> T_PLANVIDAVIVIENDAACTUAL { get; set; }
+        public virtual ICollection<T_SEGUIMIENTOPLANVIDA> T_SEGUIMIENTOPLANVIDA { get; set; }
     }
 }

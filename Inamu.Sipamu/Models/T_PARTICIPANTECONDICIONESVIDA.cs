@@ -15,9 +15,12 @@ namespace Inamu.Sipamu.Models
     public partial class T_PARTICIPANTECONDICIONESVIDA
     {
         public int I_ID_CONDICIONVIDA { get; set; }
-        public int I_IDPARTICIPANTE { get; set; }
         public Nullable<int> I_IDRIESGO { get; set; }
+        public Nullable<int> I_IDPARTICIPANTE { get; set; }
         public bool B_ACCESOVIAPUBLICA { get; set; }
         public bool B_ACCESOTRANSPORTEPUBLICO { get; set; }
+    
+        public virtual CAT_RIESGOVIVIENDA CAT_RIESGOVIVIENDA { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
     }
 }

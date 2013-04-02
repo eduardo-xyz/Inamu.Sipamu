@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class T_EVENTOBITACORA
     {
+        public T_EVENTOBITACORA()
+        {
+            this.T_BITACORA = new HashSet<T_BITACORA>();
+        }
+    
         public int I_IDEVENTOBITACORA { get; set; }
         public string CV_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_BITACORA> T_BITACORA { get; set; }
     }
 }

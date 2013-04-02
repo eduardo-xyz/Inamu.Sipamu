@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_TEMADESTREZA
     {
+        public CAT_TEMADESTREZA()
+        {
+            this.T_PLANEDUCACIONTECNICA = new HashSet<T_PLANEDUCACIONTECNICA>();
+        }
+    
         public int I_IDTEMADESTREZA { get; set; }
         public string VC_TEMADESTREZA { get; set; }
+    
+        public virtual ICollection<T_PLANEDUCACIONTECNICA> T_PLANEDUCACIONTECNICA { get; set; }
     }
 }

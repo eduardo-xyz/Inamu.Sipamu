@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_CONDICIONLABORAL
     {
+        public CAT_CONDICIONLABORAL()
+        {
+            this.T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA = new HashSet<T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA>();
+        }
+    
         public int I_IDCONDICIONLABORAL { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA> T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA { get; set; }
     }
 }

@@ -15,10 +15,13 @@ namespace Inamu.Sipamu.Models
     public partial class T_PARTICIPANTEFORMACIONTECNICA
     {
         public int I_IDESTUDIOTECNICO { get; set; }
-        public int I_IDPARTICIPANTE { get; set; }
         public string VC_INSTITUCION { get; set; }
-        public int I_IDUTILIDADESTUDIO { get; set; }
+        public Nullable<int> I_IDPARTICIPANTE { get; set; }
+        public Nullable<int> I_IDUTILIDADESTUDIO { get; set; }
         public Nullable<int> I_ANNOCONCLUCION { get; set; }
         public string VC_NOMBRECURSO { get; set; }
+    
+        public virtual CAT_UTILIDADESTUDIO CAT_UTILIDADESTUDIO { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
     }
 }

@@ -14,15 +14,26 @@ namespace Inamu.Sipamu.Models
     
     public partial class T_INTEGRANTEGRUPOFAMILIAR
     {
+        public T_INTEGRANTEGRUPOFAMILIAR()
+        {
+            this.T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA = new HashSet<T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA>();
+            this.T_ASEGURAMIENTOINTEGRANTE = new HashSet<T_ASEGURAMIENTOINTEGRANTE>();
+            this.T_INTEGRANTEBENEFICIO = new HashSet<T_INTEGRANTEBENEFICIO>();
+            this.T_INTEGRANTEPENSIONAPOYO = new HashSet<T_INTEGRANTEPENSIONAPOYO>();
+            this.CAT_CONDICIONESPECIAL = new HashSet<CAT_CONDICIONESPECIAL>();
+            this.CAT_DISCAPACIDAD = new HashSet<CAT_DISCAPACIDAD>();
+            this.CAT_ENFERMEDAD = new HashSet<CAT_ENFERMEDAD>();
+            this.CAT_TIPOSPROPIEDAD = new HashSet<CAT_TIPOSPROPIEDAD>();
+        }
+    
         public int I_IDINTEGRANTE { get; set; }
-        public int I_IDPERSONA { get; set; }
-        public int I_IDPARTICIPANTE { get; set; }
-        public Nullable<int> I_IDPARENTESCO { get; set; }
         public Nullable<bool> B_TIENEEMPLEO { get; set; }
-        public Nullable<int> I_IDOCUPACION { get; set; }
         public Nullable<bool> B_JEFEHOGAR { get; set; }
-        public Nullable<int> I_IDLUGARTRABAJO { get; set; }
+        public Nullable<int> I_IDPERSONA { get; set; }
+        public Nullable<int> I_IDPARENTESCO { get; set; }
         public Nullable<int> I_IDTIPOINGRESOMONETARIO { get; set; }
+        public Nullable<int> I_IDLUGARTRABAJO { get; set; }
+        public Nullable<int> I_IDOCUPACION { get; set; }
         public Nullable<int> I_IDTIPOSEGURO { get; set; }
         public string VC_LUGARTRABAJO { get; set; }
         public Nullable<double> F_INGRESO { get; set; }
@@ -30,5 +41,20 @@ namespace Inamu.Sipamu.Models
         public Nullable<bool> B_DEPENDEDEPARTICIPANTE { get; set; }
         public string VC_OBSERVACIONES { get; set; }
         public Nullable<bool> B_ESASEGURADO { get; set; }
+    
+        public virtual CAT_LUGARTRABAJO CAT_LUGARTRABAJO { get; set; }
+        public virtual CAT_OCUPACION CAT_OCUPACION { get; set; }
+        public virtual CAT_PARENTESCO CAT_PARENTESCO { get; set; }
+        public virtual CAT_PERSONA CAT_PERSONA { get; set; }
+        public virtual CAT_TIPOINGRESOMONETARIO CAT_TIPOINGRESOMONETARIO { get; set; }
+        public virtual CAT_TIPOSEGURO CAT_TIPOSEGURO { get; set; }
+        public virtual ICollection<T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA> T_ACTIVIDADECONOMICAPARTICIPANTEJEFATURA { get; set; }
+        public virtual ICollection<T_ASEGURAMIENTOINTEGRANTE> T_ASEGURAMIENTOINTEGRANTE { get; set; }
+        public virtual ICollection<T_INTEGRANTEBENEFICIO> T_INTEGRANTEBENEFICIO { get; set; }
+        public virtual ICollection<T_INTEGRANTEPENSIONAPOYO> T_INTEGRANTEPENSIONAPOYO { get; set; }
+        public virtual ICollection<CAT_CONDICIONESPECIAL> CAT_CONDICIONESPECIAL { get; set; }
+        public virtual ICollection<CAT_DISCAPACIDAD> CAT_DISCAPACIDAD { get; set; }
+        public virtual ICollection<CAT_ENFERMEDAD> CAT_ENFERMEDAD { get; set; }
+        public virtual ICollection<CAT_TIPOSPROPIEDAD> CAT_TIPOSPROPIEDAD { get; set; }
     }
 }

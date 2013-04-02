@@ -14,7 +14,16 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_REGION
     {
+        public CAT_REGION()
+        {
+            this.CAT_PERSONA = new HashSet<CAT_PERSONA>();
+            this.T_GRUPO = new HashSet<T_GRUPO>();
+        }
+    
         public int I_IDREGION { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<CAT_PERSONA> CAT_PERSONA { get; set; }
+        public virtual ICollection<T_GRUPO> T_GRUPO { get; set; }
     }
 }

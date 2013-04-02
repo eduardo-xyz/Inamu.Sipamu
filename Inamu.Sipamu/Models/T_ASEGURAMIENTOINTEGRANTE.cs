@@ -17,5 +17,8 @@ namespace Inamu.Sipamu.Models
         public int I_IDINTEGRANTE { get; set; }
         public int I_IDTIPOSEGURO { get; set; }
         public string VC_OBSERVACIONES { get; set; }
+    
+        public virtual CAT_TIPOSEGURO CAT_TIPOSEGURO { get; set; }
+        public virtual T_INTEGRANTEGRUPOFAMILIAR T_INTEGRANTEGRUPOFAMILIAR { get; set; }
     }
 }

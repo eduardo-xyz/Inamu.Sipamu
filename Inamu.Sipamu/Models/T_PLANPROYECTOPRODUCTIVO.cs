@@ -15,14 +15,18 @@ namespace Inamu.Sipamu.Models
     public partial class T_PLANPROYECTOPRODUCTIVO
     {
         public int I_IDPLANPROYECTOPRODUCTIVO { get; set; }
+        public Nullable<int> I_IDRECURSOCUMPLIRINTERES { get; set; }
+        public Nullable<int> I_IDINSTITUCIONCUMPLIRINTERES { get; set; }
         public Nullable<int> I_IDPARTICIPANTE { get; set; }
         public Nullable<bool> B_RECIBIOAPOYO { get; set; }
         public string VC_DESCRIPCION { get; set; }
         public Nullable<int> I_ANNOPROYECTO { get; set; }
         public string VC_ESTADOPROYECTO { get; set; }
         public string VC_RECURSOSCUMPLIRINTERES { get; set; }
-        public Nullable<int> I_IDRECURSOCUMPLIRINTERES { get; set; }
-        public Nullable<int> I_IDINSTITUCIONCUMPLIRINTERES { get; set; }
         public Nullable<int> I_PRIORIDAD { get; set; }
+    
+        public virtual CAT_INSTITUCIONCUMPLIRINTERES CAT_INSTITUCIONCUMPLIRINTERES { get; set; }
+        public virtual CAT_RECURSOSCUMPLIRINTERES CAT_RECURSOSCUMPLIRINTERES { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
     }
 }

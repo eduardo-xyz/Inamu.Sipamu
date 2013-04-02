@@ -15,7 +15,9 @@ namespace Inamu.Sipamu.Models
     public partial class T_ARCHIVOGRUPO
     {
         public int I_IDARCHIVOGRUPO { get; set; }
-        public int I_IDGRUPO { get; set; }
+        public Nullable<int> I_IDGRUPO { get; set; }
         public string VC_URLARCHIVO { get; set; }
+    
+        public virtual T_GRUPO T_GRUPO { get; set; }
     }
 }

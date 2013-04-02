@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_NIVELAVANCE
     {
+        public CAT_NIVELAVANCE()
+        {
+            this.T_SEGUIMIENTOPLANVIDA = new HashSet<T_SEGUIMIENTOPLANVIDA>();
+        }
+    
         public int I_IDNIVELAVANCE { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_SEGUIMIENTOPLANVIDA> T_SEGUIMIENTOPLANVIDA { get; set; }
     }
 }

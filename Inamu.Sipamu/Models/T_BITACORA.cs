@@ -15,8 +15,11 @@ namespace Inamu.Sipamu.Models
     public partial class T_BITACORA
     {
         public int I_IDBITACORA { get; set; }
-        public int I_IDUSUARIO { get; set; }
-        public int I_IDEVENTOBITACORA { get; set; }
+        public Nullable<int> I_IDUSUARIO { get; set; }
+        public Nullable<int> I_IDEVENTOBITACORA { get; set; }
         public System.DateTime DT_FECHA { get; set; }
+    
+        public virtual SEG_USUARIO SEG_USUARIO { get; set; }
+        public virtual T_EVENTOBITACORA T_EVENTOBITACORA { get; set; }
     }
 }

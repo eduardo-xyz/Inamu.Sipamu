@@ -14,7 +14,16 @@ namespace Inamu.Sipamu.Models
     
     public partial class SEG_PERFIL
     {
+        public SEG_PERFIL()
+        {
+            this.SEG_USUARIO = new HashSet<SEG_USUARIO>();
+            this.SEG_OPCIONSISTEMA = new HashSet<SEG_OPCIONSISTEMA>();
+        }
+    
         public int I_IDPERFIL { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<SEG_USUARIO> SEG_USUARIO { get; set; }
+        public virtual ICollection<SEG_OPCIONSISTEMA> SEG_OPCIONSISTEMA { get; set; }
     }
 }

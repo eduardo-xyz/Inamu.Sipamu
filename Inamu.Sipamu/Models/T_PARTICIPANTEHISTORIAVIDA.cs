@@ -15,13 +15,17 @@ namespace Inamu.Sipamu.Models
     public partial class T_PARTICIPANTEHISTORIAVIDA
     {
         public decimal I_ID_HISTORIAVIDA { get; set; }
-        public int I_IDPARTICIPANTE { get; set; }
-        public int I_IDTIPOVIOLENCIAPAREJA { get; set; }
-        public int I_IDTIPOVIOLENCIAFAMILIAPROCEDENCIA { get; set; }
+        public Nullable<int> I_IDPARTICIPANTE { get; set; }
+        public Nullable<int> I_IDTIPOVIOLENCIAPAREJA { get; set; }
+        public Nullable<int> I_IDTIPOVIOLENCIAFAMILIA { get; set; }
         public Nullable<int> I_EDADPRIMEREMBARAZO { get; set; }
         public bool B_ESTAEMBARAZADA { get; set; }
         public Nullable<bool> B_APOYOVIOLENCIA { get; set; }
         public string VC_TIPOAPOYOVIOLENCIA { get; set; }
         public string VC_NOAPOYOVIOLENCIA { get; set; }
+    
+        public virtual CAT_TIPOVIOLENCIA CAT_TIPOVIOLENCIA { get; set; }
+        public virtual CAT_TIPOVIOLENCIA CAT_TIPOVIOLENCIA1 { get; set; }
+        public virtual T_PARTICIPANTE T_PARTICIPANTE { get; set; }
     }
 }

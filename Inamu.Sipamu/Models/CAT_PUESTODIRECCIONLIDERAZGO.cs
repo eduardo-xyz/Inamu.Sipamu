@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_PUESTODIRECCIONLIDERAZGO
     {
+        public CAT_PUESTODIRECCIONLIDERAZGO()
+        {
+            this.T_PARTICIPANTE = new HashSet<T_PARTICIPANTE>();
+        }
+    
         public int I_IDPUESTODIRECCIONLIDERAZGO { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_PARTICIPANTE> T_PARTICIPANTE { get; set; }
     }
 }

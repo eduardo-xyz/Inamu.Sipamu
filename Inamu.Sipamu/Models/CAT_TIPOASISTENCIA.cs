@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_TIPOASISTENCIA
     {
+        public CAT_TIPOASISTENCIA()
+        {
+            this.T_ASISTENCIA = new HashSet<T_ASISTENCIA>();
+        }
+    
         public int I_IDTIPOASISTENCIA { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_ASISTENCIA> T_ASISTENCIA { get; set; }
     }
 }

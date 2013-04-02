@@ -14,7 +14,14 @@ namespace Inamu.Sipamu.Models
     
     public partial class CAT_PUEBLOINDIGENA
     {
+        public CAT_PUEBLOINDIGENA()
+        {
+            this.T_PARTICIPANTE = new HashSet<T_PARTICIPANTE>();
+        }
+    
         public int I_IDPUEBLOINDIGENA { get; set; }
         public string VC_DESCRIPCION { get; set; }
+    
+        public virtual ICollection<T_PARTICIPANTE> T_PARTICIPANTE { get; set; }
     }
 }
